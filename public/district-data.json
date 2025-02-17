@@ -1,0 +1,5093 @@
+{
+  "district-data": {
+    "Burhanpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2974,
+      "DLC_count": 138,
+      "DLC_success": 88,
+      "DLC_failed": 50
+    },
+    "Gondiya": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3950,
+      "DLC_count": 3927,
+      "DLC_success": 1281,
+      "DLC_failed": 2646
+    },
+    "Bhandara": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2503,
+      "DLC_count": 252,
+      "DLC_success": 43,
+      "DLC_failed": 209
+    },
+    "Jalgaon": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10804,
+      "DLC_count": 5417,
+      "DLC_success": 3632,
+      "DLC_failed": 1785
+    },
+    "Mahasamund": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1951,
+      "DLC_count": 1051,
+      "DLC_success": 1028,
+      "DLC_failed": 23
+    },
+    "Wardha": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1593,
+      "DLC_count": 1149,
+      "DLC_success": 1131,
+      "DLC_failed": 18
+    },
+    "Buldana": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9821,
+      "DLC_count": 7127,
+      "DLC_success": 6564,
+      "DLC_failed": 563
+    },
+    "Valsad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10792,
+      "DLC_count": 7269,
+      "DLC_success": 2337,
+      "DLC_failed": 4932
+    },
+    "Akola": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7135,
+      "DLC_count": 1079,
+      "DLC_success": 638,
+      "DLC_failed": 441
+    },
+    "Bhadrak": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3452,
+      "DLC_count": 3091,
+      "DLC_success": 2153,
+      "DLC_failed": 938
+    },
+    "Dhenkanal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5510,
+      "DLC_count": 1437,
+      "DLC_success": 900,
+      "DLC_failed": 537
+    },
+    "Jajapur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4331,
+      "DLC_count": 3156,
+      "DLC_success": 1557,
+      "DLC_failed": 1599
+    },
+    "Subarnapur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7836,
+      "DLC_count": 2401,
+      "DLC_success": 295,
+      "DLC_failed": 2106
+    },
+    "Nuapada": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1556,
+      "DLC_count": 831,
+      "DLC_success": 717,
+      "DLC_failed": 114
+    },
+    "Balangir": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1922,
+      "DLC_count": 83,
+      "DLC_success": 34,
+      "DLC_failed": 49
+    },
+    "Nashik": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10494,
+      "DLC_count": 1869,
+      "DLC_success": 1662,
+      "DLC_failed": 207
+    },
+    "Baudh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10368,
+      "DLC_count": 9438,
+      "DLC_success": 2181,
+      "DLC_failed": 7257
+    },
+    "Gadchiroli": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8535,
+      "DLC_count": 450,
+      "DLC_success": 381,
+      "DLC_failed": 69
+    },
+    "Washim": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9983,
+      "DLC_count": 3516,
+      "DLC_success": 2621,
+      "DLC_failed": 895
+    },
+    "Cuttack": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6831,
+      "DLC_count": 1379,
+      "DLC_success": 539,
+      "DLC_failed": 840
+    },
+    "Chandrapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6831,
+      "DLC_count": 5105,
+      "DLC_success": 3878,
+      "DLC_failed": 1227
+    },
+    "Yavatmal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6695,
+      "DLC_count": 6557,
+      "DLC_success": 3482,
+      "DLC_failed": 3075
+    },
+    "Kandhamal": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10563,
+      "DLC_count": 7855,
+      "DLC_success": 7621,
+      "DLC_failed": 234
+    },
+    "Jalna": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7315,
+      "DLC_count": 309,
+      "DLC_success": 58,
+      "DLC_failed": 251
+    },
+    "Nayagarh": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6334,
+      "DLC_count": 3447,
+      "DLC_success": 924,
+      "DLC_failed": 2523
+    },
+    "Uttar Bastar Kanker": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8219,
+      "DLC_count": 8081,
+      "DLC_success": 7437,
+      "DLC_failed": 644
+    },
+    "Khordha": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1675,
+      "DLC_count": 1230,
+      "DLC_success": 254,
+      "DLC_failed": 976
+    },
+    "Kalahandi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10835,
+      "DLC_count": 6350,
+      "DLC_success": 2145,
+      "DLC_failed": 4205
+    },
+    "Jagatsinghapur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6790,
+      "DLC_count": 3693,
+      "DLC_success": 2772,
+      "DLC_failed": 921
+    },
+    "Puri": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7026,
+      "DLC_count": 5398,
+      "DLC_success": 4508,
+      "DLC_failed": 890
+    },
+    "Ahmadnagar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8271,
+      "DLC_count": 1431,
+      "DLC_success": 190,
+      "DLC_failed": 1241
+    },
+    "Nabarangapur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3108,
+      "DLC_count": 2343,
+      "DLC_success": 212,
+      "DLC_failed": 2131
+    },
+    "Hingoli": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1768,
+      "DLC_count": 120,
+      "DLC_success": 31,
+      "DLC_failed": 89
+    },
+    "Rayagada": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9137,
+      "DLC_count": 2091,
+      "DLC_success": 277,
+      "DLC_failed": 1814
+    },
+    "Nanded": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5810,
+      "DLC_count": 1049,
+      "DLC_success": 558,
+      "DLC_failed": 491
+    },
+    "Narayanpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6559,
+      "DLC_count": 2742,
+      "DLC_success": 2296,
+      "DLC_failed": 446
+    },
+    "Parbhani": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5511,
+      "DLC_count": 5211,
+      "DLC_success": 3954,
+      "DLC_failed": 1257
+    },
+    "Pune": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6742,
+      "DLC_count": 3305,
+      "DLC_success": 1501,
+      "DLC_failed": 1804
+    },
+    "Beed": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6714,
+      "DLC_count": 4534,
+      "DLC_success": 1278,
+      "DLC_failed": 3256
+    },
+    "Mumbai": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3987,
+      "DLC_count": 3208,
+      "DLC_success": 1487,
+      "DLC_failed": 1721
+    },
+    "Koraput": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6387,
+      "DLC_count": 5205,
+      "DLC_success": 3611,
+      "DLC_failed": 1594
+    },
+    "Srikakulam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6527,
+      "DLC_count": 5797,
+      "DLC_success": 3025,
+      "DLC_failed": 2772
+    },
+    "Vizianagaram": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2733,
+      "DLC_count": 1904,
+      "DLC_success": 889,
+      "DLC_failed": 1015
+    },
+    "Latur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7184,
+      "DLC_count": 3896,
+      "DLC_success": 3378,
+      "DLC_failed": 518
+    },
+    "Osmanabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8598,
+      "DLC_count": 635,
+      "DLC_success": 354,
+      "DLC_failed": 281
+    },
+    "Malkangiri": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9579,
+      "DLC_count": 8357,
+      "DLC_success": 2874,
+      "DLC_failed": 5483
+    },
+    "Solapur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3182,
+      "DLC_count": 1363,
+      "DLC_success": 1345,
+      "DLC_failed": 18
+    },
+    "Visakhapatnam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8221,
+      "DLC_count": 149,
+      "DLC_success": 146,
+      "DLC_failed": 3
+    },
+    "Bidar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5577,
+      "DLC_count": 213,
+      "DLC_success": 85,
+      "DLC_failed": 128
+    },
+    "Satara": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4337,
+      "DLC_count": 919,
+      "DLC_success": 11,
+      "DLC_failed": 908
+    },
+    "Ratnagiri": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6763,
+      "DLC_count": 3070,
+      "DLC_success": 398,
+      "DLC_failed": 2672
+    },
+    "Kalaburagi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7150,
+      "DLC_count": 6014,
+      "DLC_success": 649,
+      "DLC_failed": 5365
+    },
+    "Sangli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8915,
+      "DLC_count": 1516,
+      "DLC_success": 1177,
+      "DLC_failed": 339
+    },
+    "Kolhapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10423,
+      "DLC_count": 1259,
+      "DLC_success": 850,
+      "DLC_failed": 409
+    },
+    "Krishna": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1556,
+      "DLC_count": 998,
+      "DLC_success": 304,
+      "DLC_failed": 694
+    },
+    "Belagavi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4876,
+      "DLC_count": 3163,
+      "DLC_success": 2329,
+      "DLC_failed": 834
+    },
+    "Yadgir": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6510,
+      "DLC_count": 5026,
+      "DLC_success": 2425,
+      "DLC_failed": 2601
+    },
+    "Bagalkote": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6363,
+      "DLC_count": 6019,
+      "DLC_success": 4508,
+      "DLC_failed": 1511
+    },
+    "Sindhudurg": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6402,
+      "DLC_count": 3801,
+      "DLC_success": 1070,
+      "DLC_failed": 2731
+    },
+    "Guntur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2779,
+      "DLC_count": 83,
+      "DLC_success": 37,
+      "DLC_failed": 46
+    },
+    "East Godavari": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6484,
+      "DLC_count": 3482,
+      "DLC_success": 3078,
+      "DLC_failed": 404
+    },
+    "Raichur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1334,
+      "DLC_count": 657,
+      "DLC_success": 584,
+      "DLC_failed": 73
+    },
+    "Prakasam": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3407,
+      "DLC_count": 232,
+      "DLC_success": 79,
+      "DLC_failed": 153
+    },
+    "Kurnool": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3860,
+      "DLC_count": 1047,
+      "DLC_success": 182,
+      "DLC_failed": 865
+    },
+    "Koppal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5527,
+      "DLC_count": 1028,
+      "DLC_success": 95,
+      "DLC_failed": 933
+    },
+    "Gadag": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7679,
+      "DLC_count": 1695,
+      "DLC_success": 1145,
+      "DLC_failed": 550
+    },
+    "North Goa": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3589,
+      "DLC_count": 157,
+      "DLC_success": 53,
+      "DLC_failed": 104
+    },
+    "Ballari": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3425,
+      "DLC_count": 951,
+      "DLC_success": 583,
+      "DLC_failed": 368
+    },
+    "Dharwad": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1618,
+      "DLC_count": 197,
+      "DLC_success": 164,
+      "DLC_failed": 33
+    },
+    "Uttara Kannada": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4593,
+      "DLC_count": 3391,
+      "DLC_success": 624,
+      "DLC_failed": 2767
+    },
+    "South Goa": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7232,
+      "DLC_count": 3029,
+      "DLC_success": 469,
+      "DLC_failed": 2560
+    },
+    "Haveri": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7384,
+      "DLC_count": 6350,
+      "DLC_success": 204,
+      "DLC_failed": 6146
+    },
+    "Anantapur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7422,
+      "DLC_count": 4749,
+      "DLC_success": 3785,
+      "DLC_failed": 964
+    },
+    "S.P.S. Nellore": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1567,
+      "DLC_count": 1193,
+      "DLC_success": 1064,
+      "DLC_failed": 129
+    },
+    "Chitradurga": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4565,
+      "DLC_count": 3876,
+      "DLC_success": 3872,
+      "DLC_failed": 4
+    },
+    "Davanagere": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2737,
+      "DLC_count": 1485,
+      "DLC_success": 1040,
+      "DLC_failed": 445
+    },
+    "Shivamogga": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7600,
+      "DLC_count": 7128,
+      "DLC_success": 4115,
+      "DLC_failed": 3013
+    },
+    "Udupi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5431,
+      "DLC_count": 4149,
+      "DLC_success": 3352,
+      "DLC_failed": 797
+    },
+    "Chikkamagaluru": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3091,
+      "DLC_count": 954,
+      "DLC_success": 174,
+      "DLC_failed": 780
+    },
+    "Chikkaballapura": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1116,
+      "DLC_count": 974,
+      "DLC_success": 746,
+      "DLC_failed": 228
+    },
+    "Hassan": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2293,
+      "DLC_count": 425,
+      "DLC_success": 96,
+      "DLC_failed": 329
+    },
+    "Kolar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4237,
+      "DLC_count": 977,
+      "DLC_success": 946,
+      "DLC_failed": 31
+    },
+    "Thiruvallur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1903,
+      "DLC_count": 1817,
+      "DLC_success": 1247,
+      "DLC_failed": 570
+    },
+    "Bengaluru Rural": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1623,
+      "DLC_count": 282,
+      "DLC_success": 255,
+      "DLC_failed": 27
+    },
+    "Dakshina Kannada": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1764,
+      "DLC_count": 397,
+      "DLC_success": 236,
+      "DLC_failed": 161
+    },
+    "Bengaluru": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9231,
+      "DLC_count": 2492,
+      "DLC_success": 110,
+      "DLC_failed": 2382
+    },
+    "Vellore": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7053,
+      "DLC_count": 4124,
+      "DLC_success": 2078,
+      "DLC_failed": 2046
+    },
+    "Chennai": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3306,
+      "DLC_count": 2272,
+      "DLC_success": 405,
+      "DLC_failed": 1867
+    },
+    "Kancheepuram": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3228,
+      "DLC_count": 904,
+      "DLC_success": 114,
+      "DLC_failed": 790
+    },
+    "Kasaragod": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7841,
+      "DLC_count": 7564,
+      "DLC_success": 103,
+      "DLC_failed": 7461
+    },
+    "Kodagu": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10353,
+      "DLC_count": 8543,
+      "DLC_success": 7871,
+      "DLC_failed": 672
+    },
+    "Krishnagiri": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9609,
+      "DLC_count": 1550,
+      "DLC_success": 929,
+      "DLC_failed": 621
+    },
+    "Tiruvannamalai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2917,
+      "DLC_count": 363,
+      "DLC_success": 320,
+      "DLC_failed": 43
+    },
+    "Dharmapuri": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7273,
+      "DLC_count": 5946,
+      "DLC_success": 1465,
+      "DLC_failed": 4481
+    },
+    "Chamarajanagara": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6833,
+      "DLC_count": 3323,
+      "DLC_success": 369,
+      "DLC_failed": 2954
+    },
+    "Wayanad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10996,
+      "DLC_count": 1229,
+      "DLC_success": 477,
+      "DLC_failed": 752
+    },
+    "Salem": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2388,
+      "DLC_count": 117,
+      "DLC_success": 41,
+      "DLC_failed": 76
+    },
+    "Erode": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7284,
+      "DLC_count": 3664,
+      "DLC_success": 3311,
+      "DLC_failed": 353
+    },
+    "Kozhikode": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7309,
+      "DLC_count": 2747,
+      "DLC_success": 1685,
+      "DLC_failed": 1062
+    },
+    "The Nilgiris": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8835,
+      "DLC_count": 1920,
+      "DLC_success": 483,
+      "DLC_failed": 1437
+    },
+    "Malappuram": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4469,
+      "DLC_count": 1186,
+      "DLC_success": 540,
+      "DLC_failed": 646
+    },
+    "Namakkal": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7470,
+      "DLC_count": 460,
+      "DLC_success": 11,
+      "DLC_failed": 449
+    },
+    "Perambalur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9132,
+      "DLC_count": 5423,
+      "DLC_success": 1292,
+      "DLC_failed": 4131
+    },
+    "Coimbatore": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5543,
+      "DLC_count": 2322,
+      "DLC_success": 2076,
+      "DLC_failed": 246
+    },
+    "Tiruchirappalli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6763,
+      "DLC_count": 963,
+      "DLC_success": 922,
+      "DLC_failed": 41
+    },
+    "Ariyalur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4792,
+      "DLC_count": 3905,
+      "DLC_success": 2463,
+      "DLC_failed": 1442
+    },
+    "Tiruppur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10589,
+      "DLC_count": 6573,
+      "DLC_success": 2963,
+      "DLC_failed": 3610
+    },
+    "Palakkad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10968,
+      "DLC_count": 838,
+      "DLC_success": 243,
+      "DLC_failed": 595
+    },
+    "Thanjavur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3155,
+      "DLC_count": 1319,
+      "DLC_success": 1197,
+      "DLC_failed": 122
+    },
+    "Karur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6591,
+      "DLC_count": 38,
+      "DLC_success": 15,
+      "DLC_failed": 23
+    },
+    "Thiruvarur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10980,
+      "DLC_count": 10848,
+      "DLC_success": 477,
+      "DLC_failed": 10371
+    },
+    "Thrissur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3950,
+      "DLC_count": 2117,
+      "DLC_success": 531,
+      "DLC_failed": 1586
+    },
+    "Dindigul": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3979,
+      "DLC_count": 2767,
+      "DLC_success": 2388,
+      "DLC_failed": 379
+    },
+    "Idukki": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9430,
+      "DLC_count": 2852,
+      "DLC_success": 1057,
+      "DLC_failed": 1795
+    },
+    "Ernakulam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10641,
+      "DLC_count": 10168,
+      "DLC_success": 4325,
+      "DLC_failed": 5843
+    },
+    "Madurai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4304,
+      "DLC_count": 3055,
+      "DLC_success": 830,
+      "DLC_failed": 2225
+    },
+    "Theni": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4350,
+      "DLC_count": 262,
+      "DLC_success": 23,
+      "DLC_failed": 239
+    },
+    "Alappuzha": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8733,
+      "DLC_count": 6676,
+      "DLC_success": 1733,
+      "DLC_failed": 4943
+    },
+    "Kottayam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7156,
+      "DLC_count": 1446,
+      "DLC_success": 224,
+      "DLC_failed": 1222
+    },
+    "Virudhunagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5658,
+      "DLC_count": 4233,
+      "DLC_success": 2385,
+      "DLC_failed": 1848
+    },
+    "Pathanamthitta": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8881,
+      "DLC_count": 5578,
+      "DLC_success": 3699,
+      "DLC_failed": 1879
+    },
+    "Tirunelveli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8937,
+      "DLC_count": 2331,
+      "DLC_success": 630,
+      "DLC_failed": 1701
+    },
+    "Thoothukkudi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6141,
+      "DLC_count": 5360,
+      "DLC_success": 4767,
+      "DLC_failed": 593
+    },
+    "Kollam": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3411,
+      "DLC_count": 1038,
+      "DLC_success": 386,
+      "DLC_failed": 652
+    },
+    "Thiruvananthapuram": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7397,
+      "DLC_count": 6761,
+      "DLC_success": 1849,
+      "DLC_failed": 4912
+    },
+    "Kanniyakumari": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2834,
+      "DLC_count": 692,
+      "DLC_success": 370,
+      "DLC_failed": 322
+    },
+    "West Godavari": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4439,
+      "DLC_count": 910,
+      "DLC_success": 370,
+      "DLC_failed": 540
+    },
+    "Dakshin Bastar Dantewada": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5428,
+      "DLC_count": 4109,
+      "DLC_success": 2206,
+      "DLC_failed": 1903
+    },
+    "Bastar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9212,
+      "DLC_count": 3737,
+      "DLC_success": 2580,
+      "DLC_failed": 1157
+    },
+    "Kondagaon": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9718,
+      "DLC_count": 3667,
+      "DLC_success": 59,
+      "DLC_failed": 3608
+    },
+    "Gariaband": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9733,
+      "DLC_count": 6283,
+      "DLC_success": 2478,
+      "DLC_failed": 3805
+    },
+    "Raipur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9982,
+      "DLC_count": 5023,
+      "DLC_success": 2662,
+      "DLC_failed": 2361
+    },
+    "Durg": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10067,
+      "DLC_count": 8173,
+      "DLC_success": 6968,
+      "DLC_failed": 1205
+    },
+    "Thane": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8756,
+      "DLC_count": 4583,
+      "DLC_success": 1289,
+      "DLC_failed": 3294
+    },
+    "Adilabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3355,
+      "DLC_count": 702,
+      "DLC_success": 551,
+      "DLC_failed": 151
+    },
+    "Hyderabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8469,
+      "DLC_count": 2707,
+      "DLC_success": 777,
+      "DLC_failed": 1930
+    },
+    "Jagitial": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3594,
+      "DLC_count": 1030,
+      "DLC_success": 177,
+      "DLC_failed": 853
+    },
+    "Jangoan": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7765,
+      "DLC_count": 3138,
+      "DLC_success": 883,
+      "DLC_failed": 2255
+    },
+    "Mulugu": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10304,
+      "DLC_count": 4180,
+      "DLC_success": 3549,
+      "DLC_failed": 631
+    },
+    "Jogulamba Gadwal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1769,
+      "DLC_count": 1360,
+      "DLC_success": 899,
+      "DLC_failed": 461
+    },
+    "Kamareddy": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10333,
+      "DLC_count": 3750,
+      "DLC_success": 1779,
+      "DLC_failed": 1971
+    },
+    "Karimnagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9332,
+      "DLC_count": 7651,
+      "DLC_success": 3120,
+      "DLC_failed": 4531
+    },
+    "Khammam": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8367,
+      "DLC_count": 6544,
+      "DLC_success": 4598,
+      "DLC_failed": 1946
+    },
+    "Kumuram Bheem Asifabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6544,
+      "DLC_count": 1907,
+      "DLC_success": 1782,
+      "DLC_failed": 125
+    },
+    "Mahabubabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1900,
+      "DLC_count": 943,
+      "DLC_success": 463,
+      "DLC_failed": 480
+    },
+    "Mahabubnagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5673,
+      "DLC_count": 4957,
+      "DLC_success": 539,
+      "DLC_failed": 4418
+    },
+    "Mancherial": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3053,
+      "DLC_count": 2581,
+      "DLC_success": 1929,
+      "DLC_failed": 652
+    },
+    "Medak": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3400,
+      "DLC_count": 451,
+      "DLC_success": 126,
+      "DLC_failed": 325
+    },
+    "Medchal Malkajgiri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3038,
+      "DLC_count": 1636,
+      "DLC_success": 1492,
+      "DLC_failed": 144
+    },
+    "Nagarkurnool": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5612,
+      "DLC_count": 1720,
+      "DLC_success": 578,
+      "DLC_failed": 1142
+    },
+    "Nalgonda": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9131,
+      "DLC_count": 5768,
+      "DLC_success": 3513,
+      "DLC_failed": 2255
+    },
+    "Nirmal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3978,
+      "DLC_count": 543,
+      "DLC_success": 213,
+      "DLC_failed": 330
+    },
+    "Nizamabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10609,
+      "DLC_count": 3220,
+      "DLC_success": 605,
+      "DLC_failed": 2615
+    },
+    "Peddapalli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4604,
+      "DLC_count": 2927,
+      "DLC_success": 275,
+      "DLC_failed": 2652
+    },
+    "Rajanna Sircilla": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1104,
+      "DLC_count": 193,
+      "DLC_success": 31,
+      "DLC_failed": 162
+    },
+    "Ranga Reddy": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7840,
+      "DLC_count": 2556,
+      "DLC_success": 2014,
+      "DLC_failed": 542
+    },
+    "Sangareddy": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5667,
+      "DLC_count": 2233,
+      "DLC_success": 1856,
+      "DLC_failed": 377
+    },
+    "Siddipet": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7716,
+      "DLC_count": 7306,
+      "DLC_success": 3361,
+      "DLC_failed": 3945
+    },
+    "Suryapet": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3561,
+      "DLC_count": 143,
+      "DLC_success": 12,
+      "DLC_failed": 131
+    },
+    "Vikarabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5870,
+      "DLC_count": 2014,
+      "DLC_success": 106,
+      "DLC_failed": 1908
+    },
+    "Wanaparthy": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6331,
+      "DLC_count": 6277,
+      "DLC_success": 1941,
+      "DLC_failed": 4336
+    },
+    "Warangal Rural": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1978,
+      "DLC_count": 213,
+      "DLC_success": 172,
+      "DLC_failed": 41
+    },
+    "Warangal Urban": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5317,
+      "DLC_count": 5203,
+      "DLC_success": 129,
+      "DLC_failed": 5074
+    },
+    "Yadadri Bhuvanagiri": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10029,
+      "DLC_count": 216,
+      "DLC_success": 69,
+      "DLC_failed": 147
+    },
+    "South 24 Parganas": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5932,
+      "DLC_count": 792,
+      "DLC_success": 617,
+      "DLC_failed": 175
+    },
+    "Amreli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7488,
+      "DLC_count": 401,
+      "DLC_success": 108,
+      "DLC_failed": 293
+    },
+    "Anugul": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4436,
+      "DLC_count": 4195,
+      "DLC_success": 994,
+      "DLC_failed": 3201
+    },
+    "The Dangs": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10512,
+      "DLC_count": 4979,
+      "DLC_success": 3554,
+      "DLC_failed": 1425
+    },
+    "Dhamtari": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9980,
+      "DLC_count": 4303,
+      "DLC_success": 3430,
+      "DLC_failed": 873
+    },
+    "Kendrapara": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10511,
+      "DLC_count": 6496,
+      "DLC_success": 4021,
+      "DLC_failed": 2475
+    },
+    "Dadra & Nagar Haveli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5188,
+      "DLC_count": 4973,
+      "DLC_success": 1026,
+      "DLC_failed": 3947
+    },
+    "Palghar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1736,
+      "DLC_count": 298,
+      "DLC_success": 211,
+      "DLC_failed": 87
+    },
+    "Ganjam": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1994,
+      "DLC_count": 1670,
+      "DLC_success": 798,
+      "DLC_failed": 872
+    },
+    "Gajapati": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6012,
+      "DLC_count": 3561,
+      "DLC_success": 293,
+      "DLC_failed": 3268
+    },
+    "Y.S.R.": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8069,
+      "DLC_count": 7501,
+      "DLC_success": 949,
+      "DLC_failed": 6552
+    },
+    "Tumakuru": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1633,
+      "DLC_count": 1437,
+      "DLC_success": 777,
+      "DLC_failed": 660
+    },
+    "Chittoor": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1898,
+      "DLC_count": 904,
+      "DLC_success": 661,
+      "DLC_failed": 243
+    },
+    "Ramanagara": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3188,
+      "DLC_count": 409,
+      "DLC_success": 2,
+      "DLC_failed": 407
+    },
+    "Mandya": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7789,
+      "DLC_count": 1995,
+      "DLC_success": 361,
+      "DLC_failed": 1634
+    },
+    "Mysuru": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10183,
+      "DLC_count": 7279,
+      "DLC_success": 2530,
+      "DLC_failed": 4749
+    },
+    "Viluppuram": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3724,
+      "DLC_count": 2082,
+      "DLC_success": 1674,
+      "DLC_failed": 408
+    },
+    "Kannur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6952,
+      "DLC_count": 131,
+      "DLC_success": 8,
+      "DLC_failed": 123
+    },
+    "Pondicherry": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1705,
+      "DLC_count": 623,
+      "DLC_success": 611,
+      "DLC_failed": 12
+    },
+    "Cuddalore": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10583,
+      "DLC_count": 9321,
+      "DLC_success": 7954,
+      "DLC_failed": 1367
+    },
+    "Nagapattinam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5917,
+      "DLC_count": 5124,
+      "DLC_success": 547,
+      "DLC_failed": 4577
+    },
+    "Pudukkottai": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1830,
+      "DLC_count": 1285,
+      "DLC_success": 817,
+      "DLC_failed": 468
+    },
+    "Sivaganga": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8474,
+      "DLC_count": 3514,
+      "DLC_success": 200,
+      "DLC_failed": 3314
+    },
+    "Ramanathapuram": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4682,
+      "DLC_count": 3323,
+      "DLC_success": 1999,
+      "DLC_failed": 1324
+    },
+    "Balod": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1713,
+      "DLC_count": 1295,
+      "DLC_success": 517,
+      "DLC_failed": 778
+    },
+    "Bhadradri Kothagudem": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10098,
+      "DLC_count": 153,
+      "DLC_success": 135,
+      "DLC_failed": 18
+    },
+    "Vadodara": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2077,
+      "DLC_count": 1231,
+      "DLC_success": 898,
+      "DLC_failed": 333
+    },
+    "Medinipur West": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7931,
+      "DLC_count": 6568,
+      "DLC_success": 2123,
+      "DLC_failed": 4445
+    },
+    "Seoni": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8382,
+      "DLC_count": 25,
+      "DLC_success": 23,
+      "DLC_failed": 2
+    },
+    "Alirajpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1636,
+      "DLC_count": 269,
+      "DLC_success": 230,
+      "DLC_failed": 39
+    },
+    "Chhindwara": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9897,
+      "DLC_count": 6377,
+      "DLC_success": 3685,
+      "DLC_failed": 2692
+    },
+    "Harda": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4109,
+      "DLC_count": 3129,
+      "DLC_success": 2246,
+      "DLC_failed": 883
+    },
+    "Khargone": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2424,
+      "DLC_count": 519,
+      "DLC_success": 428,
+      "DLC_failed": 91
+    },
+    "Medinipur East": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3526,
+      "DLC_count": 1971,
+      "DLC_success": 1162,
+      "DLC_failed": 809
+    },
+    "Mayurbhanj": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3397,
+      "DLC_count": 2064,
+      "DLC_success": 445,
+      "DLC_failed": 1619
+    },
+    "Bharuch": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4582,
+      "DLC_count": 203,
+      "DLC_success": 190,
+      "DLC_failed": 13
+    },
+    "Sundargarh": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9611,
+      "DLC_count": 7676,
+      "DLC_success": 7295,
+      "DLC_failed": 381
+    },
+    "Kabeerdham": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8317,
+      "DLC_count": 4760,
+      "DLC_success": 4606,
+      "DLC_failed": 154
+    },
+    "East Nimar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5383,
+      "DLC_count": 5041,
+      "DLC_success": 3275,
+      "DLC_failed": 1766
+    },
+    "Porbandar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9886,
+      "DLC_count": 7551,
+      "DLC_success": 1401,
+      "DLC_failed": 6150
+    },
+    "Balaghat": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1477,
+      "DLC_count": 830,
+      "DLC_success": 160,
+      "DLC_failed": 670
+    },
+    "Narmada": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5672,
+      "DLC_count": 4861,
+      "DLC_success": 1376,
+      "DLC_failed": 3485
+    },
+    "Barwani": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5995,
+      "DLC_count": 4776,
+      "DLC_success": 4185,
+      "DLC_failed": 591
+    },
+    "Janjgir - Champa": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5674,
+      "DLC_count": 4325,
+      "DLC_success": 860,
+      "DLC_failed": 3465
+    },
+    "Nandurbar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1839,
+      "DLC_count": 1826,
+      "DLC_success": 219,
+      "DLC_failed": 1607
+    },
+    "Kendujhar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4099,
+      "DLC_count": 2474,
+      "DLC_success": 1625,
+      "DLC_failed": 849
+    },
+    "Baleshwar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3050,
+      "DLC_count": 2871,
+      "DLC_success": 181,
+      "DLC_failed": 2690
+    },
+    "Jharsuguda": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5863,
+      "DLC_count": 4788,
+      "DLC_success": 2222,
+      "DLC_failed": 2566
+    },
+    "Bametara": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9455,
+      "DLC_count": 1734,
+      "DLC_success": 684,
+      "DLC_failed": 1050
+    },
+    "Rajnandgaon": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3003,
+      "DLC_count": 88,
+      "DLC_success": 30,
+      "DLC_failed": 58
+    },
+    "Amravati": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4952,
+      "DLC_count": 3936,
+      "DLC_success": 2671,
+      "DLC_failed": 1265
+    },
+    "Surat": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3212,
+      "DLC_count": 1134,
+      "DLC_success": 86,
+      "DLC_failed": 1048
+    },
+    "Dhule": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1601,
+      "DLC_count": 503,
+      "DLC_success": 184,
+      "DLC_failed": 319
+    },
+    "Tapi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10545,
+      "DLC_count": 4779,
+      "DLC_success": 1546,
+      "DLC_failed": 3233
+    },
+    "Bargarh": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6270,
+      "DLC_count": 6192,
+      "DLC_success": 5034,
+      "DLC_failed": 1158
+    },
+    "Nagpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10647,
+      "DLC_count": 1903,
+      "DLC_success": 1455,
+      "DLC_failed": 448
+    },
+    "Baloda Bazar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7947,
+      "DLC_count": 97,
+      "DLC_success": 6,
+      "DLC_failed": 91
+    },
+    "Mungeli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1590,
+      "DLC_count": 542,
+      "DLC_success": 162,
+      "DLC_failed": 380
+    },
+    "Botad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7647,
+      "DLC_count": 4862,
+      "DLC_success": 586,
+      "DLC_failed": 4276
+    },
+    "Chota Udaipur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10058,
+      "DLC_count": 6534,
+      "DLC_success": 134,
+      "DLC_failed": 6400
+    },
+    "Gir Somnath": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5284,
+      "DLC_count": 5169,
+      "DLC_success": 3773,
+      "DLC_failed": 1396
+    },
+    "Jhargram": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4281,
+      "DLC_count": 4256,
+      "DLC_success": 2027,
+      "DLC_failed": 2229
+    },
+    "Rajkot": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7820,
+      "DLC_count": 5054,
+      "DLC_success": 2111,
+      "DLC_failed": 2943
+    },
+    "Bhavnagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9980,
+      "DLC_count": 7682,
+      "DLC_success": 1225,
+      "DLC_failed": 6457
+    },
+    "Betul": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10555,
+      "DLC_count": 5383,
+      "DLC_success": 1595,
+      "DLC_failed": 3788
+    },
+    "Junagadh": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3023,
+      "DLC_count": 686,
+      "DLC_success": 287,
+      "DLC_failed": 399
+    },
+    "Debagarh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6272,
+      "DLC_count": 5213,
+      "DLC_success": 2114,
+      "DLC_failed": 3099
+    },
+    "Jamnagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9581,
+      "DLC_count": 8296,
+      "DLC_success": 5236,
+      "DLC_failed": 3060
+    },
+    "Devbhumi Dwarka": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9071,
+      "DLC_count": 3777,
+      "DLC_success": 1807,
+      "DLC_failed": 1970
+    },
+    "Aurangabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5220,
+      "DLC_count": 1849,
+      "DLC_success": 761,
+      "DLC_failed": 1088
+    },
+    "Vijayapura": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4181,
+      "DLC_count": 2388,
+      "DLC_success": 1727,
+      "DLC_failed": 661
+    },
+    "Bijapur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5702,
+      "DLC_count": 3722,
+      "DLC_success": 838,
+      "DLC_failed": 2884
+    },
+    "Raigarh ": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9997,
+      "DLC_count": 9265,
+      "DLC_success": 5179,
+      "DLC_failed": 4086
+    },
+    "Raigarh": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4128,
+      "DLC_count": 1212,
+      "DLC_success": 843,
+      "DLC_failed": 369
+    },
+    "Bilaspur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3271,
+      "DLC_count": 259,
+      "DLC_success": 195,
+      "DLC_failed": 64
+    },
+    "Karaikal": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3011,
+      "DLC_count": 719,
+      "DLC_success": 634,
+      "DLC_failed": 85
+    },
+    "Mahe": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10037,
+      "DLC_count": 4245,
+      "DLC_success": 2615,
+      "DLC_failed": 1630
+    },
+    "Yanam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7436,
+      "DLC_count": 3946,
+      "DLC_success": 481,
+      "DLC_failed": 3465
+    },
+    "Sambalpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5009,
+      "DLC_count": 4776,
+      "DLC_success": 4347,
+      "DLC_failed": 429
+    },
+    "Navsari": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7258,
+      "DLC_count": 6767,
+      "DLC_success": 6362,
+      "DLC_failed": 405
+    },
+    "Lakshadweep": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10415,
+      "DLC_count": 3067,
+      "DLC_success": 1620,
+      "DLC_failed": 1447
+    },
+    "Daman": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6408,
+      "DLC_count": 5459,
+      "DLC_success": 4618,
+      "DLC_failed": 841
+    },
+    "Diu": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7351,
+      "DLC_count": 1892,
+      "DLC_success": 68,
+      "DLC_failed": 1824
+    },
+    "Mumbai Suburban": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9742,
+      "DLC_count": 6721,
+      "DLC_success": 403,
+      "DLC_failed": 6318
+    },
+    "Jayashankar Bhupalapally": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3335,
+      "DLC_count": 399,
+      "DLC_success": 296,
+      "DLC_failed": 103
+    },
+    "Narayanpet": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9575,
+      "DLC_count": 4297,
+      "DLC_success": 2645,
+      "DLC_failed": 1652
+    },
+    "Sukma": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7249,
+      "DLC_count": 6070,
+      "DLC_success": 2638,
+      "DLC_failed": 3432
+    },
+    "Upper Subansiri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7057,
+      "DLC_count": 4782,
+      "DLC_success": 2926,
+      "DLC_failed": 1856
+    },
+    "Anjaw": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2124,
+      "DLC_count": 472,
+      "DLC_success": 460,
+      "DLC_failed": 12
+    },
+    "Tinsukia": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1455,
+      "DLC_count": 1368,
+      "DLC_success": 910,
+      "DLC_failed": 458
+    },
+    "Dhemaji": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8677,
+      "DLC_count": 6352,
+      "DLC_success": 1403,
+      "DLC_failed": 4949
+    },
+    "Changlang": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7384,
+      "DLC_count": 7107,
+      "DLC_success": 6397,
+      "DLC_failed": 710
+    },
+    "Dibrugarh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9022,
+      "DLC_count": 638,
+      "DLC_success": 189,
+      "DLC_failed": 449
+    },
+    "Tawang": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5542,
+      "DLC_count": 888,
+      "DLC_success": 15,
+      "DLC_failed": 873
+    },
+    "Papum Pare": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7268,
+      "DLC_count": 4132,
+      "DLC_success": 4081,
+      "DLC_failed": 51
+    },
+    "Lakhimpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8455,
+      "DLC_count": 5086,
+      "DLC_success": 1593,
+      "DLC_failed": 3493
+    },
+    "Tirap": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10522,
+      "DLC_count": 4546,
+      "DLC_success": 2381,
+      "DLC_failed": 2165
+    },
+    "Sivasagar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7991,
+      "DLC_count": 6302,
+      "DLC_success": 5015,
+      "DLC_failed": 1287
+    },
+    "Jorhat": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7482,
+      "DLC_count": 5724,
+      "DLC_success": 3522,
+      "DLC_failed": 2202
+    },
+    "Mon": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4084,
+      "DLC_count": 3778,
+      "DLC_success": 1867,
+      "DLC_failed": 1911
+    },
+    "Sonitpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6174,
+      "DLC_count": 782,
+      "DLC_success": 346,
+      "DLC_failed": 436
+    },
+    "Golaghat": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10814,
+      "DLC_count": 7777,
+      "DLC_success": 3420,
+      "DLC_failed": 4357
+    },
+    "Longleng": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9551,
+      "DLC_count": 4024,
+      "DLC_success": 3680,
+      "DLC_failed": 344
+    },
+    "Mokokchung": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5092,
+      "DLC_count": 4831,
+      "DLC_success": 789,
+      "DLC_failed": 4042
+    },
+    "Udalguri": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9937,
+      "DLC_count": 5372,
+      "DLC_success": 3613,
+      "DLC_failed": 1759
+    },
+    "Chirang": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5168,
+      "DLC_count": 3677,
+      "DLC_success": 2311,
+      "DLC_failed": 1366
+    },
+    "Baksa": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2737,
+      "DLC_count": 65,
+      "DLC_success": 11,
+      "DLC_failed": 54
+    },
+    "Nagaon": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10541,
+      "DLC_count": 7923,
+      "DLC_success": 4436,
+      "DLC_failed": 3487
+    },
+    "Kokrajhar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2461,
+      "DLC_count": 112,
+      "DLC_success": 0,
+      "DLC_failed": 112
+    },
+    "Darrang": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5336,
+      "DLC_count": 1694,
+      "DLC_success": 1305,
+      "DLC_failed": 389
+    },
+    "Tuensang": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7812,
+      "DLC_count": 6261,
+      "DLC_success": 5099,
+      "DLC_failed": 1162
+    },
+    "Barpeta": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2313,
+      "DLC_count": 1369,
+      "DLC_success": 909,
+      "DLC_failed": 460
+    },
+    "Nalbari": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9065,
+      "DLC_count": 997,
+      "DLC_success": 979,
+      "DLC_failed": 18
+    },
+    "Morigaon": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10697,
+      "DLC_count": 8095,
+      "DLC_success": 2961,
+      "DLC_failed": 5134
+    },
+    "Kamrup": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7171,
+      "DLC_count": 1570,
+      "DLC_success": 467,
+      "DLC_failed": 1103
+    },
+    "Bongaigaon": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1399,
+      "DLC_count": 1200,
+      "DLC_success": 443,
+      "DLC_failed": 757
+    },
+    "Dhubri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9648,
+      "DLC_count": 7692,
+      "DLC_success": 3242,
+      "DLC_failed": 4450
+    },
+    "Kamrup Metropolitan": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7636,
+      "DLC_count": 1630,
+      "DLC_success": 22,
+      "DLC_failed": 1608
+    },
+    "Kiphire": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1879,
+      "DLC_count": 813,
+      "DLC_success": 288,
+      "DLC_failed": 525
+    },
+    "Goalpara": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1603,
+      "DLC_count": 64,
+      "DLC_success": 39,
+      "DLC_failed": 25
+    },
+    "Ribhoi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8223,
+      "DLC_count": 4900,
+      "DLC_success": 88,
+      "DLC_failed": 4812
+    },
+    "Dima Hasao": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3095,
+      "DLC_count": 923,
+      "DLC_success": 913,
+      "DLC_failed": 10
+    },
+    "Kamjong": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1708,
+      "DLC_count": 667,
+      "DLC_success": 353,
+      "DLC_failed": 314
+    },
+    "West Khasi Hills": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8343,
+      "DLC_count": 3906,
+      "DLC_success": 3171,
+      "DLC_failed": 735
+    },
+    "Peren": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8224,
+      "DLC_count": 6300,
+      "DLC_success": 5423,
+      "DLC_failed": 877
+    },
+    "Senapati": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6174,
+      "DLC_count": 1709,
+      "DLC_success": 233,
+      "DLC_failed": 1476
+    },
+    "East Jaintia Hills": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5709,
+      "DLC_count": 1982,
+      "DLC_success": 1703,
+      "DLC_failed": 279
+    },
+    "East Khasi Hills": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7984,
+      "DLC_count": 4243,
+      "DLC_success": 484,
+      "DLC_failed": 3759
+    },
+    "Tamenglong": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9549,
+      "DLC_count": 3707,
+      "DLC_success": 2301,
+      "DLC_failed": 1406
+    },
+    "South Garo Hills": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6549,
+      "DLC_count": 4892,
+      "DLC_success": 2503,
+      "DLC_failed": 2389
+    },
+    "Cachar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1536,
+      "DLC_count": 1460,
+      "DLC_success": 712,
+      "DLC_failed": 748
+    },
+    "Imphal West": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5417,
+      "DLC_count": 4179,
+      "DLC_success": 3421,
+      "DLC_failed": 758
+    },
+    "Karimganj": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10698,
+      "DLC_count": 10344,
+      "DLC_success": 990,
+      "DLC_failed": 9354
+    },
+    "Hailakandi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6748,
+      "DLC_count": 2885,
+      "DLC_success": 2730,
+      "DLC_failed": 155
+    },
+    "Kakching": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4524,
+      "DLC_count": 3675,
+      "DLC_success": 2193,
+      "DLC_failed": 1482
+    },
+    "Bishnupur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8727,
+      "DLC_count": 6941,
+      "DLC_success": 1518,
+      "DLC_failed": 5423
+    },
+    "Chandel": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7942,
+      "DLC_count": 5528,
+      "DLC_success": 986,
+      "DLC_failed": 4542
+    },
+    "Churachandpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4220,
+      "DLC_count": 890,
+      "DLC_success": 459,
+      "DLC_failed": 431
+    },
+    "Kolasib": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5391,
+      "DLC_count": 1686,
+      "DLC_success": 1142,
+      "DLC_failed": 544
+    },
+    "North Tripura": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3801,
+      "DLC_count": 2639,
+      "DLC_success": 436,
+      "DLC_failed": 2203
+    },
+    "Aizawl": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9717,
+      "DLC_count": 954,
+      "DLC_success": 17,
+      "DLC_failed": 937
+    },
+    "Mamit": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4029,
+      "DLC_count": 2958,
+      "DLC_success": 1135,
+      "DLC_failed": 1823
+    },
+    "Dhalai": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10684,
+      "DLC_count": 3868,
+      "DLC_success": 3058,
+      "DLC_failed": 810
+    },
+    "Sipahijala": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4318,
+      "DLC_count": 4035,
+      "DLC_success": 2858,
+      "DLC_failed": 1177
+    },
+    "Champhai": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4204,
+      "DLC_count": 3015,
+      "DLC_success": 952,
+      "DLC_failed": 2063
+    },
+    "Gomati": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10046,
+      "DLC_count": 5652,
+      "DLC_success": 2405,
+      "DLC_failed": 3247
+    },
+    "Serchhip": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2589,
+      "DLC_count": 1239,
+      "DLC_success": 151,
+      "DLC_failed": 1088
+    },
+    "Lunglei": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10605,
+      "DLC_count": 1214,
+      "DLC_success": 117,
+      "DLC_failed": 1097
+    },
+    "Wokha": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10663,
+      "DLC_count": 6378,
+      "DLC_success": 6187,
+      "DLC_failed": 191
+    },
+    "Zunheboto": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2986,
+      "DLC_count": 102,
+      "DLC_success": 0,
+      "DLC_failed": 102
+    },
+    "Phek": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2613,
+      "DLC_count": 816,
+      "DLC_success": 682,
+      "DLC_failed": 134
+    },
+    "West Garo Hills": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1375,
+      "DLC_count": 322,
+      "DLC_success": 57,
+      "DLC_failed": 265
+    },
+    "Saiha": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5765,
+      "DLC_count": 1145,
+      "DLC_success": 989,
+      "DLC_failed": 156
+    },
+    "East Garo Hills": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4621,
+      "DLC_count": 380,
+      "DLC_success": 18,
+      "DLC_failed": 362
+    },
+    "Lawngtlai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10904,
+      "DLC_count": 10876,
+      "DLC_success": 6465,
+      "DLC_failed": 4411
+    },
+    "Kohima": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8881,
+      "DLC_count": 2499,
+      "DLC_success": 1409,
+      "DLC_failed": 1090
+    },
+    "Dimapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9658,
+      "DLC_count": 8581,
+      "DLC_success": 4246,
+      "DLC_failed": 4335
+    },
+    "East Siang": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7643,
+      "DLC_count": 3257,
+      "DLC_success": 2030,
+      "DLC_failed": 1227
+    },
+    "Lohit": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2648,
+      "DLC_count": 1310,
+      "DLC_success": 1245,
+      "DLC_failed": 65
+    },
+    "Kurung Kumey": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5012,
+      "DLC_count": 1319,
+      "DLC_success": 594,
+      "DLC_failed": 725
+    },
+    "Lower Subansiri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10884,
+      "DLC_count": 10336,
+      "DLC_success": 3189,
+      "DLC_failed": 7147
+    },
+    "East Kameng": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6213,
+      "DLC_count": 3889,
+      "DLC_success": 3682,
+      "DLC_failed": 207
+    },
+    "West Kameng": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1876,
+      "DLC_count": 269,
+      "DLC_success": 76,
+      "DLC_failed": 193
+    },
+    "West Jaintia Hills": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4003,
+      "DLC_count": 3313,
+      "DLC_success": 2606,
+      "DLC_failed": 707
+    },
+    "South West Khasi Hills": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1284,
+      "DLC_count": 266,
+      "DLC_success": 88,
+      "DLC_failed": 178
+    },
+    "North Garo Hills": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2006,
+      "DLC_count": 1947,
+      "DLC_success": 275,
+      "DLC_failed": 1672
+    },
+    "South West Garo Hills": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9565,
+      "DLC_count": 1726,
+      "DLC_success": 1161,
+      "DLC_failed": 565
+    },
+    "Khowai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9102,
+      "DLC_count": 1312,
+      "DLC_success": 1204,
+      "DLC_failed": 108
+    },
+    "West Tripura": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6212,
+      "DLC_count": 4906,
+      "DLC_success": 452,
+      "DLC_failed": 4454
+    },
+    "South Tripura": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4054,
+      "DLC_count": 3824,
+      "DLC_success": 3511,
+      "DLC_failed": 313
+    },
+    "Unokoti": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9176,
+      "DLC_count": 526,
+      "DLC_success": 384,
+      "DLC_failed": 142
+    },
+    "Charaideo": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7855,
+      "DLC_count": 1334,
+      "DLC_success": 766,
+      "DLC_failed": 568
+    },
+    "Majuli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2158,
+      "DLC_count": 440,
+      "DLC_success": 182,
+      "DLC_failed": 258
+    },
+    "Biswanath": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9715,
+      "DLC_count": 6013,
+      "DLC_success": 2408,
+      "DLC_failed": 3605
+    },
+    "Hojai": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4934,
+      "DLC_count": 4585,
+      "DLC_success": 215,
+      "DLC_failed": 4370
+    },
+    "South Salmara Mancachar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2195,
+      "DLC_count": 91,
+      "DLC_success": 74,
+      "DLC_failed": 17
+    },
+    "Karbi Anglong": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7265,
+      "DLC_count": 1681,
+      "DLC_success": 566,
+      "DLC_failed": 1115
+    },
+    "West Karbi Anglong": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4400,
+      "DLC_count": 1208,
+      "DLC_success": 1122,
+      "DLC_failed": 86
+    },
+    "Kra Daadi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5044,
+      "DLC_count": 2220,
+      "DLC_success": 807,
+      "DLC_failed": 1413
+    },
+    "Namsai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3349,
+      "DLC_count": 702,
+      "DLC_success": 519,
+      "DLC_failed": 183
+    },
+    "Longding": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8197,
+      "DLC_count": 7569,
+      "DLC_success": 4844,
+      "DLC_failed": 2725
+    },
+    "Imphal East": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1673,
+      "DLC_count": 1453,
+      "DLC_success": 1355,
+      "DLC_failed": 98
+    },
+    "Jiribam": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4675,
+      "DLC_count": 2790,
+      "DLC_success": 2079,
+      "DLC_failed": 711
+    },
+    "Kangpokpi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9324,
+      "DLC_count": 6457,
+      "DLC_success": 4599,
+      "DLC_failed": 1858
+    },
+    "Thoubal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1138,
+      "DLC_count": 679,
+      "DLC_success": 172,
+      "DLC_failed": 507
+    },
+    "Tengnoupal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6893,
+      "DLC_count": 5329,
+      "DLC_success": 1301,
+      "DLC_failed": 4028
+    },
+    "Ukhrul": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4069,
+      "DLC_count": 3632,
+      "DLC_success": 281,
+      "DLC_failed": 3351
+    },
+    "Noney": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4534,
+      "DLC_count": 3032,
+      "DLC_success": 707,
+      "DLC_failed": 2325
+    },
+    "Pherzawl": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6359,
+      "DLC_count": 4482,
+      "DLC_success": 3179,
+      "DLC_failed": 1303
+    },
+    "Upper Siang": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8567,
+      "DLC_count": 4792,
+      "DLC_success": 2838,
+      "DLC_failed": 1954
+    },
+    "Lower Siang": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1528,
+      "DLC_count": 1151,
+      "DLC_success": 104,
+      "DLC_failed": 1047
+    },
+    "Upper Dibang Valley": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9382,
+      "DLC_count": 4293,
+      "DLC_success": 2535,
+      "DLC_failed": 1758
+    },
+    "Lower Dibang Valley": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8108,
+      "DLC_count": 4280,
+      "DLC_success": 221,
+      "DLC_failed": 4059
+    },
+    "Siang": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1596,
+      "DLC_count": 94,
+      "DLC_success": 31,
+      "DLC_failed": 63
+    },
+    "Shi Yomi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1692,
+      "DLC_count": 199,
+      "DLC_success": 192,
+      "DLC_failed": 7
+    },
+    "Pakke Kessang": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8632,
+      "DLC_count": 8254,
+      "DLC_success": 6362,
+      "DLC_failed": 1892
+    },
+    "West Siang": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6115,
+      "DLC_count": 4425,
+      "DLC_success": 3275,
+      "DLC_failed": 1150
+    },
+    "Lepa Rada": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3787,
+      "DLC_count": 3214,
+      "DLC_success": 1466,
+      "DLC_failed": 1748
+    },
+    "Kamle": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1773,
+      "DLC_count": 962,
+      "DLC_success": 713,
+      "DLC_failed": 249
+    },
+    "North  & Middle Andaman": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10834,
+      "DLC_count": 10569,
+      "DLC_success": 4812,
+      "DLC_failed": 5757
+    },
+    "South Andaman": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7193,
+      "DLC_count": 4663,
+      "DLC_success": 126,
+      "DLC_failed": 4537
+    },
+    "Nicobars": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3649,
+      "DLC_count": 1516,
+      "DLC_success": 1377,
+      "DLC_failed": 139
+    },
+    "Amroha": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5375,
+      "DLC_count": 3276,
+      "DLC_success": 101,
+      "DLC_failed": 3175
+    },
+    "Churu": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3730,
+      "DLC_count": 1545,
+      "DLC_success": 1370,
+      "DLC_failed": 175
+    },
+    "Hapur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9464,
+      "DLC_count": 4469,
+      "DLC_success": 1500,
+      "DLC_failed": 2969
+    },
+    "North Delhi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2707,
+      "DLC_count": 1704,
+      "DLC_success": 162,
+      "DLC_failed": 1542
+    },
+    "Jhajjar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3404,
+      "DLC_count": 324,
+      "DLC_success": 269,
+      "DLC_failed": 55
+    },
+    "Bareilly": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6888,
+      "DLC_count": 2974,
+      "DLC_success": 2886,
+      "DLC_failed": 88
+    },
+    "Pilibhit": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4349,
+      "DLC_count": 3298,
+      "DLC_success": 2662,
+      "DLC_failed": 636
+    },
+    "North East Delhi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5787,
+      "DLC_count": 4017,
+      "DLC_success": 3329,
+      "DLC_failed": 688
+    },
+    "West Delhi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6989,
+      "DLC_count": 3674,
+      "DLC_success": 2044,
+      "DLC_failed": 1630
+    },
+    "Bulandshahr": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10337,
+      "DLC_count": 1365,
+      "DLC_success": 1195,
+      "DLC_failed": 170
+    },
+    "East Delhi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6397,
+      "DLC_count": 2245,
+      "DLC_success": 1084,
+      "DLC_failed": 1161
+    },
+    "South West Delhi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10406,
+      "DLC_count": 6248,
+      "DLC_success": 4754,
+      "DLC_failed": 1494
+    },
+    "Central Delhi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7777,
+      "DLC_count": 1510,
+      "DLC_success": 1063,
+      "DLC_failed": 447
+    },
+    "Gautam Buddha Nagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4536,
+      "DLC_count": 154,
+      "DLC_success": 138,
+      "DLC_failed": 16
+    },
+    "New Delhi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4153,
+      "DLC_count": 2001,
+      "DLC_success": 459,
+      "DLC_failed": 1542
+    },
+    "Kheri": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5593,
+      "DLC_count": 1896,
+      "DLC_success": 682,
+      "DLC_failed": 1214
+    },
+    "South Delhi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8274,
+      "DLC_count": 3027,
+      "DLC_success": 1051,
+      "DLC_failed": 1976
+    },
+    "Jhunjhunu": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10745,
+      "DLC_count": 3307,
+      "DLC_success": 633,
+      "DLC_failed": 2674
+    },
+    "Gurugram": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7908,
+      "DLC_count": 1319,
+      "DLC_success": 1004,
+      "DLC_failed": 315
+    },
+    "Faridabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9385,
+      "DLC_count": 8587,
+      "DLC_success": 772,
+      "DLC_failed": 7815
+    },
+    "Mahendragarh": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10748,
+      "DLC_count": 2714,
+      "DLC_success": 616,
+      "DLC_failed": 2098
+    },
+    "Rewari": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9593,
+      "DLC_count": 1679,
+      "DLC_success": 665,
+      "DLC_failed": 1014
+    },
+    "Budaun": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10876,
+      "DLC_count": 4428,
+      "DLC_success": 1942,
+      "DLC_failed": 2486
+    },
+    "Jaisalmer": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2974,
+      "DLC_count": 1914,
+      "DLC_success": 54,
+      "DLC_failed": 1860
+    },
+    "Bahraich": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7156,
+      "DLC_count": 4121,
+      "DLC_success": 217,
+      "DLC_failed": 3904
+    },
+    "Nuh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10843,
+      "DLC_count": 8280,
+      "DLC_success": 581,
+      "DLC_failed": 7699
+    },
+    "Shahjahanpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3174,
+      "DLC_count": 1455,
+      "DLC_success": 278,
+      "DLC_failed": 1177
+    },
+    "Sikar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9362,
+      "DLC_count": 2804,
+      "DLC_success": 1341,
+      "DLC_failed": 1463
+    },
+    "Palwal": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10773,
+      "DLC_count": 6054,
+      "DLC_success": 3147,
+      "DLC_failed": 2907
+    },
+    "Alwar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5503,
+      "DLC_count": 2435,
+      "DLC_success": 1792,
+      "DLC_failed": 643
+    },
+    "North  District": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1722,
+      "DLC_count": 245,
+      "DLC_success": 37,
+      "DLC_failed": 208
+    },
+    "Aligarh": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4069,
+      "DLC_count": 922,
+      "DLC_success": 856,
+      "DLC_failed": 66
+    },
+    "Kasganj": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8832,
+      "DLC_count": 699,
+      "DLC_success": 522,
+      "DLC_failed": 177
+    },
+    "Mathura": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4856,
+      "DLC_count": 4117,
+      "DLC_success": 564,
+      "DLC_failed": 3553
+    },
+    "Jaipur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3001,
+      "DLC_count": 604,
+      "DLC_success": 253,
+      "DLC_failed": 351
+    },
+    "Shrawasti": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6489,
+      "DLC_count": 4950,
+      "DLC_success": 2358,
+      "DLC_failed": 2592
+    },
+    "Jodhpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3693,
+      "DLC_count": 3264,
+      "DLC_success": 1498,
+      "DLC_failed": 1766
+    },
+    "Sitapur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8880,
+      "DLC_count": 1183,
+      "DLC_success": 1020,
+      "DLC_failed": 163
+    },
+    "Bharatpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5584,
+      "DLC_count": 1566,
+      "DLC_success": 1458,
+      "DLC_failed": 108
+    },
+    "Hathras": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6566,
+      "DLC_count": 4922,
+      "DLC_success": 3442,
+      "DLC_failed": 1480
+    },
+    "Nagaur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2116,
+      "DLC_count": 269,
+      "DLC_success": 180,
+      "DLC_failed": 89
+    },
+    "Etah": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7708,
+      "DLC_count": 5618,
+      "DLC_success": 1144,
+      "DLC_failed": 4474
+    },
+    "Hardoi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1637,
+      "DLC_count": 923,
+      "DLC_success": 715,
+      "DLC_failed": 208
+    },
+    "Farrukhabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9031,
+      "DLC_count": 3933,
+      "DLC_success": 3553,
+      "DLC_failed": 380
+    },
+    "West District": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5594,
+      "DLC_count": 1429,
+      "DLC_success": 793,
+      "DLC_failed": 636
+    },
+    "South District": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10869,
+      "DLC_count": 2101,
+      "DLC_success": 774,
+      "DLC_failed": 1327
+    },
+    "East District": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7718,
+      "DLC_count": 670,
+      "DLC_success": 183,
+      "DLC_failed": 487
+    },
+    "Firozabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2509,
+      "DLC_count": 1693,
+      "DLC_success": 449,
+      "DLC_failed": 1244
+    },
+    "Pashchim Champaran": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10902,
+      "DLC_count": 9467,
+      "DLC_success": 1835,
+      "DLC_failed": 7632
+    },
+    "Siddharthnagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6384,
+      "DLC_count": 3728,
+      "DLC_success": 1236,
+      "DLC_failed": 2492
+    },
+    "Mainpuri": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6379,
+      "DLC_count": 5495,
+      "DLC_success": 1303,
+      "DLC_failed": 4192
+    },
+    "Mahrajganj": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10843,
+      "DLC_count": 6290,
+      "DLC_success": 238,
+      "DLC_failed": 6052
+    },
+    "Agra": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8871,
+      "DLC_count": 7090,
+      "DLC_success": 134,
+      "DLC_failed": 6956
+    },
+    "Gonda": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6195,
+      "DLC_count": 4706,
+      "DLC_success": 4347,
+      "DLC_failed": 359
+    },
+    "Bara Banki": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6681,
+      "DLC_count": 209,
+      "DLC_success": 59,
+      "DLC_failed": 150
+    },
+    "Darjeeling": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2756,
+      "DLC_count": 162,
+      "DLC_success": 57,
+      "DLC_failed": 105
+    },
+    "Dausa": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3101,
+      "DLC_count": 52,
+      "DLC_success": 4,
+      "DLC_failed": 48
+    },
+    "Kushinagar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9246,
+      "DLC_count": 6937,
+      "DLC_success": 4860,
+      "DLC_failed": 2077
+    },
+    "Kannauj": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2407,
+      "DLC_count": 1923,
+      "DLC_success": 274,
+      "DLC_failed": 1649
+    },
+    "Lucknow": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7213,
+      "DLC_count": 6237,
+      "DLC_success": 2011,
+      "DLC_failed": 4226
+    },
+    "Jalpaiguri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7861,
+      "DLC_count": 2888,
+      "DLC_success": 405,
+      "DLC_failed": 2483
+    },
+    "Basti": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1767,
+      "DLC_count": 1410,
+      "DLC_success": 1246,
+      "DLC_failed": 164
+    },
+    "Gorakhpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9744,
+      "DLC_count": 6261,
+      "DLC_success": 5104,
+      "DLC_failed": 1157
+    },
+    "Sant Kabir Nagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10874,
+      "DLC_count": 693,
+      "DLC_success": 372,
+      "DLC_failed": 321
+    },
+    "Karauli": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8708,
+      "DLC_count": 3198,
+      "DLC_success": 2996,
+      "DLC_failed": 202
+    },
+    "Purba Champaran": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6126,
+      "DLC_count": 2214,
+      "DLC_success": 1917,
+      "DLC_failed": 297
+    },
+    "Unnao": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4028,
+      "DLC_count": 1269,
+      "DLC_success": 708,
+      "DLC_failed": 561
+    },
+    "Etawah": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3861,
+      "DLC_count": 279,
+      "DLC_success": 244,
+      "DLC_failed": 35
+    },
+    "Dhaulpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5515,
+      "DLC_count": 1115,
+      "DLC_success": 484,
+      "DLC_failed": 631
+    },
+    "Kanpur Nagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2382,
+      "DLC_count": 983,
+      "DLC_success": 728,
+      "DLC_failed": 255
+    },
+    "Auraiya": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9209,
+      "DLC_count": 1990,
+      "DLC_success": 1613,
+      "DLC_failed": 377
+    },
+    "Morena": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2795,
+      "DLC_count": 203,
+      "DLC_success": 134,
+      "DLC_failed": 69
+    },
+    "Barmer": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1358,
+      "DLC_count": 1167,
+      "DLC_success": 745,
+      "DLC_failed": 422
+    },
+    "Ayodhya": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4678,
+      "DLC_count": 2890,
+      "DLC_success": 398,
+      "DLC_failed": 2492
+    },
+    "Kanpur Dehat": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4485,
+      "DLC_count": 582,
+      "DLC_success": 571,
+      "DLC_failed": 11
+    },
+    "Bhind": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7053,
+      "DLC_count": 3356,
+      "DLC_success": 2703,
+      "DLC_failed": 653
+    },
+    "Sawai Madhopur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2711,
+      "DLC_count": 1466,
+      "DLC_success": 1276,
+      "DLC_failed": 190
+    },
+    "Deoria": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6446,
+      "DLC_count": 5875,
+      "DLC_success": 1329,
+      "DLC_failed": 4546
+    },
+    "Sitamarhi": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2579,
+      "DLC_count": 430,
+      "DLC_success": 267,
+      "DLC_failed": 163
+    },
+    "Tonk": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4537,
+      "DLC_count": 4398,
+      "DLC_success": 2986,
+      "DLC_failed": 1412
+    },
+    "Sheohar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2802,
+      "DLC_count": 5,
+      "DLC_success": 3,
+      "DLC_failed": 2
+    },
+    "Sultanpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9237,
+      "DLC_count": 7576,
+      "DLC_success": 3647,
+      "DLC_failed": 3929
+    },
+    "Pali": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5481,
+      "DLC_count": 1035,
+      "DLC_success": 785,
+      "DLC_failed": 250
+    },
+    "Gopalganj": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6843,
+      "DLC_count": 2377,
+      "DLC_success": 749,
+      "DLC_failed": 1628
+    },
+    "Ambedkar Nagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2734,
+      "DLC_count": 2241,
+      "DLC_success": 1042,
+      "DLC_failed": 1199
+    },
+    "Rae Bareli": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4119,
+      "DLC_count": 227,
+      "DLC_success": 201,
+      "DLC_failed": 26
+    },
+    "Jalaun": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5124,
+      "DLC_count": 2534,
+      "DLC_success": 454,
+      "DLC_failed": 2080
+    },
+    "Azamgarh": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10008,
+      "DLC_count": 8850,
+      "DLC_success": 3487,
+      "DLC_failed": 5363
+    },
+    "Gwalior": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2170,
+      "DLC_count": 2006,
+      "DLC_success": 1156,
+      "DLC_failed": 850
+    },
+    "Sheopur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6420,
+      "DLC_count": 3929,
+      "DLC_success": 2213,
+      "DLC_failed": 1716
+    },
+    "Mau": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6096,
+      "DLC_count": 5924,
+      "DLC_success": 851,
+      "DLC_failed": 5073
+    },
+    "Fatehpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5334,
+      "DLC_count": 162,
+      "DLC_success": 67,
+      "DLC_failed": 95
+    },
+    "Ballia": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4784,
+      "DLC_count": 4332,
+      "DLC_success": 3801,
+      "DLC_failed": 531
+    },
+    "Jaunpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10170,
+      "DLC_count": 6306,
+      "DLC_success": 1037,
+      "DLC_failed": 5269
+    },
+    "Bhilwara": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6494,
+      "DLC_count": 3591,
+      "DLC_success": 2387,
+      "DLC_failed": 1204
+    },
+    "Samastipur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6875,
+      "DLC_count": 3700,
+      "DLC_success": 2576,
+      "DLC_failed": 1124
+    },
+    "Jalor": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 2046,
+      "DLC_count": 1468,
+      "DLC_success": 467,
+      "DLC_failed": 1001
+    },
+    "Bundi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3965,
+      "DLC_count": 1477,
+      "DLC_success": 1273,
+      "DLC_failed": 204
+    },
+    "Katihar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7762,
+      "DLC_count": 2742,
+      "DLC_success": 2562,
+      "DLC_failed": 180
+    },
+    "Jhansi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2059,
+      "DLC_count": 1988,
+      "DLC_success": 536,
+      "DLC_failed": 1452
+    },
+    "Shivpuri": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8557,
+      "DLC_count": 345,
+      "DLC_success": 165,
+      "DLC_failed": 180
+    },
+    "Kota": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6125,
+      "DLC_count": 6112,
+      "DLC_success": 874,
+      "DLC_failed": 5238
+    },
+    "Banda": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7520,
+      "DLC_count": 7506,
+      "DLC_success": 3450,
+      "DLC_failed": 4056
+    },
+    "Ghazipur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9501,
+      "DLC_count": 8022,
+      "DLC_success": 2277,
+      "DLC_failed": 5745
+    },
+    "Kaushambi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9535,
+      "DLC_count": 6225,
+      "DLC_success": 414,
+      "DLC_failed": 5811
+    },
+    "Khagaria": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8629,
+      "DLC_count": 7676,
+      "DLC_success": 2690,
+      "DLC_failed": 4986
+    },
+    "Bhojpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4188,
+      "DLC_count": 467,
+      "DLC_success": 58,
+      "DLC_failed": 409
+    },
+    "Prayagraj": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5251,
+      "DLC_count": 4138,
+      "DLC_success": 1256,
+      "DLC_failed": 2882
+    },
+    "Buxar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10457,
+      "DLC_count": 7921,
+      "DLC_success": 2948,
+      "DLC_failed": 4973
+    },
+    "Dakshin Dinajpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1486,
+      "DLC_count": 178,
+      "DLC_success": 49,
+      "DLC_failed": 129
+    },
+    "Maldah": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6301,
+      "DLC_count": 3114,
+      "DLC_success": 3016,
+      "DLC_failed": 98
+    },
+    "Tikamgarh": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8307,
+      "DLC_count": 7511,
+      "DLC_success": 6090,
+      "DLC_failed": 1421
+    },
+    "Varanasi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2096,
+      "DLC_count": 213,
+      "DLC_success": 20,
+      "DLC_failed": 193
+    },
+    "Darbhanga": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4318,
+      "DLC_count": 3396,
+      "DLC_success": 414,
+      "DLC_failed": 2982
+    },
+    "Saharsa": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5445,
+      "DLC_count": 3252,
+      "DLC_success": 3055,
+      "DLC_failed": 197
+    },
+    "Sirohi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7901,
+      "DLC_count": 4243,
+      "DLC_success": 3145,
+      "DLC_failed": 1098
+    },
+    "Chitrakoot": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10235,
+      "DLC_count": 3009,
+      "DLC_success": 2819,
+      "DLC_failed": 190
+    },
+    "Chandauli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6080,
+      "DLC_count": 5446,
+      "DLC_success": 1304,
+      "DLC_failed": 4142
+    },
+    "Bhadohi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9926,
+      "DLC_count": 242,
+      "DLC_success": 122,
+      "DLC_failed": 120
+    },
+    "Baran": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1585,
+      "DLC_count": 437,
+      "DLC_success": 140,
+      "DLC_failed": 297
+    },
+    "Sahibganj": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2320,
+      "DLC_count": 1558,
+      "DLC_success": 1390,
+      "DLC_failed": 168
+    },
+    "Kaimur (bhabua)": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7180,
+      "DLC_count": 3026,
+      "DLC_success": 161,
+      "DLC_failed": 2865
+    },
+    "Rohtas": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5041,
+      "DLC_count": 1613,
+      "DLC_success": 1061,
+      "DLC_failed": 552
+    },
+    "Udaipur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1422,
+      "DLC_count": 436,
+      "DLC_success": 435,
+      "DLC_failed": 1
+    },
+    "Godda": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3010,
+      "DLC_count": 1951,
+      "DLC_success": 466,
+      "DLC_failed": 1485
+    },
+    "Mirzapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8842,
+      "DLC_count": 5018,
+      "DLC_success": 669,
+      "DLC_failed": 4349
+    },
+    "Lalitpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5878,
+      "DLC_count": 734,
+      "DLC_success": 636,
+      "DLC_failed": 98
+    },
+    "Jamui": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10480,
+      "DLC_count": 3984,
+      "DLC_success": 1548,
+      "DLC_failed": 2436
+    },
+    "Neemuch": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9114,
+      "DLC_count": 6853,
+      "DLC_success": 4371,
+      "DLC_failed": 2482
+    },
+    "Banka": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9618,
+      "DLC_count": 2472,
+      "DLC_success": 1067,
+      "DLC_failed": 1405
+    },
+    "Rewa": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10157,
+      "DLC_count": 3069,
+      "DLC_success": 1908,
+      "DLC_failed": 1161
+    },
+    "Satna": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6069,
+      "DLC_count": 2554,
+      "DLC_success": 763,
+      "DLC_failed": 1791
+    },
+    "Guna": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3835,
+      "DLC_count": 3375,
+      "DLC_success": 475,
+      "DLC_failed": 2900
+    },
+    "Nawada": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6851,
+      "DLC_count": 2940,
+      "DLC_success": 268,
+      "DLC_failed": 2672
+    },
+    "Gaya": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10609,
+      "DLC_count": 1376,
+      "DLC_success": 741,
+      "DLC_failed": 635
+    },
+    "Ashoknagar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8930,
+      "DLC_count": 5346,
+      "DLC_success": 4734,
+      "DLC_failed": 612
+    },
+    "Banas Kantha": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1324,
+      "DLC_count": 176,
+      "DLC_success": 15,
+      "DLC_failed": 161
+    },
+    "Jhalawar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5172,
+      "DLC_count": 751,
+      "DLC_success": 19,
+      "DLC_failed": 732
+    },
+    "Murshidabad": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3376,
+      "DLC_count": 334,
+      "DLC_success": 172,
+      "DLC_failed": 162
+    },
+    "Sonbhadra": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1185,
+      "DLC_count": 249,
+      "DLC_success": 237,
+      "DLC_failed": 12
+    },
+    "Pakur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2471,
+      "DLC_count": 763,
+      "DLC_success": 127,
+      "DLC_failed": 636
+    },
+    "Mandsaur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6473,
+      "DLC_count": 4723,
+      "DLC_success": 3837,
+      "DLC_failed": 886
+    },
+    "Munger": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10412,
+      "DLC_count": 9869,
+      "DLC_success": 8394,
+      "DLC_failed": 1475
+    },
+    "Giridih": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6709,
+      "DLC_count": 5427,
+      "DLC_success": 469,
+      "DLC_failed": 4958
+    },
+    "Dumka": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8064,
+      "DLC_count": 5644,
+      "DLC_success": 1797,
+      "DLC_failed": 3847
+    },
+    "Singrauli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7582,
+      "DLC_count": 2594,
+      "DLC_success": 119,
+      "DLC_failed": 2475
+    },
+    "Birbhum": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3520,
+      "DLC_count": 655,
+      "DLC_success": 551,
+      "DLC_failed": 104
+    },
+    "Deoghar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9090,
+      "DLC_count": 1383,
+      "DLC_success": 206,
+      "DLC_failed": 1177
+    },
+    "Palamu": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8965,
+      "DLC_count": 6001,
+      "DLC_success": 802,
+      "DLC_failed": 5199
+    },
+    "Sidhi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9890,
+      "DLC_count": 9824,
+      "DLC_success": 752,
+      "DLC_failed": 9072
+    },
+    "Chatra": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7935,
+      "DLC_count": 6678,
+      "DLC_success": 3307,
+      "DLC_failed": 3371
+    },
+    "Garhwa": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7763,
+      "DLC_count": 7281,
+      "DLC_success": 447,
+      "DLC_failed": 6834
+    },
+    "Sagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10567,
+      "DLC_count": 2876,
+      "DLC_success": 2447,
+      "DLC_failed": 429
+    },
+    "Patan": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3644,
+      "DLC_count": 634,
+      "DLC_success": 606,
+      "DLC_failed": 28
+    },
+    "Damoh": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5184,
+      "DLC_count": 3551,
+      "DLC_success": 2298,
+      "DLC_failed": 1253
+    },
+    "Shajapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5417,
+      "DLC_count": 2930,
+      "DLC_success": 425,
+      "DLC_failed": 2505
+    },
+    "Vidisha": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1055,
+      "DLC_count": 430,
+      "DLC_success": 195,
+      "DLC_failed": 235
+    },
+    "Mahesana": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3228,
+      "DLC_count": 1039,
+      "DLC_success": 625,
+      "DLC_failed": 414
+    },
+    "Rajgarh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1573,
+      "DLC_count": 347,
+      "DLC_success": 84,
+      "DLC_failed": 263
+    },
+    "Shahdol": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5621,
+      "DLC_count": 4789,
+      "DLC_success": 1709,
+      "DLC_failed": 3080
+    },
+    "Nadia": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7898,
+      "DLC_count": 317,
+      "DLC_success": 89,
+      "DLC_failed": 228
+    },
+    "Jamtara": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9693,
+      "DLC_count": 2569,
+      "DLC_success": 1979,
+      "DLC_failed": 590
+    },
+    "Dungarpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5084,
+      "DLC_count": 3379,
+      "DLC_success": 3105,
+      "DLC_failed": 274
+    },
+    "Katni": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8898,
+      "DLC_count": 6379,
+      "DLC_success": 2251,
+      "DLC_failed": 4128
+    },
+    "Dhanbad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9066,
+      "DLC_count": 1545,
+      "DLC_success": 253,
+      "DLC_failed": 1292
+    },
+    "Banswara": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1328,
+      "DLC_count": 1202,
+      "DLC_success": 1183,
+      "DLC_failed": 19
+    },
+    "Umaria": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10484,
+      "DLC_count": 3578,
+      "DLC_success": 1917,
+      "DLC_failed": 1661
+    },
+    "Latehar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5030,
+      "DLC_count": 4227,
+      "DLC_success": 2460,
+      "DLC_failed": 1767
+    },
+    "Ratlam": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6100,
+      "DLC_count": 2324,
+      "DLC_success": 1977,
+      "DLC_failed": 347
+    },
+    "Bokaro": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8343,
+      "DLC_count": 7230,
+      "DLC_success": 5496,
+      "DLC_failed": 1734
+    },
+    "Ramgarh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2367,
+      "DLC_count": 777,
+      "DLC_success": 462,
+      "DLC_failed": 315
+    },
+    "Bhopal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2329,
+      "DLC_count": 814,
+      "DLC_success": 233,
+      "DLC_failed": 581
+    },
+    "Purba Bardhaman": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1801,
+      "DLC_count": 449,
+      "DLC_success": 15,
+      "DLC_failed": 434
+    },
+    "Koriya": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3417,
+      "DLC_count": 1687,
+      "DLC_success": 1371,
+      "DLC_failed": 316
+    },
+    "Ujjain": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5059,
+      "DLC_count": 3380,
+      "DLC_success": 1130,
+      "DLC_failed": 2250
+    },
+    "Gandhinagar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8178,
+      "DLC_count": 6399,
+      "DLC_success": 838,
+      "DLC_failed": 5561
+    },
+    "Ahmadabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7129,
+      "DLC_count": 2050,
+      "DLC_success": 428,
+      "DLC_failed": 1622
+    },
+    "Raisen": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10121,
+      "DLC_count": 1360,
+      "DLC_success": 840,
+      "DLC_failed": 520
+    },
+    "Puruliya": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1806,
+      "DLC_count": 864,
+      "DLC_success": 624,
+      "DLC_failed": 240
+    },
+    "Sehore": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9343,
+      "DLC_count": 4783,
+      "DLC_success": 3139,
+      "DLC_failed": 1644
+    },
+    "Ranchi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9472,
+      "DLC_count": 9249,
+      "DLC_success": 7002,
+      "DLC_failed": 2247
+    },
+    "Bankura": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5261,
+      "DLC_count": 4519,
+      "DLC_success": 1165,
+      "DLC_failed": 3354
+    },
+    "Lohardaga": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10043,
+      "DLC_count": 8339,
+      "DLC_success": 2246,
+      "DLC_failed": 6093
+    },
+    "Panch Mahals": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5414,
+      "DLC_count": 4337,
+      "DLC_success": 1619,
+      "DLC_failed": 2718
+    },
+    "Jabalpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2405,
+      "DLC_count": 1028,
+      "DLC_success": 815,
+      "DLC_failed": 213
+    },
+    "Gumla": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2794,
+      "DLC_count": 2583,
+      "DLC_success": 2469,
+      "DLC_failed": 114
+    },
+    "Dohad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3751,
+      "DLC_count": 1587,
+      "DLC_success": 1095,
+      "DLC_failed": 492
+    },
+    "Dewas": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8298,
+      "DLC_count": 5404,
+      "DLC_success": 2544,
+      "DLC_failed": 2860
+    },
+    "Anuppur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3462,
+      "DLC_count": 2788,
+      "DLC_success": 2455,
+      "DLC_failed": 333
+    },
+    "Jhabua": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 7387,
+      "DLC_count": 4759,
+      "DLC_success": 573,
+      "DLC_failed": 4186
+    },
+    "North 24 Parganas": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6226,
+      "DLC_count": 5854,
+      "DLC_success": 4841,
+      "DLC_failed": 1013
+    },
+    "Dindori": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7857,
+      "DLC_count": 7353,
+      "DLC_success": 3426,
+      "DLC_failed": 3927
+    },
+    "Hooghly": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6051,
+      "DLC_count": 2598,
+      "DLC_success": 1214,
+      "DLC_failed": 1384
+    },
+    "Khunti": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8685,
+      "DLC_count": 4754,
+      "DLC_success": 3839,
+      "DLC_failed": 915
+    },
+    "Narsimhapur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8012,
+      "DLC_count": 3188,
+      "DLC_success": 70,
+      "DLC_failed": 3118
+    },
+    "Dhar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9729,
+      "DLC_count": 2855,
+      "DLC_success": 142,
+      "DLC_failed": 2713
+    },
+    "Jashpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5182,
+      "DLC_count": 2235,
+      "DLC_success": 557,
+      "DLC_failed": 1678
+    },
+    "Indore": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7491,
+      "DLC_count": 4346,
+      "DLC_success": 3328,
+      "DLC_failed": 1018
+    },
+    "Saraikela-kharsawan": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3142,
+      "DLC_count": 2934,
+      "DLC_success": 2132,
+      "DLC_failed": 802
+    },
+    "Mandla": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5636,
+      "DLC_count": 4398,
+      "DLC_success": 25,
+      "DLC_failed": 4373
+    },
+    "Purbi Singhbhum": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6311,
+      "DLC_count": 4414,
+      "DLC_success": 1833,
+      "DLC_failed": 2581
+    },
+    "Hoshangabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3330,
+      "DLC_count": 1402,
+      "DLC_success": 769,
+      "DLC_failed": 633
+    },
+    "Korba": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4824,
+      "DLC_count": 3143,
+      "DLC_success": 2710,
+      "DLC_failed": 433
+    },
+    "Pashchimi Singhbhum": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4895,
+      "DLC_count": 3114,
+      "DLC_success": 2082,
+      "DLC_failed": 1032
+    },
+    "Howrah": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9943,
+      "DLC_count": 9588,
+      "DLC_success": 5768,
+      "DLC_failed": 3820
+    },
+    "Simdega": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1858,
+      "DLC_count": 1425,
+      "DLC_success": 182,
+      "DLC_failed": 1243
+    },
+    "Kolkata": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6638,
+      "DLC_count": 1765,
+      "DLC_success": 801,
+      "DLC_failed": 964
+    },
+    "Koderma": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1999,
+      "DLC_count": 1448,
+      "DLC_success": 1424,
+      "DLC_failed": 24
+    },
+    "Hazaribagh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2573,
+      "DLC_count": 1266,
+      "DLC_success": 322,
+      "DLC_failed": 944
+    },
+    "Vaishali": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6924,
+      "DLC_count": 2169,
+      "DLC_success": 352,
+      "DLC_failed": 1817
+    },
+    "Begusarai": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7638,
+      "DLC_count": 7393,
+      "DLC_success": 5366,
+      "DLC_failed": 2027
+    },
+    "Bhagalpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3251,
+      "DLC_count": 515,
+      "DLC_success": 178,
+      "DLC_failed": 337
+    },
+    "Lakhisarai": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5450,
+      "DLC_count": 1607,
+      "DLC_success": 523,
+      "DLC_failed": 1084
+    },
+    "Sheikhpura": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2035,
+      "DLC_count": 69,
+      "DLC_success": 25,
+      "DLC_failed": 44
+    },
+    "Arwal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1595,
+      "DLC_count": 972,
+      "DLC_success": 408,
+      "DLC_failed": 564
+    },
+    "Jehanabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9980,
+      "DLC_count": 5975,
+      "DLC_success": 5093,
+      "DLC_failed": 882
+    },
+    "Nalanda": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1802,
+      "DLC_count": 113,
+      "DLC_success": 75,
+      "DLC_failed": 38
+    },
+    "Patna": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3983,
+      "DLC_count": 1034,
+      "DLC_success": 543,
+      "DLC_failed": 491
+    },
+    "Saran": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5960,
+      "DLC_count": 4533,
+      "DLC_success": 3295,
+      "DLC_failed": 1238
+    },
+    "Siwan": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10669,
+      "DLC_count": 3259,
+      "DLC_success": 2115,
+      "DLC_failed": 1144
+    },
+    "Muzaffarpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4626,
+      "DLC_count": 3211,
+      "DLC_success": 2763,
+      "DLC_failed": 448
+    },
+    "Madhepura": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5334,
+      "DLC_count": 1812,
+      "DLC_success": 1743,
+      "DLC_failed": 69
+    },
+    "Araria": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1937,
+      "DLC_count": 1214,
+      "DLC_success": 303,
+      "DLC_failed": 911
+    },
+    "Supaul": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5864,
+      "DLC_count": 2179,
+      "DLC_success": 1771,
+      "DLC_failed": 408
+    },
+    "Madhubani": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10171,
+      "DLC_count": 4140,
+      "DLC_success": 1485,
+      "DLC_failed": 2655
+    },
+    "Purnia": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2140,
+      "DLC_count": 1510,
+      "DLC_success": 1190,
+      "DLC_failed": 320
+    },
+    "Surajpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6851,
+      "DLC_count": 5406,
+      "DLC_success": 3053,
+      "DLC_failed": 2353
+    },
+    "Surguja": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10664,
+      "DLC_count": 746,
+      "DLC_success": 217,
+      "DLC_failed": 529
+    },
+    "Aravalli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9800,
+      "DLC_count": 3864,
+      "DLC_success": 1715,
+      "DLC_failed": 2149
+    },
+    "Mahisagar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2791,
+      "DLC_count": 1233,
+      "DLC_success": 439,
+      "DLC_failed": 794
+    },
+    "Amethi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2368,
+      "DLC_count": 445,
+      "DLC_success": 219,
+      "DLC_failed": 226
+    },
+    "Ghaziabad": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3864,
+      "DLC_count": 2067,
+      "DLC_success": 1757,
+      "DLC_failed": 310
+    },
+    "Agar Malwa": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4678,
+      "DLC_count": 3266,
+      "DLC_success": 3082,
+      "DLC_failed": 184
+    },
+    "Shahdara": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5080,
+      "DLC_count": 4200,
+      "DLC_success": 2143,
+      "DLC_failed": 2057
+    },
+    "South East Delhi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6099,
+      "DLC_count": 4897,
+      "DLC_success": 934,
+      "DLC_failed": 3963
+    },
+    "North West Delhi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8803,
+      "DLC_count": 4793,
+      "DLC_success": 863,
+      "DLC_failed": 3930
+    },
+    "Sambhal": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6644,
+      "DLC_count": 975,
+      "DLC_success": 186,
+      "DLC_failed": 789
+    },
+    "Charki Dadri": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7581,
+      "DLC_count": 6185,
+      "DLC_success": 4071,
+      "DLC_failed": 2114
+    },
+    "Alipurduar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7673,
+      "DLC_count": 3961,
+      "DLC_success": 3073,
+      "DLC_failed": 888
+    },
+    "Paschim Bardhaman": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3071,
+      "DLC_count": 43,
+      "DLC_success": 30,
+      "DLC_failed": 13
+    },
+    "Kalimpong": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1816,
+      "DLC_count": 1301,
+      "DLC_success": 413,
+      "DLC_failed": 888
+    },
+    "Ajmer": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 4487,
+      "DLC_count": 99,
+      "DLC_success": 69,
+      "DLC_failed": 30
+    },
+    "Cooch Behar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2423,
+      "DLC_count": 1620,
+      "DLC_success": 737,
+      "DLC_failed": 883
+    },
+    "Uttar Dinajpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3978,
+      "DLC_count": 1912,
+      "DLC_success": 1589,
+      "DLC_failed": 323
+    },
+    "Datia": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5335,
+      "DLC_count": 4945,
+      "DLC_success": 3551,
+      "DLC_failed": 1394
+    },
+    "Rajsamand": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4597,
+      "DLC_count": 4131,
+      "DLC_success": 2786,
+      "DLC_failed": 1345
+    },
+    "Mahoba": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4259,
+      "DLC_count": 123,
+      "DLC_success": 19,
+      "DLC_failed": 104
+    },
+    "Chhatarpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9957,
+      "DLC_count": 6359,
+      "DLC_success": 1346,
+      "DLC_failed": 5013
+    },
+    "Chittaurgarh": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4062,
+      "DLC_count": 3559,
+      "DLC_success": 1343,
+      "DLC_failed": 2216
+    },
+    "Panna": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 9942,
+      "DLC_count": 6838,
+      "DLC_success": 3579,
+      "DLC_failed": 3259
+    },
+    "Sabar Kantha": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 2110,
+      "DLC_count": 859,
+      "DLC_success": 668,
+      "DLC_failed": 191
+    },
+    "Kachchh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5210,
+      "DLC_count": 557,
+      "DLC_success": 140,
+      "DLC_failed": 417
+    },
+    "Surendranagar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6523,
+      "DLC_count": 278,
+      "DLC_success": 197,
+      "DLC_failed": 81
+    },
+    "Kheda": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4907,
+      "DLC_count": 2388,
+      "DLC_success": 1036,
+      "DLC_failed": 1352
+    },
+    "Anand": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7234,
+      "DLC_count": 6644,
+      "DLC_success": 3968,
+      "DLC_failed": 2676
+    },
+    "Kishanganj": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10947,
+      "DLC_count": 8508,
+      "DLC_success": 1888,
+      "DLC_failed": 6620
+    },
+    "Morbi": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5866,
+      "DLC_count": 1428,
+      "DLC_success": 334,
+      "DLC_failed": 1094
+    },
+    "Leh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5447,
+      "DLC_count": 892,
+      "DLC_success": 768,
+      "DLC_failed": 124
+    },
+    "Kargil": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7450,
+      "DLC_count": 3884,
+      "DLC_success": 56,
+      "DLC_failed": 3828
+    },
+    "Kupwara": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4158,
+      "DLC_count": 725,
+      "DLC_success": 589,
+      "DLC_failed": 136
+    },
+    "Bandipore": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1679,
+      "DLC_count": 1640,
+      "DLC_success": 1131,
+      "DLC_failed": 509
+    },
+    "Baramula": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7243,
+      "DLC_count": 6668,
+      "DLC_success": 2278,
+      "DLC_failed": 4390
+    },
+    "Ganderbal": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 1896,
+      "DLC_count": 1594,
+      "DLC_success": 156,
+      "DLC_failed": 1438
+    },
+    "Anantnag": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3864,
+      "DLC_count": 2260,
+      "DLC_success": 1041,
+      "DLC_failed": 1219
+    },
+    "Kishtwar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4024,
+      "DLC_count": 1741,
+      "DLC_success": 1266,
+      "DLC_failed": 475
+    },
+    "Srinagar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4776,
+      "DLC_count": 2913,
+      "DLC_success": 893,
+      "DLC_failed": 2020
+    },
+    "Badgam": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9917,
+      "DLC_count": 5303,
+      "DLC_success": 3872,
+      "DLC_failed": 1431
+    },
+    "Pulwama": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3373,
+      "DLC_count": 2350,
+      "DLC_success": 345,
+      "DLC_failed": 2005
+    },
+    "Punch": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5352,
+      "DLC_count": 4273,
+      "DLC_success": 1946,
+      "DLC_failed": 2327
+    },
+    "Shupiyan": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8889,
+      "DLC_count": 6985,
+      "DLC_success": 1560,
+      "DLC_failed": 5425
+    },
+    "Kulgam": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5915,
+      "DLC_count": 5251,
+      "DLC_success": 4646,
+      "DLC_failed": 605
+    },
+    "Rajouri": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1240,
+      "DLC_count": 34,
+      "DLC_success": 14,
+      "DLC_failed": 20
+    },
+    "Ramban": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3971,
+      "DLC_count": 2238,
+      "DLC_success": 975,
+      "DLC_failed": 1263
+    },
+    "Reasi": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2725,
+      "DLC_count": 763,
+      "DLC_success": 492,
+      "DLC_failed": 271
+    },
+    "Doda": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2164,
+      "DLC_count": 441,
+      "DLC_success": 120,
+      "DLC_failed": 321
+    },
+    "Lahul & Spiti": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5228,
+      "DLC_count": 185,
+      "DLC_success": 77,
+      "DLC_failed": 108
+    },
+    "Chamba": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7839,
+      "DLC_count": 1409,
+      "DLC_success": 1007,
+      "DLC_failed": 402
+    },
+    "Jammu": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3310,
+      "DLC_count": 3268,
+      "DLC_success": 175,
+      "DLC_failed": 3093
+    },
+    "Kathua": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 7930,
+      "DLC_count": 111,
+      "DLC_success": 108,
+      "DLC_failed": 3
+    },
+    "Gurdaspur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9679,
+      "DLC_count": 6005,
+      "DLC_success": 2221,
+      "DLC_failed": 3784
+    },
+    "Kangra": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 6062,
+      "DLC_count": 186,
+      "DLC_success": 156,
+      "DLC_failed": 30
+    },
+    "Kullu": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3399,
+      "DLC_count": 1433,
+      "DLC_success": 577,
+      "DLC_failed": 856
+    },
+    "Hoshiarpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8935,
+      "DLC_count": 2730,
+      "DLC_success": 1316,
+      "DLC_failed": 1414
+    },
+    "Amritsar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6175,
+      "DLC_count": 4164,
+      "DLC_success": 1344,
+      "DLC_failed": 2820
+    },
+    "Mandi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 4131,
+      "DLC_count": 875,
+      "DLC_success": 754,
+      "DLC_failed": 121
+    },
+    "Kinnaur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8552,
+      "DLC_count": 2173,
+      "DLC_success": 568,
+      "DLC_failed": 1605
+    },
+    "Una": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8381,
+      "DLC_count": 2989,
+      "DLC_success": 2820,
+      "DLC_failed": 169
+    },
+    "Shimla": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3276,
+      "DLC_count": 3134,
+      "DLC_success": 2727,
+      "DLC_failed": 407
+    },
+    "Jalandhar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3478,
+      "DLC_count": 1303,
+      "DLC_success": 216,
+      "DLC_failed": 1087
+    },
+    "Tarn Taran": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5080,
+      "DLC_count": 2586,
+      "DLC_success": 1880,
+      "DLC_failed": 706
+    },
+    "Rupnagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1600,
+      "DLC_count": 1132,
+      "DLC_success": 710,
+      "DLC_failed": 422
+    },
+    "Uttarkashi": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5702,
+      "DLC_count": 846,
+      "DLC_success": 24,
+      "DLC_failed": 822
+    },
+    "Solan": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7500,
+      "DLC_count": 2786,
+      "DLC_success": 303,
+      "DLC_failed": 2483
+    },
+    "Shahid Bhagat Singh Nagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8373,
+      "DLC_count": 1535,
+      "DLC_success": 59,
+      "DLC_failed": 1476
+    },
+    "Fazilka": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10851,
+      "DLC_count": 3002,
+      "DLC_success": 2025,
+      "DLC_failed": 977
+    },
+    "Moga": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2050,
+      "DLC_count": 663,
+      "DLC_success": 389,
+      "DLC_failed": 274
+    },
+    "Ludhiana": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8514,
+      "DLC_count": 8278,
+      "DLC_success": 2467,
+      "DLC_failed": 5811
+    },
+    "Chamoli": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10048,
+      "DLC_count": 2025,
+      "DLC_success": 1291,
+      "DLC_failed": 734
+    },
+    "Dehradun": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5458,
+      "DLC_count": 213,
+      "DLC_success": 189,
+      "DLC_failed": 24
+    },
+    "Sirmaur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8100,
+      "DLC_count": 6726,
+      "DLC_success": 5629,
+      "DLC_failed": 1097
+    },
+    "S.A.S. Nagar": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4764,
+      "DLC_count": 1867,
+      "DLC_success": 83,
+      "DLC_failed": 1784
+    },
+    "Faridkot": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8337,
+      "DLC_count": 4504,
+      "DLC_success": 2234,
+      "DLC_failed": 2270
+    },
+    "Fatehgarh Sahib": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8580,
+      "DLC_count": 5037,
+      "DLC_success": 1997,
+      "DLC_failed": 3040
+    },
+    "Tehri Garhwal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10665,
+      "DLC_count": 978,
+      "DLC_success": 275,
+      "DLC_failed": 703
+    },
+    "Chandigarh": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 5504,
+      "DLC_count": 462,
+      "DLC_success": 318,
+      "DLC_failed": 144
+    },
+    "Sri Muktsar Sahib": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9236,
+      "DLC_count": 7776,
+      "DLC_success": 4382,
+      "DLC_failed": 3394
+    },
+    "Rudraprayag": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2636,
+      "DLC_count": 12,
+      "DLC_success": 11,
+      "DLC_failed": 1
+    },
+    "Pithoragarh": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5102,
+      "DLC_count": 2683,
+      "DLC_success": 90,
+      "DLC_failed": 2593
+    },
+    "Sangrur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 7845,
+      "DLC_count": 7279,
+      "DLC_success": 3786,
+      "DLC_failed": 3493
+    },
+    "Barnala": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8210,
+      "DLC_count": 2823,
+      "DLC_success": 2083,
+      "DLC_failed": 740
+    },
+    "Bathinda": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 4253,
+      "DLC_count": 372,
+      "DLC_success": 223,
+      "DLC_failed": 149
+    },
+    "Patiala": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9915,
+      "DLC_count": 1821,
+      "DLC_success": 1039,
+      "DLC_failed": 782
+    },
+    "Yamunanagar": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10527,
+      "DLC_count": 7905,
+      "DLC_success": 6123,
+      "DLC_failed": 1782
+    },
+    "Saharanpur": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 1006,
+      "DLC_count": 27,
+      "DLC_success": 18,
+      "DLC_failed": 9
+    },
+    "Ganganagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 7287,
+      "DLC_count": 3725,
+      "DLC_success": 1273,
+      "DLC_failed": 2452
+    },
+    "Mansa": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3569,
+      "DLC_count": 538,
+      "DLC_success": 357,
+      "DLC_failed": 181
+    },
+    "Kurukshetra": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 8496,
+      "DLC_count": 7609,
+      "DLC_success": 404,
+      "DLC_failed": 7205
+    },
+    "Bageshwar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 1113,
+      "DLC_count": 303,
+      "DLC_success": 213,
+      "DLC_failed": 90
+    },
+    "Hardwar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 9016,
+      "DLC_count": 3453,
+      "DLC_success": 2555,
+      "DLC_failed": 898
+    },
+    "Garhwal": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 10347,
+      "DLC_count": 8031,
+      "DLC_success": 5429,
+      "DLC_failed": 2602
+    },
+    "Kaithal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9904,
+      "DLC_count": 1898,
+      "DLC_success": 58,
+      "DLC_failed": 1840
+    },
+    "Sirsa": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6278,
+      "DLC_count": 4826,
+      "DLC_success": 4119,
+      "DLC_failed": 707
+    },
+    "Hanumangarh": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9120,
+      "DLC_count": 7915,
+      "DLC_success": 4725,
+      "DLC_failed": 3190
+    },
+    "Karnal": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 10952,
+      "DLC_count": 4014,
+      "DLC_success": 1952,
+      "DLC_failed": 2062
+    },
+    "Almora": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6579,
+      "DLC_count": 5750,
+      "DLC_success": 204,
+      "DLC_failed": 5546
+    },
+    "Jind": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3159,
+      "DLC_count": 211,
+      "DLC_success": 139,
+      "DLC_failed": 72
+    },
+    "Fatehabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 1541,
+      "DLC_count": 1176,
+      "DLC_success": 780,
+      "DLC_failed": 396
+    },
+    "Bijnor": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8806,
+      "DLC_count": 1003,
+      "DLC_success": 104,
+      "DLC_failed": 899
+    },
+    "Muzaffarnagar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 6987,
+      "DLC_count": 3436,
+      "DLC_success": 1629,
+      "DLC_failed": 1807
+    },
+    "Hisar": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2727,
+      "DLC_count": 2361,
+      "DLC_success": 474,
+      "DLC_failed": 1887
+    },
+    "Nainital": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5473,
+      "DLC_count": 5196,
+      "DLC_success": 574,
+      "DLC_failed": 4622
+    },
+    "Panipat": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 2252,
+      "DLC_count": 321,
+      "DLC_success": 318,
+      "DLC_failed": 3
+    },
+    "Champawat": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6443,
+      "DLC_count": 3672,
+      "DLC_success": 97,
+      "DLC_failed": 3575
+    },
+    "Udham Singh Nagar": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 3836,
+      "DLC_count": 2699,
+      "DLC_success": 1042,
+      "DLC_failed": 1657
+    },
+    "Sonipat": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5830,
+      "DLC_count": 5190,
+      "DLC_success": 1383,
+      "DLC_failed": 3807
+    },
+    "Baghpat": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 8121,
+      "DLC_count": 2599,
+      "DLC_success": 1946,
+      "DLC_failed": 653
+    },
+    "Meerut": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9034,
+      "DLC_count": 6099,
+      "DLC_success": 488,
+      "DLC_failed": 5611
+    },
+    "Moradabad": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2285,
+      "DLC_count": 1278,
+      "DLC_success": 1122,
+      "DLC_failed": 156
+    },
+    "Bikaner": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6479,
+      "DLC_count": 1394,
+      "DLC_success": 603,
+      "DLC_failed": 791
+    },
+    "Rampur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 5443,
+      "DLC_count": 2078,
+      "DLC_success": 73,
+      "DLC_failed": 2005
+    },
+    "Bhiwani": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6372,
+      "DLC_count": 3040,
+      "DLC_success": 2472,
+      "DLC_failed": 568
+    },
+    "Rohtak": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 5978,
+      "DLC_count": 4532,
+      "DLC_success": 1525,
+      "DLC_failed": 3007
+    },
+    "Shamli": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5116,
+      "DLC_count": 799,
+      "DLC_success": 292,
+      "DLC_failed": 507
+    },
+    "Firozpur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8387,
+      "DLC_count": 2833,
+      "DLC_success": 1552,
+      "DLC_failed": 1281
+    },
+    "Pathankot": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 2266,
+      "DLC_count": 2248,
+      "DLC_success": 591,
+      "DLC_failed": 1657
+    },
+    "Udhampur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 6254,
+      "DLC_count": 3894,
+      "DLC_success": 3008,
+      "DLC_failed": 886
+    },
+    "Samba": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 6437,
+      "DLC_count": 2835,
+      "DLC_success": 832,
+      "DLC_failed": 2003
+    },
+    "Kapurthala": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3166,
+      "DLC_count": 1797,
+      "DLC_success": 502,
+      "DLC_failed": 1295
+    },
+    "Panchkula": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 4938,
+      "DLC_count": 3609,
+      "DLC_success": 679,
+      "DLC_failed": 2930
+    },
+    "Ambala": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 3893,
+      "DLC_count": 3736,
+      "DLC_success": 1019,
+      "DLC_failed": 2717
+    },
+    "Aurangabad ": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 3154,
+      "DLC_count": 1177,
+      "DLC_success": 1104,
+      "DLC_failed": 73
+    },
+    "Balrampur ": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10482,
+      "DLC_count": 5687,
+      "DLC_success": 3915,
+      "DLC_failed": 1772
+    },
+    "Balrampur": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 8446,
+      "DLC_count": 2063,
+      "DLC_success": 972,
+      "DLC_failed": 1091
+    },
+    "Hamirpur ": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10853,
+      "DLC_count": 7209,
+      "DLC_success": 6880,
+      "DLC_failed": 329
+    },
+    "Hamirpur": {
+      "color": "rgba(216,27,96, 0.5)",
+      "pensioner_count": 10122,
+      "DLC_count": 6428,
+      "DLC_success": 4158,
+      "DLC_failed": 2270
+    },
+    "Pratapgarh ": {
+      "color": "rgba(68, 170, 153, 0.5)",
+      "pensioner_count": 9405,
+      "DLC_count": 1050,
+      "DLC_success": 959,
+      "DLC_failed": 91
+    },
+    "Pratapgarh": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 10375,
+      "DLC_count": 9781,
+      "DLC_success": 8970,
+      "DLC_failed": 811
+    },
+    "Bilaspur ": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 5824,
+      "DLC_count": 2454,
+      "DLC_success": 504,
+      "DLC_failed": 1950
+    },
+    "Niwari": {
+      "color": "rgba(221, 204, 119, 0.5)",
+      "pensioner_count": 3159,
+      "DLC_count": 2414,
+      "DLC_success": 1714,
+      "DLC_failed": 700
+    },
+    "Muzaffarabad": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 8692,
+      "DLC_count": 2504,
+      "DLC_success": 1952,
+      "DLC_failed": 552
+    },
+    "Mirpur": {
+      "color": "rgba(136, 34, 85, 0.5)",
+      "pensioner_count": 9206,
+      "DLC_count": 4050,
+      "DLC_success": 3185,
+      "DLC_failed": 865
+    }
+  }
+}

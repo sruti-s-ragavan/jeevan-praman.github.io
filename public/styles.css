@@ -1,9 +1,28 @@
-#map { 
-    height: 800px; 
-    width: 100%;
-}
-
-body {
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    height: 100%;
+}
+
+#map {
+    width: 66.67%; /* 2/3 of the screen */
+    height: 100%;
+}
+
+#info-panel {
+    width: 33.33%; /* 1/3 of the screen */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}
+
+#district-name, #district-color {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
