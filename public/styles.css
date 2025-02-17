@@ -27,8 +27,17 @@ body, html {
     margin-bottom: 20px;
 }
 
-#pensioner-chart {
+#main-chart-container, #channel-chart-container {
+    margin-bottom: 20px;
+}
+
+#channel-chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#pensioner-chart, #channel-chart {
     width: 100% !important;
     height: auto !important;
-    max-height: 400px;
+    max-height: 300px;
 }
