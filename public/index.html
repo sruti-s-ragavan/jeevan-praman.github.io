@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India Districts Map</title>
+    <title>India Districts Pensioner Data</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/patternomaly/1.3.2/patternomaly.min.js"></script>
+
 </head>
 <body>
     <div id="container">
         <div id="map"></div>
         <div id="info-panel">
             <h2 id="district-name">Select a District</h2>
-            <canvas id="pensioner-chart"></canvas>
+            <div id="main-chart-container">
+                <canvas id="main-chart"></canvas>
+            </div>
+            <div id="pie-chart-container" style="display: none;">
+                <canvas id="pie-chart"></canvas>
+            </div>
             <div id="channel-chart-container" style="display: none;">
-                <h3 id="channel-chart-title"></h3>
                 <canvas id="channel-chart"></canvas>
             </div>
         </div>
