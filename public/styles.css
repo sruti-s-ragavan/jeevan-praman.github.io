@@ -22,7 +22,13 @@ body, html {
     overflow-y: auto;
 }
 
-#district-name, #district-color {
-    font-size: 18px;
-    margin-bottom: 10px;
+#district-name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pensioner-chart {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 400px;
 }
