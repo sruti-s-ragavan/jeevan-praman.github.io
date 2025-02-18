@@ -50,18 +50,22 @@ function createOrUpdateMainChart(data) {
             {
                 label: 'Manual LC',
                 data: data.pensioner_count.map((total, i) => total - data.DLC_potential[i]),
-                backgroundColor: [
-                    'rgba(200, 200, 200, 0.8)',
-                    'rgba(150, 150, 150, 0.8)'
-                ],
+                backgroundColor: 'rgba(30, 136, 229, 0.8)',
             },
             {
-                label: 'DLC Potential',
-                data: data.DLC_potential,
-                backgroundColor: [
-                    'rgba(75, 192, 192, 0.8)',
-                    'rgba(75, 192, 192, 0.8)'
-                ],
+                label: 'DLC Complete',
+                data: data.DLC_success,
+                backgroundColor: 'rgba(0, 77, 64, 0.8)',
+            },
+            {
+                label: 'DLC Rejected',
+                data: data.DLC_failed,
+                backgroundColor: 'rgba(255, 193, 7, 0.8)',
+            },
+            {
+                label: 'DLC Pending',
+                data: data.DLC_potential.map((potential, i) => potential - data.DLC_success[i] - data.DLC_failed[i]),
+                backgroundColor: 'rgba(216, 27, 96, 0.8)',
             }
         ]
     };
@@ -93,39 +97,22 @@ function createOrUpdateMainChart(data) {
                         return label;
                     },
                     footer: function(tooltipItems) {
-                        const totalPensioners = tooltipItems.reduce((sum, item) => sum + item.parsed.x, 0);
-                        const dlcPotential = tooltipItems[1].parsed.x;
-                        const percentage = ((dlcPotential / totalPensioners) * 100).toFixed(1);
-                        return `Total Pensioners: ${totalPensioners.toLocaleString()}\nDLC Potential: ${percentage}% of Total`;
+                        const total = tooltipItems.reduce((sum, item) => sum + item.parsed.x, 0);
+                        const dlcTotal = tooltipItems.slice(1).reduce((sum, item) => sum + item.parsed.x, 0);
+                        const dlcPercentage = ((dlcTotal / total) * 100).toFixed(1);
+                        return `Total Pensioners: ${total.toLocaleString()}\nDLC Total: ${dlcTotal.toLocaleString()} (${dlcPercentage}% of Total)`;
                     }
                 }
             },
             legend: {
-                labels: {
-                    generateLabels: function(chart) {
-                        const datasets = chart.data.datasets;
-                        return datasets.map((dataset, i) => ({
-                            text: dataset.label,
-                            fillStyle: dataset.backgroundColor[0],
-                            hidden: false,
-                            lineCap: dataset.borderCapStyle,
-                            lineDash: dataset.borderDash,
-                            lineDashOffset: dataset.borderDashOffset,
-                            lineJoin: dataset.borderJoinStyle,
-                            lineWidth: dataset.borderWidth,
-                            strokeStyle: dataset.borderColor,
-                            pointStyle: dataset.pointStyle,
-                            rotation: dataset.rotation,
-                            datasetIndex: i
-                        }));
-                    }
-                }
+                display: true,
+                position: 'top',
             }
         },
         onClick: (event, elements) => {
             if (elements.length > 0) {
                 const index = elements[0].index;
-                cleanupCharts(); // Clean up before creating a new pie chart
+                cleanupCharts();
                 createOrUpdatePieChart(data, index);
             }
         }
@@ -143,6 +130,7 @@ function createOrUpdateMainChart(data) {
         });
     }
 }
+
 
 function createOrUpdatePieChart(data, ageGroupIndex) {
     const ctx = document.getElementById('pie-chart').getContext('2d');
