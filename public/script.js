@@ -1,10 +1,42 @@
 // Initialize the map
 var zoomLevel = 5, latitude = 23.5937, longitude = 80.9629
-var map = L.map('map').setView([latitude, longitude], zoomLevel);
+var map = L.map('map').setView([26.4499, 80.3319], 10); // Coordinates for Kanpur, zoom level 10
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
+
+let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
+let geojsonLayer;
+
+function updateInfoPane(districtName, districtData) {
+    document.getElementById('district-name').textContent = districtName;
+    
+    // Assuming you have a main chart to update
+    if (typeof createOrUpdateMainChart === 'function') {
+        createOrUpdateMainChart(districtData);
+    }
+    
+    // Clear any existing pie or channel charts
+    if (typeof cleanupCharts === 'function') {
+        cleanupCharts();
+    }
+    
+    // Add any other info pane updates here
+}
+
+function styleDistrict(feature) {
+    const isSelected = feature.properties.dtname === selectedDistrict;
+    console.log(`Styling district: ${feature.properties.dtname}, Selected: ${isSelected}`);
+    return {
+        fillColor: feature.properties.dtname === selectedDistrict ? '#4bc0c0' : '#cccccc',
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
 
 let mainChart, channelChart;
 
@@ -16,7 +48,7 @@ function createOrUpdateMainChart(data) {
         labels: ['60-79', '80+'],
         datasets: [
             {
-                label: 'Non-DLC Potential',
+                label: 'Manual LC',
                 data: data.pensioner_count.map((total, i) => total - data.DLC_potential[i]),
                 backgroundColor: [
                     'rgba(200, 200, 200, 0.8)',
@@ -120,7 +152,7 @@ function createOrUpdatePieChart(data, ageGroupIndex) {
     const dlcFailed = data.DLC_failed[ageGroupIndex];
 
     const chartData = {
-        labels: ['DLC Potential (Not Attempted)', 'DLC Success', 'DLC Failed'],
+        labels: ['Pending', 'Completed', 'Rejected'],
         datasets: [{
             data: [dlcPotential - dlcSuccess - dlcFailed, dlcSuccess, dlcFailed],
             backgroundColor: [
@@ -252,6 +284,7 @@ function createOrUpdateChannelChart(data, ageGroupIndex) {
     document.getElementById('channel-chart-container').style.display = 'block';
 }
 
+
 // Fetch the district data
 fetch('/district-data.json')
     .then(response => response.json())
@@ -260,25 +293,20 @@ fetch('/district-data.json')
         fetch('/india-districts-770.geojson')
             .then(response => response.json())
             .then(data => {
-                L.geoJSON(data, {
-                    style: function (feature) {
-                        const districtName = feature.properties.dtname;
-                        const district = districtData['district-data'][districtName];
-                        return {
-                            color: 'gray',
-                            weight: 1,
-                            fillColor: district ? district.color : 'gray',
-                            fillOpacity: 0.7
-                        };
-                    },
+                geojsonLayer = L.geoJSON(data, {
+                    style: styleDistrict,
                     onEachFeature: function (feature, layer) {
                         layer.on('click', function (e) {
                             const districtName = feature.properties.dtname;
                             const district = districtData['district-data'][districtName];
-                            
                             if (district) {
-                                // Update district name
-                                document.getElementById('district-name').textContent = districtName;
+                                geojsonLayer.eachLayer(function (layer) {
+                                    if (layer.feature.properties.dtname === selectedDistrict) {
+                                        selectedDistrict = districtName;
+                                        layer.setStyle(styleDistrict(layer.feature));
+                                    }
+                                });
+                                layer.setStyle(styleDistrict(feature));
                                 
                                 cleanupCharts();
                                 // Create or update the main chart
@@ -286,14 +314,27 @@ fetch('/district-data.json')
 
                                 // Hide the channel chart initially
                                 document.getElementById('channel-chart-container').style.display = 'none';
+                                updateInfoPane(districtName, district);
                             }
                         });
                     }
                 }).addTo(map);
+
+                // Initialize with Kanpur Nagar data
+                const kanpurData = districtData['district-data'][selectedDistrict];
+                if (kanpurData) {
+                    updateInfoPane(selectedDistrict, kanpurData);
+                    geojsonLayer.eachLayer(function (layer) {
+                        if (layer.feature.properties.dtname === selectedDistrict) {
+                            layer.setStyle(styleDistrict(layer.feature));
+                        }
+                    });
+                }
             })
             .catch(error => console.error('Error loading GeoJSON:', error));
     })
     .catch(error => console.error('Error loading district data:', error));
+
 
     function cleanupCharts() {
         // Hide pie chart and channel chart containers
