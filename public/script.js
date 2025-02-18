@@ -301,21 +301,26 @@ Promise.all([
                 const districtName = feature.properties.dtname;
                 const district = districtData['district-data'][districtName];
                 if (district) {
+                    if (selectedDistrict) {
+                        geojsonLayer.resetStyle();
+                    }
+                    selectedDistrict = districtName;
                     geojsonLayer.eachLayer(function (layer) {
-                        if (layer.feature.properties.dtname === selectedDistrict) {
-                            selectedDistrict = districtName;
-                            layer.setStyle(styleDistrict(layer.feature));
-                        }
+                        layer.setStyle(styleDistrict(layer.feature));
                     });
-                    layer.setStyle(styleDistrict(feature));
+                    
                     
                     cleanupCharts();
                     createOrUpdateMainChart(district);
                     document.getElementById('channel-chart-container').style.display = 'none';
                     updateInfoPane(districtName, district);
 
-                    // Display agencies for the clicked district
-                    displayAgencies(districtName);
+                    // Display agencies for the clicked district if zoom level is appropriate
+                    if (map.getZoom() >= 10) {
+                        displayAgencies(districtName);
+                    } else {
+                        hideAgencies();
+                    }
                 }
             });
         }
@@ -330,41 +335,54 @@ Promise.all([
                 layer.setStyle(styleDistrict(layer.feature));
             }
         });
-        // Display initial agencies for Kanpur Nagar
-        displayAgencies(selectedDistrict);
+        // Display initial agencies for Kanpur Nagar if zoom level is appropriate
+        if (map.getZoom() >= 10) {
+            displayAgencies(selectedDistrict);
+        }
     }
+
+    // Add zoom event listener
+    map.on('zoomend', function() {
+        if (map.getZoom() >= 10) {
+            if (selectedDistrict) {
+                displayAgencies(selectedDistrict);
+            }
+        } else {
+            hideAgencies();
+        }
+    });
 })
 .catch(error => console.error('Error loading data:', error));
 
 
 const icons = {
     EPF: L.icon({
-        iconUrl: '/images/epf-icon.png',
-        iconSize: [32, 32],
+        iconUrl: '/images/epf.png',
+        iconSize: [10, 10],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     Bank: L.icon({
-        iconUrl: '/images/bank-icon.png',
-        iconSize: [32, 32],
+        iconUrl: '/images/bank.png',
+        iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     "Post Office": L.icon({
-        iconUrl: '/images/post-office-icon.png',
-        iconSize: [32, 32],
+        iconUrl: '/images/post.png',
+        iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     })
 };
 
 function displayAgencies(dtname) {
+    if (map.getZoom() < 10) {
+        return; // Don't display agencies if zoom level is less than 10
+    }
+
     // Clear existing markers
-    map.eachLayer(layer => {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer);
-        }
-    });
+    hideAgencies();
 
     // Filter and add new markers
     const districtAgencies = agenciesData.filter(agency => agency.dtname === dtname);
@@ -381,6 +399,14 @@ function displayAgencies(dtname) {
         // Zoom the map to fit these bounds
         map.fitBounds(bounds);
     }
+}
+
+function hideAgencies() {
+    map.eachLayer(layer => {
+        if (layer instanceof L.Marker) {
+            map.removeLayer(layer);
+        }
+    });
 }
 
 function cleanupCharts() {
