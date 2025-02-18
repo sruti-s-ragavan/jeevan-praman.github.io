@@ -1,0 +1,1658 @@
+{
+  "Arunachal Pradesh": {
+    "pensioner_count": [
+      1547519,
+      722279
+    ],
+    "DLC_potential": [
+      1083255,
+      577814
+    ],
+    "DLC_success": [
+      632289,
+      271262
+    ],
+    "DLC_failed": [
+      78117,
+      39359
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 85862,
+        "epfo": 71497,
+        "banks": 77587,
+        "others": 13962
+      },
+      {
+        "lic": 35968,
+        "epfo": 38299,
+        "banks": 31627,
+        "others": 7423
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 6655,
+        "epfo": 7786,
+        "banks": 7562,
+        "others": 1440
+      },
+      {
+        "lic": 3884,
+        "epfo": 3617,
+        "banks": 4198,
+        "others": 619
+      }
+    ]
+  },
+  "Assam": {
+    "pensioner_count": [
+      2130381,
+      1091337
+    ],
+    "DLC_potential": [
+      1491248,
+      873055
+    ],
+    "DLC_success": [
+      590926,
+      461021
+    ],
+    "DLC_failed": [
+      98846,
+      64241
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 114276,
+        "epfo": 96610,
+        "banks": 108057,
+        "others": 20160
+      },
+      {
+        "lic": 52110,
+        "epfo": 55122,
+        "banks": 48737,
+        "others": 9898
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 10438,
+        "epfo": 11419,
+        "banks": 10677,
+        "others": 1768
+      },
+      {
+        "lic": 5264,
+        "epfo": 5599,
+        "banks": 5539,
+        "others": 1211
+      }
+    ]
+  },
+  "Chandigarh": {
+    "pensioner_count": [
+      71846,
+      31268
+    ],
+    "DLC_potential": [
+      50292,
+      25014
+    ],
+    "DLC_success": [
+      11370,
+      23466
+    ],
+    "DLC_failed": [
+      128,
+      1754
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 3824,
+        "epfo": 4618,
+        "banks": 2068,
+        "others": 124
+      },
+      {
+        "lic": 1351,
+        "epfo": 2042,
+        "banks": 1567,
+        "others": 147
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 228,
+        "epfo": 166,
+        "banks": 385,
+        "others": 31
+      },
+      {
+        "lic": 76,
+        "epfo": 104,
+        "banks": 126,
+        "others": 33
+      }
+    ]
+  },
+  "Karnataka": {
+    "pensioner_count": [
+      1777133,
+      746476
+    ],
+    "DLC_potential": [
+      1243978,
+      597166
+    ],
+    "DLC_success": [
+      485922,
+      356418
+    ],
+    "DLC_failed": [
+      72568,
+      31285
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 99606,
+        "epfo": 90253,
+        "banks": 85956,
+        "others": 17959
+      },
+      {
+        "lic": 44741,
+        "epfo": 44572,
+        "banks": 42009,
+        "others": 6945
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 8791,
+        "epfo": 8875,
+        "banks": 8883,
+        "others": 1686
+      },
+      {
+        "lic": 4738,
+        "epfo": 5039,
+        "banks": 4500,
+        "others": 818
+      }
+    ]
+  },
+  "Manipur": {
+    "pensioner_count": [
+      858410,
+      480857
+    ],
+    "DLC_potential": [
+      600878,
+      384679
+    ],
+    "DLC_success": [
+      375276,
+      180989
+    ],
+    "DLC_failed": [
+      40145,
+      21739
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 48913,
+        "epfo": 43189,
+        "banks": 44937,
+        "others": 8795
+      },
+      {
+        "lic": 24504,
+        "epfo": 24420,
+        "banks": 26870,
+        "others": 4287
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 3952,
+        "epfo": 4671,
+        "banks": 4707,
+        "others": 938
+      },
+      {
+        "lic": 2339,
+        "epfo": 2580,
+        "banks": 2618,
+        "others": 390
+      }
+    ]
+  },
+  "Meghalaya": {
+    "pensioner_count": [
+      776986,
+      301223
+    ],
+    "DLC_potential": [
+      543884,
+      240971
+    ],
+    "DLC_success": [
+      332602,
+      148304
+    ],
+    "DLC_failed": [
+      34975,
+      19570
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 37480,
+        "epfo": 39998,
+        "banks": 32335,
+        "others": 6950
+      },
+      {
+        "lic": 22458,
+        "epfo": 20790,
+        "banks": 21849,
+        "others": 3473
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 3744,
+        "epfo": 2845,
+        "banks": 3780,
+        "others": 793
+      },
+      {
+        "lic": 1999,
+        "epfo": 2011,
+        "banks": 1571,
+        "others": 346
+      }
+    ]
+  },
+  "Mizoram": {
+    "pensioner_count": [
+      494215,
+      298298
+    ],
+    "DLC_potential": [
+      345947,
+      238636
+    ],
+    "DLC_success": [
+      174234,
+      123787
+    ],
+    "DLC_failed": [
+      27426,
+      17852
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 32291,
+        "epfo": 25162,
+        "banks": 24261,
+        "others": 5379
+      },
+      {
+        "lic": 10947,
+        "epfo": 16114,
+        "banks": 11845,
+        "others": 2963
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 2826,
+        "epfo": 2467,
+        "banks": 2660,
+        "others": 452
+      },
+      {
+        "lic": 1135,
+        "epfo": 1563,
+        "banks": 1484,
+        "others": 251
+      }
+    ]
+  },
+  "Nagaland": {
+    "pensioner_count": [
+      600797,
+      285265
+    ],
+    "DLC_potential": [
+      420552,
+      228207
+    ],
+    "DLC_success": [
+      184761,
+      130549
+    ],
+    "DLC_failed": [
+      21605,
+      13834
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 36048,
+        "epfo": 31031,
+        "banks": 36879,
+        "others": 6078
+      },
+      {
+        "lic": 16883,
+        "epfo": 19197,
+        "banks": 15283,
+        "others": 2803
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 3817,
+        "epfo": 3787,
+        "banks": 3127,
+        "others": 648
+      },
+      {
+        "lic": 1381,
+        "epfo": 1556,
+        "banks": 1467,
+        "others": 323
+      }
+    ]
+  },
+  "Punjab": {
+    "pensioner_count": [
+      1113773,
+      618581
+    ],
+    "DLC_potential": [
+      779630,
+      494857
+    ],
+    "DLC_success": [
+      403717,
+      238347
+    ],
+    "DLC_failed": [
+      50459,
+      30350
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 67303,
+        "epfo": 66388,
+        "banks": 61571,
+        "others": 12453
+      },
+      {
+        "lic": 35235,
+        "epfo": 34691,
+        "banks": 35077,
+        "others": 6436
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 6992,
+        "epfo": 6656,
+        "banks": 6535,
+        "others": 1348
+      },
+      {
+        "lic": 3598,
+        "epfo": 3119,
+        "banks": 3562,
+        "others": 549
+      }
+    ]
+  },
+  "Rajasthan": {
+    "pensioner_count": [
+      1807926,
+      988238
+    ],
+    "DLC_potential": [
+      1265531,
+      790576
+    ],
+    "DLC_success": [
+      718211,
+      341085
+    ],
+    "DLC_failed": [
+      82274,
+      49365
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 97130,
+        "epfo": 98710,
+        "banks": 93208,
+        "others": 19256
+      },
+      {
+        "lic": 44754,
+        "epfo": 42151,
+        "banks": 49996,
+        "others": 9298
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 9883,
+        "epfo": 9754,
+        "banks": 9503,
+        "others": 1646
+      },
+      {
+        "lic": 4633,
+        "epfo": 4502,
+        "banks": 4923,
+        "others": 741
+      }
+    ]
+  },
+  "Sikkim": {
+    "pensioner_count": [
+      197348,
+      86070
+    ],
+    "DLC_potential": [
+      138142,
+      68854
+    ],
+    "DLC_success": [
+      51947,
+      43232
+    ],
+    "DLC_failed": [
+      10200,
+      4263
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 7386,
+        "epfo": 11865,
+        "banks": 10883,
+        "others": 2138
+      },
+      {
+        "lic": 5738,
+        "epfo": 5077,
+        "banks": 7786,
+        "others": 1478
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 745,
+        "epfo": 1468,
+        "banks": 1588,
+        "others": 140
+      },
+      {
+        "lic": 532,
+        "epfo": 494,
+        "banks": 625,
+        "others": 74
+      }
+    ]
+  },
+  "Tripura": {
+    "pensioner_count": [
+      470651,
+      258779
+    ],
+    "DLC_potential": [
+      329452,
+      207019
+    ],
+    "DLC_success": [
+      108171,
+      110677
+    ],
+    "DLC_failed": [
+      24165,
+      11822
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 24075,
+        "epfo": 24536,
+        "banks": 27714,
+        "others": 3956
+      },
+      {
+        "lic": 13128,
+        "epfo": 11794,
+        "banks": 13573,
+        "others": 2452
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 2821,
+        "epfo": 2052,
+        "banks": 1848,
+        "others": 395
+      },
+      {
+        "lic": 1171,
+        "epfo": 1350,
+        "banks": 1000,
+        "others": 238
+      }
+    ]
+  },
+  "Uttarakhand": {
+    "pensioner_count": [
+      639380,
+      342094
+    ],
+    "DLC_potential": [
+      447558,
+      273669
+    ],
+    "DLC_success": [
+      175932,
+      141756
+    ],
+    "DLC_failed": [
+      37351,
+      20550
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 37933,
+        "epfo": 43165,
+        "banks": 36611,
+        "others": 5498
+      },
+      {
+        "lic": 16441,
+        "epfo": 14449,
+        "banks": 12752,
+        "others": 3872
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 4132,
+        "epfo": 4047,
+        "banks": 4016,
+        "others": 684
+      },
+      {
+        "lic": 1984,
+        "epfo": 2026,
+        "banks": 2206,
+        "others": 448
+      }
+    ]
+  },
+  "Telangana": {
+    "pensioner_count": [
+      1911080,
+      857120
+    ],
+    "DLC_potential": [
+      1337743,
+      685684
+    ],
+    "DLC_success": [
+      642080,
+      312316
+    ],
+    "DLC_failed": [
+      102827,
+      44469
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 83367,
+        "epfo": 96404,
+        "banks": 110746,
+        "others": 18614
+      },
+      {
+        "lic": 49120,
+        "epfo": 45989,
+        "banks": 51313,
+        "others": 8032
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 10569,
+        "epfo": 9675,
+        "banks": 8567,
+        "others": 1798
+      },
+      {
+        "lic": 5010,
+        "epfo": 4382,
+        "banks": 5126,
+        "others": 829
+      }
+    ]
+  },
+  "Bihar": {
+    "pensioner_count": [
+      1757264,
+      955188
+    ],
+    "DLC_potential": [
+      1230065,
+      764133
+    ],
+    "DLC_success": [
+      663562,
+      373804
+    ],
+    "DLC_failed": [
+      92066,
+      45359
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 106206,
+        "epfo": 111973,
+        "banks": 111725,
+        "others": 21814
+      },
+      {
+        "lic": 55589,
+        "epfo": 55446,
+        "banks": 53919,
+        "others": 10959
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 13134,
+        "epfo": 12506,
+        "banks": 11431,
+        "others": 1891
+      },
+      {
+        "lic": 6013,
+        "epfo": 5539,
+        "banks": 5798,
+        "others": 942
+      }
+    ]
+  },
+  "Kerala": {
+    "pensioner_count": [
+      720326,
+      378212
+    ],
+    "DLC_potential": [
+      504223,
+      302565
+    ],
+    "DLC_success": [
+      281634,
+      149214
+    ],
+    "DLC_failed": [
+      32277,
+      21923
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 40405,
+        "epfo": 42733,
+        "banks": 41145,
+        "others": 7568
+      },
+      {
+        "lic": 20950,
+        "epfo": 17503,
+        "banks": 18630,
+        "others": 3631
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 4556,
+        "epfo": 3772,
+        "banks": 2832,
+        "others": 752
+      },
+      {
+        "lic": 2486,
+        "epfo": 2045,
+        "banks": 2059,
+        "others": 436
+      }
+    ]
+  },
+  "Madhya Pradesh": {
+    "pensioner_count": [
+      3292113,
+      1542274
+    ],
+    "DLC_potential": [
+      2304449,
+      1233793
+    ],
+    "DLC_success": [
+      1028830,
+      583625
+    ],
+    "DLC_failed": [
+      172440,
+      80648
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 182569,
+        "epfo": 183386,
+        "banks": 177701,
+        "others": 32275
+      },
+      {
+        "lic": 88494,
+        "epfo": 90302,
+        "banks": 88970,
+        "others": 16525
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 19680,
+        "epfo": 18605,
+        "banks": 19133,
+        "others": 3200
+      },
+      {
+        "lic": 9262,
+        "epfo": 8742,
+        "banks": 9817,
+        "others": 1567
+      }
+    ]
+  },
+  "Andaman & Nicobar": {
+    "pensioner_count": [
+      161530,
+      87180
+    ],
+    "DLC_potential": [
+      113070,
+      69743
+    ],
+    "DLC_success": [
+      80419,
+      55803
+    ],
+    "DLC_failed": [
+      6893,
+      2628
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 9847,
+        "epfo": 9494,
+        "banks": 9341,
+        "others": 1690
+      },
+      {
+        "lic": 4680,
+        "epfo": 4184,
+        "banks": 2937,
+        "others": 652
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 876,
+        "epfo": 622,
+        "banks": 964,
+        "others": 221
+      },
+      {
+        "lic": 417,
+        "epfo": 462,
+        "banks": 515,
+        "others": 120
+      }
+    ]
+  },
+  "Gujarat": {
+    "pensioner_count": [
+      2323133,
+      1198380
+    ],
+    "DLC_potential": [
+      1626173,
+      958687
+    ],
+    "DLC_success": [
+      756714,
+      494664
+    ],
+    "DLC_failed": [
+      115273,
+      61043
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 138312,
+        "epfo": 124594,
+        "banks": 135308,
+        "others": 27050
+      },
+      {
+        "lic": 61746,
+        "epfo": 62090,
+        "banks": 59671,
+        "others": 12375
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 12647,
+        "epfo": 14528,
+        "banks": 12654,
+        "others": 2445
+      },
+      {
+        "lic": 6307,
+        "epfo": 7094,
+        "banks": 7124,
+        "others": 1174
+      }
+    ]
+  },
+  "Lakshadweep": {
+    "pensioner_count": [
+      17715,
+      43496
+    ],
+    "DLC_potential": [
+      12400,
+      34796
+    ],
+    "DLC_success": [
+      6583,
+      5122
+    ],
+    "DLC_failed": [
+      529,
+      3601
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 2667,
+        "epfo": 3809,
+        "banks": 2844,
+        "others": 855
+      },
+      {
+        "lic": 744,
+        "epfo": 1415,
+        "banks": 1623,
+        "others": 397
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 247,
+        "epfo": 363,
+        "banks": 307,
+        "others": 43
+      },
+      {
+        "lic": 163,
+        "epfo": 204,
+        "banks": 241,
+        "others": 25
+      }
+    ]
+  },
+  "Odisha": {
+    "pensioner_count": [
+      1672121,
+      1017432
+    ],
+    "DLC_potential": [
+      1170469,
+      813930
+    ],
+    "DLC_success": [
+      601043,
+      384887
+    ],
+    "DLC_failed": [
+      87140,
+      46278
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 105437,
+        "epfo": 105086,
+        "banks": 101776,
+        "others": 23511
+      },
+      {
+        "lic": 53686,
+        "epfo": 60897,
+        "banks": 58602,
+        "others": 8825
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 10185,
+        "epfo": 10348,
+        "banks": 10787,
+        "others": 2387
+      },
+      {
+        "lic": 5976,
+        "epfo": 5277,
+        "banks": 4910,
+        "others": 1094
+      }
+    ]
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "pensioner_count": [
+      11143,
+      20640
+    ],
+    "DLC_potential": [
+      7800,
+      16512
+    ],
+    "DLC_success": [
+      516,
+      10553
+    ],
+    "DLC_failed": [
+      484,
+      661
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 1090,
+        "epfo": 1694,
+        "banks": 4694,
+        "others": 890
+      },
+      {
+        "lic": 874,
+        "epfo": 972,
+        "banks": 1204,
+        "others": 486
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 449,
+        "epfo": 363,
+        "banks": 498,
+        "others": 25
+      },
+      {
+        "lic": 200,
+        "epfo": 85,
+        "banks": 135,
+        "others": 5
+      }
+    ]
+  },
+  "Jammu & Kashmir": {
+    "pensioner_count": [
+      1257440,
+      575940
+    ],
+    "DLC_potential": [
+      880197,
+      460743
+    ],
+    "DLC_success": [
+      346186,
+      178352
+    ],
+    "DLC_failed": [
+      56644,
+      30913
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 69150,
+        "epfo": 60959,
+        "banks": 61479,
+        "others": 10155
+      },
+      {
+        "lic": 35241,
+        "epfo": 33282,
+        "banks": 37457,
+        "others": 7424
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 6304,
+        "epfo": 6164,
+        "banks": 6907,
+        "others": 1228
+      },
+      {
+        "lic": 3426,
+        "epfo": 3338,
+        "banks": 3416,
+        "others": 632
+      }
+    ]
+  },
+  "Chhattisgarh": {
+    "pensioner_count": [
+      1894126,
+      877733
+    ],
+    "DLC_potential": [
+      1325876,
+      702174
+    ],
+    "DLC_success": [
+      632637,
+      358923
+    ],
+    "DLC_failed": [
+      97193,
+      38308
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 92642,
+        "epfo": 100487,
+        "banks": 95694,
+        "others": 18808
+      },
+      {
+        "lic": 49100,
+        "epfo": 44502,
+        "banks": 57049,
+        "others": 10630
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 10197,
+        "epfo": 8980,
+        "banks": 7996,
+        "others": 1928
+      },
+      {
+        "lic": 5048,
+        "epfo": 4968,
+        "banks": 4521,
+        "others": 950
+      }
+    ]
+  },
+  "Delhi": {
+    "pensioner_count": [
+      659153,
+      274549
+    ],
+    "DLC_potential": [
+      461402,
+      219634
+    ],
+    "DLC_success": [
+      276032,
+      154013
+    ],
+    "DLC_failed": [
+      25007,
+      16121
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 32846,
+        "epfo": 44273,
+        "banks": 31765,
+        "others": 6721
+      },
+      {
+        "lic": 17536,
+        "epfo": 17384,
+        "banks": 19710,
+        "others": 2383
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 2962,
+        "epfo": 3605,
+        "banks": 3544,
+        "others": 574
+      },
+      {
+        "lic": 1968,
+        "epfo": 1861,
+        "banks": 1631,
+        "others": 300
+      }
+    ]
+  },
+  "Goa": {
+    "pensioner_count": [
+      94051,
+      52899
+    ],
+    "DLC_potential": [
+      65835,
+      42318
+    ],
+    "DLC_success": [
+      44402,
+      25172
+    ],
+    "DLC_failed": [
+      6204,
+      1997
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 5636,
+        "epfo": 5388,
+        "banks": 8062,
+        "others": 356
+      },
+      {
+        "lic": 3670,
+        "epfo": 3559,
+        "banks": 1955,
+        "others": 601
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 585,
+        "epfo": 619,
+        "banks": 370,
+        "others": 110
+      },
+      {
+        "lic": 135,
+        "epfo": 346,
+        "banks": 344,
+        "others": 49
+      }
+    ]
+  },
+  "Haryana": {
+    "pensioner_count": [
+      1167323,
+      581442
+    ],
+    "DLC_potential": [
+      817114,
+      465145
+    ],
+    "DLC_success": [
+      414318,
+      199877
+    ],
+    "DLC_failed": [
+      52957,
+      22426
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 69999,
+        "epfo": 54788,
+        "banks": 77813,
+        "others": 12100
+      },
+      {
+        "lic": 31369,
+        "epfo": 31348,
+        "banks": 33576,
+        "others": 5119
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 7023,
+        "epfo": 5709,
+        "banks": 6024,
+        "others": 1167
+      },
+      {
+        "lic": 3455,
+        "epfo": 3290,
+        "banks": 3174,
+        "others": 545
+      }
+    ]
+  },
+  "Himachal Pradesh": {
+    "pensioner_count": [
+      843776,
+      302859
+    ],
+    "DLC_potential": [
+      590638,
+      242283
+    ],
+    "DLC_success": [
+      352391,
+      141198
+    ],
+    "DLC_failed": [
+      41869,
+      15775
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 41294,
+        "epfo": 32037,
+        "banks": 36646,
+        "others": 5696
+      },
+      {
+        "lic": 18343,
+        "epfo": 17738,
+        "banks": 19844,
+        "others": 3799
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 3345,
+        "epfo": 4057,
+        "banks": 3818,
+        "others": 585
+      },
+      {
+        "lic": 1774,
+        "epfo": 1759,
+        "banks": 2078,
+        "others": 422
+      }
+    ]
+  },
+  "Jharkhand": {
+    "pensioner_count": [
+      1400248,
+      769302
+    ],
+    "DLC_potential": [
+      980163,
+      615430
+    ],
+    "DLC_success": [
+      358961,
+      290153
+    ],
+    "DLC_failed": [
+      58458,
+      29563
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 65876,
+        "epfo": 54512,
+        "banks": 79030,
+        "others": 13506
+      },
+      {
+        "lic": 33834,
+        "epfo": 29032,
+        "banks": 36925,
+        "others": 5798
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 6969,
+        "epfo": 7971,
+        "banks": 7308,
+        "others": 1269
+      },
+      {
+        "lic": 3711,
+        "epfo": 3066,
+        "banks": 3059,
+        "others": 564
+      }
+    ]
+  },
+  "Tamil Nadu": {
+    "pensioner_count": [
+      1589099,
+      709683
+    ],
+    "DLC_potential": [
+      1112354,
+      567734
+    ],
+    "DLC_success": [
+      624466,
+      252240
+    ],
+    "DLC_failed": [
+      84703,
+      36772
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 90776,
+        "epfo": 106503,
+        "banks": 90835,
+        "others": 18623
+      },
+      {
+        "lic": 47768,
+        "epfo": 50832,
+        "banks": 47203,
+        "others": 10457
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 8700,
+        "epfo": 9945,
+        "banks": 9473,
+        "others": 1719
+      },
+      {
+        "lic": 4309,
+        "epfo": 4505,
+        "banks": 4659,
+        "others": 854
+      }
+    ]
+  },
+  "Uttar Pradesh": {
+    "pensioner_count": [
+      4118035,
+      2026620
+    ],
+    "DLC_potential": [
+      2882591,
+      1621265
+    ],
+    "DLC_success": [
+      1418968,
+      876452
+    ],
+    "DLC_failed": [
+      188473,
+      96899
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 224942,
+        "epfo": 220664,
+        "banks": 234928,
+        "others": 39318
+      },
+      {
+        "lic": 106090,
+        "epfo": 112009,
+        "banks": 111965,
+        "others": 22575
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 22904,
+        "epfo": 23432,
+        "banks": 21928,
+        "others": 4345
+      },
+      {
+        "lic": 10469,
+        "epfo": 11992,
+        "banks": 10900,
+        "others": 1991
+      }
+    ]
+  },
+  "West Bengal": {
+    "pensioner_count": [
+      1484542,
+      692178
+    ],
+    "DLC_potential": [
+      1039170,
+      553733
+    ],
+    "DLC_success": [
+      580576,
+      277683
+    ],
+    "DLC_failed": [
+      78257,
+      34627
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 75432,
+        "epfo": 76481,
+        "banks": 79840,
+        "others": 14696
+      },
+      {
+        "lic": 38090,
+        "epfo": 33340,
+        "banks": 44385,
+        "others": 8798
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 8245,
+        "epfo": 7884,
+        "banks": 8690,
+        "others": 1347
+      },
+      {
+        "lic": 4524,
+        "epfo": 4299,
+        "banks": 3940,
+        "others": 679
+      }
+    ]
+  },
+  "Andhra Pradesh": {
+    "pensioner_count": [
+      693121,
+      331036
+    ],
+    "DLC_potential": [
+      485179,
+      264823
+    ],
+    "DLC_success": [
+      241562,
+      129128
+    ],
+    "DLC_failed": [
+      35140,
+      17115
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 36943,
+        "epfo": 44961,
+        "banks": 38402,
+        "others": 6434
+      },
+      {
+        "lic": 18963,
+        "epfo": 15496,
+        "banks": 21299,
+        "others": 3924
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 3512,
+        "epfo": 4129,
+        "banks": 4502,
+        "others": 813
+      },
+      {
+        "lic": 2047,
+        "epfo": 2253,
+        "banks": 2093,
+        "others": 423
+      }
+    ]
+  },
+  "Puducherry": {
+    "pensioner_count": [
+      144477,
+      93960
+    ],
+    "DLC_potential": [
+      101131,
+      75166
+    ],
+    "DLC_success": [
+      49478,
+      47496
+    ],
+    "DLC_failed": [
+      8666,
+      2463
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 10082,
+        "epfo": 11284,
+        "banks": 14277,
+        "others": 1810
+      },
+      {
+        "lic": 4758,
+        "epfo": 4910,
+        "banks": 6790,
+        "others": 1322
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 1184,
+        "epfo": 821,
+        "banks": 1331,
+        "others": 248
+      },
+      {
+        "lic": 668,
+        "epfo": 605,
+        "banks": 461,
+        "others": 115
+      }
+    ]
+  },
+  "Maharashtra": {
+    "pensioner_count": [
+      1783870,
+      1151419
+    ],
+    "DLC_potential": [
+      1248690,
+      921119
+    ],
+    "DLC_success": [
+      641705,
+      473133
+    ],
+    "DLC_failed": [
+      71126,
+      63206
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 110443,
+        "epfo": 112354,
+        "banks": 119039,
+        "others": 18974
+      },
+      {
+        "lic": 56587,
+        "epfo": 59381,
+        "banks": 56861,
+        "others": 10196
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 11776,
+        "epfo": 11430,
+        "banks": 10500,
+        "others": 1907
+      },
+      {
+        "lic": 5345,
+        "epfo": 5820,
+        "banks": 5743,
+        "others": 1150
+      }
+    ]
+  },
+  "Ladakh": {
+    "pensioner_count": [
+      132972,
+      58461
+    ],
+    "DLC_potential": [
+      93079,
+      46768
+    ],
+    "DLC_success": [
+      36927,
+      10365
+    ],
+    "DLC_failed": [
+      2738,
+      1906
+    ],
+    "DLC_success_channels": [
+      {
+        "lic": 7341,
+        "epfo": 5125,
+        "banks": 7531,
+        "others": 1447
+      },
+      {
+        "lic": 2826,
+        "epfo": 4362,
+        "banks": 1638,
+        "others": 555
+      }
+    ],
+    "DLC_failed_channels": [
+      {
+        "lic": 755,
+        "epfo": 573,
+        "banks": 728,
+        "others": 128
+      },
+      {
+        "lic": 235,
+        "epfo": 191,
+        "banks": 286,
+        "others": 43
+      }
+    ]
+  }
+}

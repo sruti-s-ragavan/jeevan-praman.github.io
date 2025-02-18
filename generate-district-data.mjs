@@ -1,82 +1,143 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const stateData = {};
+const districtData = {};
+const districtsByState = {};
 
-const colors = [
-    "rgba(216,27,96, 0.5)",
-    "rgba(68, 170, 153, 0.5)",
-    "rgba(221, 204, 119, 0.5)",
-    "rgba(136, 34, 85, 0.5)"
-];
-
-function getRandomColor() {
-    return colors[Math.floor(Math.random() * colors.length)];
+// Helper function to generate random numbers
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function generatePensionerData() {
-    const pensioner_count = [
-        Math.floor(Math.random() * 8000) + 2000,  // 60-79
-        Math.floor(Math.random() * 2000) + 500    // 80+
-    ];
-
-    const internet_penetration = Math.random().toFixed(2);
-    const DLC_potential = pensioner_count.map(count => Math.floor(count * internet_penetration));
-
-    const DLC_count = DLC_potential.map(potential => Math.floor(Math.random() * potential) + 1);
-
-    const DLC_success = DLC_count.map(count => Math.floor(Math.random() * count));
-
-    const DLC_failed = DLC_count.map((count, index) => count - DLC_success[index]);
-
-   function generateChannelData(count) {
-    const lic = Math.floor(Math.random() * count);
-    const epfo = Math.floor(Math.random() * (count - lic));
-    const banks = Math.floor(Math.random() * (count - lic - epfo));
-    const others = count - lic - epfo - banks;
-    return { lic, epfo, banks, others };
-}
-
-// In your district data generation:
-
+// Generate data for a district
+function generateDistrictData() {
+    const pensioner_count_60_79 = getRandomInt(10000, 100000);
+    const pensioner_count_80_plus = getRandomInt(5000, 50000);
+    
     return {
-        pensioner_count,
-        internet_penetration,
-        DLC_potential,
-        DLC_count,
-        DLC_success,
-        DLC_failed,
+        pensioner_count: [pensioner_count_60_79, pensioner_count_80_plus],
+        DLC_potential: [
+            Math.floor(pensioner_count_60_79 * 0.7),
+            Math.floor(pensioner_count_80_plus * 0.8)
+        ],
+        DLC_success: [
+            getRandomInt(0, Math.floor(pensioner_count_60_79 * 0.7)),
+            getRandomInt(0, Math.floor(pensioner_count_80_plus * 0.8))
+        ],
+        DLC_failed: [
+            getRandomInt(0, Math.floor(pensioner_count_60_79 * 0.1)),
+            getRandomInt(0, Math.floor(pensioner_count_80_plus * 0.1))
+        ],
         DLC_success_channels: [
-            generateChannelData(DLC_success[0]), // for 60-79
-            generateChannelData(DLC_success[1])  // for 80+
+            {
+                lic: getRandomInt(1000, 5000),
+                epfo: getRandomInt(1000, 5000),
+                banks: getRandomInt(1000, 5000),
+                others: getRandomInt(100, 1000)
+            },
+            {
+                lic: getRandomInt(500, 2500),
+                epfo: getRandomInt(500, 2500),
+                banks: getRandomInt(500, 2500),
+                others: getRandomInt(50, 500)
+            }
         ],
         DLC_failed_channels: [
-            generateChannelData(DLC_failed[0]), // for 60-79
-            generateChannelData(DLC_failed[1])  // for 80+
+            {
+                lic: getRandomInt(100, 500),
+                epfo: getRandomInt(100, 500),
+                banks: getRandomInt(100, 500),
+                others: getRandomInt(10, 100)
+            },
+            {
+                lic: getRandomInt(50, 250),
+                epfo: getRandomInt(50, 250),
+                banks: getRandomInt(50, 250),
+                others: getRandomInt(5, 50)
+            }
         ]
     };
 }
 
-const geoJsonPath = path.join(__dirname, 'public', 'india-districts-770.geojson');
+// Aggregate district data to state level
+function aggregateStateData(districts) {
+    const stateData = {
+        pensioner_count: [0, 0],
+        DLC_potential: [0, 0],
+        DLC_success: [0, 0],
+        DLC_failed: [0, 0],
+        DLC_success_channels: [{lic: 0, epfo: 0, banks: 0, others: 0}, {lic: 0, epfo: 0, banks: 0, others: 0}],
+        DLC_failed_channels: [{lic: 0, epfo: 0, banks: 0, others: 0}, {lic: 0, epfo: 0, banks: 0, others: 0}]
+    };
 
-fs.readFile(geoJsonPath, 'utf8')
-    .then(data => {
-        const geoJson = JSON.parse(data);
-        const districtData = {};
-        geoJson.features.forEach(feature => {
-            const districtName = feature.properties.dtname;
-            if (districtName && typeof districtName === 'string') {
-                districtData[districtName] = {
-                    color: getRandomColor(),
-                    ...generatePensionerData()
-                };
-            }
-        });
+    districts.forEach(district => {
+        for (let i = 0; i < 2; i++) {
+            stateData.pensioner_count[i] += district.pensioner_count[i];
+            stateData.DLC_potential[i] += district.DLC_potential[i];
+            stateData.DLC_success[i] += district.DLC_success[i];
+            stateData.DLC_failed[i] += district.DLC_failed[i];
 
-        const jsonData = JSON.stringify({ "district-data": districtData }, null, 2);
-        return fs.writeFile(path.join(__dirname, 'public', 'district-data.json'), jsonData);
-    })
-    .then(() => console.log('district-data.json has been generated'))
-    .catch(error => console.error('Error:', error));
+            ['lic', 'epfo', 'banks', 'others'].forEach(channel => {
+                stateData.DLC_success_channels[i][channel] += district.DLC_success_channels[i][channel];
+                stateData.DLC_failed_channels[i][channel] += district.DLC_failed_channels[i][channel];
+            });
+        }
+    });
+
+    return stateData;
+}
+
+// Read the GeoJSON files
+const stateGeoJSON = JSON.parse(await fs.readFile('public\\india-states.geojson', 'utf8'));
+const districtGeoJSON = JSON.parse(await fs.readFile('public\\india-districts-770.geojson', 'utf8'));
+
+// Create a mapping of lowercase state names to correct state names
+const stateNameMapping = {};
+stateGeoJSON.features.forEach(feature => {
+    if (feature.properties && feature.properties.ST_NM){
+        const stateName = feature.properties.ST_NM;
+        stateNameMapping[stateName.toLowerCase()] = stateName;
+    }
+    else{
+        console.log(feature);
+    }
+    
+});
+
+// Generate district data and organize by state
+districtGeoJSON.features.forEach(feature => {
+    const districtName = feature.properties.dtname;
+    let stateName = feature.properties.stname;
+    
+    // Use the correct state name from the mapping
+    stateName = stateNameMapping[stateName.toLowerCase()] || stateName;
+
+    const districtDataItem = generateDistrictData();
+    
+    districtData[districtName] = districtDataItem;
+    
+    if (!districtsByState[stateName]) {
+        districtsByState[stateName] = [];
+    }
+    districtsByState[stateName].push(districtDataItem);
+});
+
+// Generate state data by aggregating district data
+stateGeoJSON.features.forEach(feature => {
+    const stateName = feature.properties.ST_NM;
+    if (districtsByState[stateName]) {
+        stateData[stateName] = aggregateStateData(districtsByState[stateName]);
+    } else {
+        console.warn(`No districts found for state: ${stateName}`);
+        stateData[stateName] = generateDistrictData(); // Fallback to generating random data
+    }
+});
+
+// Write state data to file
+await fs.writeFile('public\\state-data.json', JSON.stringify(stateData, null, 2));
+console.log('State data written to state-data.json');
+
+// Write district data to file
+await fs.writeFile('public\\district-data.json', JSON.stringify({ 'district-data': districtData }, null, 2));
+console.log('District data written to district-data.json');
