@@ -339,21 +339,20 @@ Promise.all([
 
 const icons = {
     EPF: L.icon({
-        iconUrl: '/images/epf.png',
-        iconSize: [10, 10],
+        iconUrl: '/images/epf-icon.png',
+        iconSize: [32, 32],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     Bank: L.icon({
-        iconUrl: '/images/bank.png',
-        iconSize: [20, 20],
+        iconUrl: '/images/bank-icon.png',
+        iconSize: [32, 32],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
-
     "Post Office": L.icon({
-        iconUrl: '/images/post.png',
-        iconSize: [20, 20],
+        iconUrl: '/images/post-office-icon.png',
+        iconSize: [32, 32],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     })
@@ -373,7 +372,7 @@ function displayAgencies(dtname) {
         const icon = icons[agency.type] || L.Icon.Default(); // Use default icon if type not found
         const marker = L.marker([agency.lat, agency.lng], { icon: icon })
             .addTo(map)
-            .bindPopup(`<b>${agency.name}`);
+            .bindPopup(`<b>${agency.name}</b><br>Type: ${agency.type}`);
     });
 
     // Find the bounds of the filtered agencies
