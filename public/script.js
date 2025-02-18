@@ -284,70 +284,118 @@ function createOrUpdateChannelChart(data, ageGroupIndex) {
     document.getElementById('channel-chart-container').style.display = 'block';
 }
 
+let agenciesData; // New variable to store agencies data
 
-// Fetch the district data
-fetch('/district-data.json')
-    .then(response => response.json())
-    .then(districtData => {
-        // Fetch and add GeoJSON to the map
-        fetch('/india-districts-770.geojson')
-            .then(response => response.json())
-            .then(data => {
-                geojsonLayer = L.geoJSON(data, {
-                    style: styleDistrict,
-                    onEachFeature: function (feature, layer) {
-                        layer.on('click', function (e) {
-                            const districtName = feature.properties.dtname;
-                            const district = districtData['district-data'][districtName];
-                            if (district) {
-                                geojsonLayer.eachLayer(function (layer) {
-                                    if (layer.feature.properties.dtname === selectedDistrict) {
-                                        selectedDistrict = districtName;
-                                        layer.setStyle(styleDistrict(layer.feature));
-                                    }
-                                });
-                                layer.setStyle(styleDistrict(feature));
-                                
-                                cleanupCharts();
-                                // Create or update the main chart
-                                createOrUpdateMainChart(district);
+Promise.all([
+    fetch('/district-data.json').then(response => response.json()),
+    fetch('/agencies-data.json').then(response => response.json()),
+    fetch('/india-districts-770.geojson').then(response => response.json())
+])
+.then(([districtData, agencies, geoJsonData]) => {
+    agenciesData = agencies.PDA; // Store agencies data
 
-                                // Hide the channel chart initially
-                                document.getElementById('channel-chart-container').style.display = 'none';
-                                updateInfoPane(districtName, district);
-                            }
-                        });
-                    }
-                }).addTo(map);
-
-                // Initialize with Kanpur Nagar data
-                const kanpurData = districtData['district-data'][selectedDistrict];
-                if (kanpurData) {
-                    updateInfoPane(selectedDistrict, kanpurData);
+    geojsonLayer = L.geoJSON(geoJsonData, {
+        style: styleDistrict,
+        onEachFeature: function (feature, layer) {
+            layer.on('click', function (e) {
+                const districtName = feature.properties.dtname;
+                const district = districtData['district-data'][districtName];
+                if (district) {
                     geojsonLayer.eachLayer(function (layer) {
                         if (layer.feature.properties.dtname === selectedDistrict) {
+                            selectedDistrict = districtName;
                             layer.setStyle(styleDistrict(layer.feature));
                         }
                     });
+                    layer.setStyle(styleDistrict(feature));
+                    
+                    cleanupCharts();
+                    createOrUpdateMainChart(district);
+                    document.getElementById('channel-chart-container').style.display = 'none';
+                    updateInfoPane(districtName, district);
+
+                    // Display agencies for the clicked district
+                    displayAgencies(districtName);
                 }
-            })
-            .catch(error => console.error('Error loading GeoJSON:', error));
-    })
-    .catch(error => console.error('Error loading district data:', error));
-
-
-    function cleanupCharts() {
-        // Hide pie chart and channel chart containers
-        document.getElementById('pie-chart-container').style.display = 'none';
-        document.getElementById('channel-chart-container').style.display = 'none';
-        
-        // Destroy existing pie and channel charts if they exist
-        if (window.pieChart instanceof Chart) {
-            window.pieChart.destroy();
-            window.pieChart = null;
+            });
         }
-        if (window.channelChart instanceof Chart) {
-            window.channelChart.destroy();
-            window.channelChart = null;
-        }
+    }).addTo(map);
+
+    // Initialize with Kanpur Nagar data
+    const kanpurData = districtData['district-data'][selectedDistrict];
+    if (kanpurData) {
+        updateInfoPane(selectedDistrict, kanpurData);
+        geojsonLayer.eachLayer(function (layer) {
+            if (layer.feature.properties.dtname === selectedDistrict) {
+                layer.setStyle(styleDistrict(layer.feature));
+            }
+        });
+        // Display initial agencies for Kanpur Nagar
+        displayAgencies(selectedDistrict);
     }
+})
+.catch(error => console.error('Error loading data:', error));
+
+
+const icons = {
+    EPF: L.icon({
+        iconUrl: '/images/epf.png',
+        iconSize: [10, 10],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+    }),
+    Bank: L.icon({
+        iconUrl: '/images/bank.png',
+        iconSize: [20, 20],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+    }),
+
+    "Post Office": L.icon({
+        iconUrl: '/images/post.png',
+        iconSize: [20, 20],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+    })
+};
+
+function displayAgencies(dtname) {
+    // Clear existing markers
+    map.eachLayer(layer => {
+        if (layer instanceof L.Marker) {
+            map.removeLayer(layer);
+        }
+    });
+
+    // Filter and add new markers
+    const districtAgencies = agenciesData.filter(agency => agency.dtname === dtname);
+    districtAgencies.forEach(agency => {
+        const icon = icons[agency.type] || L.Icon.Default(); // Use default icon if type not found
+        const marker = L.marker([agency.lat, agency.lng], { icon: icon })
+            .addTo(map)
+            .bindPopup(`<b>${agency.name}`);
+    });
+
+    // Find the bounds of the filtered agencies
+    if (districtAgencies.length > 0) {
+        const bounds = L.latLngBounds(districtAgencies.map(agency => [agency.lat, agency.lng]));
+        // Zoom the map to fit these bounds
+        map.fitBounds(bounds);
+    }
+}
+
+function cleanupCharts() {
+    // Hide pie chart and channel chart containers
+    document.getElementById('pie-chart-container').style.display = 'none';
+    document.getElementById('channel-chart-container').style.display = 'none';
+    
+    // Destroy existing pie and channel charts if they exist
+    if (window.pieChart instanceof Chart) {
+        window.pieChart.destroy();
+        window.pieChart = null;
+    }
+    if (window.channelChart instanceof Chart) {
+        window.channelChart.destroy();
+        window.channelChart = null;
+    }
+}

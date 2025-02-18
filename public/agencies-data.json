@@ -1,0 +1,144 @@
+{
+    "PDA": [
+        {
+            "type": "EPF",
+            "lat": 26.514389, 
+            "lng": 80.257935, 
+            "dtname": "Kanpur Nagar",
+            "name": "Vikas Kumar EPF Online Center"
+        }, 
+        {
+            "type": "EPF",
+            "lat": 26.477872,
+            "lng": 80.287893,
+            "dtname": "Kanpur Nagar",
+            "name": "Provident Fund Commissioners Office"
+        }, 
+        {
+            "type": "EPF",
+            "lat": 26.476182, 
+            "lng": 80.311067,
+            "dtname": "Kanpur Nagar",
+            "name": "Bhavishya Nidhi Bhawan"
+        }, 
+        {
+            "type": "Post Office",
+            "lat": 26.474343,
+            "lng": 80.352725,
+            "dtname": "Kanpur Nagar",
+            "name": "Head Post Office"
+        }, 
+        {
+            "type": "Post Office",
+            "lat": 26.475149,
+            "lng": 80.342383,
+            "dtname": "Kanpur Nagar",
+            "name": "Naveen Market"
+        }, 
+        {
+            "type": "Post Office",
+            "lat": 26.475956, 
+            "lng": 80.338392,
+            "dtname": "Kanpur Nagar",
+            "name": "Colonelganj"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.482295,
+            "lng": 80.324830,
+            "dtname": "Kanpur Nagar",
+            "name": "Arya Nagar"
+        }, 
+        {
+            "type": "Post Office",
+            "lat": 26.471616, 
+            "lng": 80.321740,
+            "dtname": "Kanpur Nagar",
+            "name": "Ramakrishna Nagar"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.016569,
+            "lng": 80.142259,
+            "dtname": "Kanpur Nagar",
+            "name": "Bibipur"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.482707,
+            "lng": 80.312416,
+            "dtname": "Kanpur Nagar",
+            "name": "Swaroop Nagar"
+        }, 
+        {
+            "type": "Post Office",
+            "lat": 26.151408,
+            "lng":  80.170536,
+            "dtname": "Kanpur Nagar",
+            "name": "Ghatampur S.O."
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.151408,
+            "lng":  80.170536,
+            "dtname": "Kanpur Nagar",
+            "name": "Ghatampur S.O."
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.445601,
+            "lng":  80.384747,
+            "dtname": "Kanpur Nagar",
+            "name": "Jajmau"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.839007,
+            "lng":  80.065906,
+            "dtname": "Kanpur Nagar",
+            "name": "Bilhaur"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.282753,
+            "lng": 80.487817,
+            "dtname": "Kanpur Nagar",
+            "name": "Sub Post Office Sarsaul"
+        },
+        {
+            "type": "Post Office",
+            "lat": 26.608702,
+            "lng":  80.272376,
+            "dtname": "Kanpur Nagar",
+            "name": "Bithoor"
+        },
+        {
+            "type": "Bank",
+            "lat": 26.455065,
+            "lng": 80.288448,
+            "dtname": "Kanpur Nagar",
+            "name": "SBI Sanjay Nagar"
+        },
+        {
+            "type": "Bank",
+            "lat": 26.481194,
+            "lng": 80.2731835,
+            "dtname": "Kanpur Nagar",
+            "name": "SBI Keshavapuram"
+        },
+        {
+            "type": "Bank",
+            "lat": 26.500092,
+            "lng": 80.243142,
+            "dtname": "Kanpur Nagar",
+            "name": "SBI Kalyanpur"
+        },
+        {
+            "type": "Bank",
+            "lat": 26.466289,
+            "lng":  80.266317,
+            "dtname": "Kanpur Nagar",
+            "name": "SBI Panki"
+        }
+    ]
+}
