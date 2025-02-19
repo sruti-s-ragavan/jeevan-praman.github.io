@@ -28,57 +28,85 @@ function updateInfoPane(districtName, districtData) {
 }
 
 function updateInfoPaneWithAgency(agency) {
-    document.getElementById('district-name').textContent = `${selectedDistrict}`
+    document.getElementById('district-name').textContent = agency.dtname;
     document.getElementById('agency-name').textContent = `${agency.type}: ${agency.name}`;
     document.getElementById('agency-name').style.display = "block";
 
-    // Clear existing charts
     if (mainChart) {
         mainChart.destroy();
     }
     
-    // Create agency performance chart
     const ctx = document.getElementById('main-chart').getContext('2d');
+    
     mainChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['Success', 'Failure'],
-            datasets: [{
-                label: 'DLC Performance',
-                data: [agency.DLC_success, agency.DLC_failure],
-                backgroundColor: ['#59a14f', '#e15759']
-            }]
+            labels: ['60-79', '80+'],
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            datasets: [
+                {
+                    label: 'Manual',
+                    data: agency.Manual,
+                    backgroundColor: 'rgba(30, 136, 229, 0.8)'
+                },
+                {
+                    label: 'DLC Success',
+                    data: agency.DLC_success,
+                    backgroundColor: 'rgba(0, 77, 64, 0.8)'
+                },
+                {
+                    label: 'DLC Failed',
+                    data: agency.DLC_failed,
+                    backgroundColor: 'rgba(255, 193, 7, 0.8)'
+                },
+                {
+                    label: 'Pending',
+                    data: agency.Pending,
+                    backgroundColor: 'rgba(216, 27, 96, 0.8)'
+                }
+            ]
         },
         options: {
-            indexAxis: 'y', // This makes the bars horizontal
+            indexAxis: 'y',
             responsive: true,
+            maintainAspectRatio: true,
             plugins: {
-                legend: {
-                    display: false // Hide legend as it's not needed for two bars
-                },
                 title: {
                     display: true,
-                    text: 'DLC Performance'
+                    text: 'Agency Performance by Age Group'
+                },
+                tooltip: {
+                    callbacks: {
+                        footer: (tooltipItems) => {
+                            const total = tooltipItems.reduce((sum, item) => sum + item.parsed.x, 0);
+                            return `Total: ${total}`;
+                        }
+                    }
                 }
             },
             scales: {
                 x: {
+                    stacked: true,
                     beginAtZero: true,
                     title: {
                         display: true,
-                        text: 'Number of Cases'
+                        text: 'Number of Pensioners'
                     }
                 },
                 y: {
+                    stacked: true,
                     title: {
-                        display: false
+                        display: true,
+                        text: 'Age Group'
                     }
                 }
             }
         }
     });
 
-    // Hide other elements in the info pane that are not relevant to agency view
+    document.getElementById('main-chart-container').style.display = 'block';
     document.getElementById('internet-penetration').style.display = 'none';
     document.getElementById('channel-chart-container').style.display = 'none';
 }
@@ -116,7 +144,7 @@ function createOrUpdateMainChart(data) {
         'Manual LC': 'rgba(30, 136, 229, 0.8)',
         'DLC Complete': 'rgba(0, 77, 64, 0.8)',
         'DLC Rejected': 'rgba(255, 193, 7, 0.8)',
-        'LC Pending': 'rgba(216, 27, 96, 0.8)'
+        'DLC Pending': 'rgba(216, 27, 96, 0.8)'
     };
 
     const chartData = {
@@ -138,9 +166,9 @@ function createOrUpdateMainChart(data) {
                 backgroundColor: colors['DLC Rejected'],
             },
             {
-                label: 'LC Pending',
+                label: 'DLC Pending',
                 data: data.DLC_potential.map((potential, i) => potential - data.DLC_success[i] - data.DLC_failed[i]),
-                backgroundColor: colors['LC Pending'],
+                backgroundColor: colors['DLC Pending'],
             }
         ]
     };
