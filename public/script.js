@@ -1,13 +1,14 @@
 // Initialize the map
-var zoomLevel = 5, latitude = 23.5937, longitude = 80.9629
+let stateLayer, districtLayer;
+const zoomThreshold = 8;
+let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
+
 var map = L.map('map').setView([26.4499, 80.3319], 10); // Coordinates for Kanpur, zoom level 10
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
-let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
-let geojsonLayer;
 
 function updateInfoPane(districtName, districtData) {
     document.getElementById('district-name').textContent = districtName;
@@ -283,35 +284,43 @@ function cleanupCharts() {
 let agenciesData; // New variable to store agencies data
 
 Promise.all([
+    fetch('/india-states.geojson').then(response => response.json()),
+    fetch('/india-districts-770.geojson').then(response => response.json()),
     fetch('/district-data.json').then(response => response.json()),
-    fetch('/agencies-data.json').then(response => response.json()),
-    fetch('/india-districts-770.geojson').then(response => response.json())
+    fetch('/agencies-data.json').then(response => response.json())
 ])
-.then(([districtData, agencies, geoJsonData]) => {
-    agenciesData = agencies.PDA; // Store agencies data
+.then(([statesData, districtsData, districtDataJson, agenciesDataJson]) => {
+    districtData = districtDataJson['district-data'];
+    agenciesData = agenciesDataJson.PDA;
 
-    geojsonLayer = L.geoJSON(geoJsonData, {
+    stateLayer = L.geoJSON(statesData, {
+        style: {
+            fillColor: '#cccccc',
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7
+        }
+    });
+
+    districtLayer = L.geoJSON(districtsData, {
         style: styleDistrict,
         onEachFeature: function (feature, layer) {
             layer.on('click', function (e) {
                 const districtName = feature.properties.dtname;
-                const district = districtData['district-data'][districtName];
+                const district = districtData[districtName];
                 if (district) {
                     if (selectedDistrict) {
-                        geojsonLayer.resetStyle();
+                        districtLayer.resetStyle();
                     }
                     selectedDistrict = districtName;
-                    geojsonLayer.eachLayer(function (layer) {
+                    districtLayer.eachLayer(function (layer) {
                         layer.setStyle(styleDistrict(layer.feature));
                     });
                     
-                    
-                    cleanupCharts();
-                    createOrUpdateMainChart(district);
-                    document.getElementById('channel-chart-container').style.display = 'none';
                     updateInfoPane(districtName, district);
 
-                    // Display agencies for the clicked district if zoom level is appropriate
                     if (map.getZoom() >= 10) {
                         displayAgencies(districtName);
                     } else {
@@ -320,13 +329,17 @@ Promise.all([
                 }
             });
         }
-    }).addTo(map);
+    });
+
+    updateLayerDisplay();
+    map.on('zoomend', updateLayerDisplay);
 
     // Initialize with Kanpur Nagar data
-    const kanpurData = districtData['district-data'][selectedDistrict];
+    selectedDistrict = 'Kanpur Nagar';
+    const kanpurData = districtData[selectedDistrict];
     if (kanpurData) {
         updateInfoPane(selectedDistrict, kanpurData);
-        geojsonLayer.eachLayer(function (layer) {
+        districtLayer.eachLayer(function (layer) {
             if (layer.feature.properties.dtname === selectedDistrict) {
                 layer.setStyle(styleDistrict(layer.feature));
             }
@@ -335,20 +348,31 @@ Promise.all([
         if (map.getZoom() >= 10) {
             displayAgencies(selectedDistrict);
         }
+        map.addLayer(districtLayer)
     }
+}).catch(error => console.error('Error loading data:', error));
 
+function updateLayerDisplay() {
+    const currentZoom = map.getZoom();
+    if (currentZoom < zoomThreshold) {
+        map.addLayer(stateLayer);
+        map.removeLayer(districtLayer);
+    } else {
+        map.removeLayer(stateLayer);
+        map.addLayer(districtLayer);
+    }
+}
     // Add zoom event listener
-    map.on('zoomend', function() {
-        if (map.getZoom() >= 10) {
-            if (selectedDistrict) {
-                displayAgencies(selectedDistrict);
-            }
-        } else {
-            hideAgencies();
+map.on('zoomend', function() {
+    updateLayerDisplay();
+    if (map.getZoom() >= 10) {
+        if (selectedDistrict) {
+            displayAgencies(selectedDistrict);
         }
-    });
-})
-.catch(error => console.error('Error loading data:', error));
+    } else {
+        hideAgencies();
+    }
+});
 
 const icons = {
     EPF: L.icon({
