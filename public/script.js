@@ -50,28 +50,28 @@ function createOrUpdateMainChart(data) {
             {
                 label: 'Manual LC',
                 data: data.pensioner_count.map((total, i) => total - data.DLC_potential[i]),
-                backgroundColor: 'rgba(30, 136, 229, 0.8)',
+                backgroundColor: 'rgba(200, 200, 200, 0.8)',
             },
             {
                 label: 'DLC Complete',
                 data: data.DLC_success,
-                backgroundColor: 'rgba(0, 77, 64, 0.8)',
+                backgroundColor: 'rgba(75, 192, 192, 0.8)',
             },
             {
                 label: 'DLC Rejected',
                 data: data.DLC_failed,
-                backgroundColor: 'rgba(255, 193, 7, 0.8)',
+                backgroundColor: 'rgba(255, 206, 86, 0.8)',
             },
             {
                 label: 'DLC Pending',
                 data: data.DLC_potential.map((potential, i) => potential - data.DLC_success[i] - data.DLC_failed[i]),
-                backgroundColor: 'rgba(216, 27, 96, 0.8)',
+                backgroundColor: 'rgba(255, 99, 132, 0.8)',
             }
         ]
     };
 
     const chartOptions = {
-        indexAxis: 'y',  // This makes the bars horizontal
+        indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
         scales: {
@@ -111,9 +111,15 @@ function createOrUpdateMainChart(data) {
         },
         onClick: (event, elements) => {
             if (elements.length > 0) {
-                const index = elements[0].index;
-                cleanupCharts();
-                createOrUpdatePieChart(data, index);
+                const element = elements[0];
+                const datasetIndex = element.datasetIndex;
+                const ageGroupIndex = element.index;
+                
+                if (datasetIndex === 0) { // Manual LC
+                    showInternetPenetration(data, ageGroupIndex);
+                } else if (datasetIndex === 1 || datasetIndex === 2) { // DLC Complete or DLC Rejected
+                    createOrUpdateChannelChart(data, ageGroupIndex, datasetIndex === 1 ? 'success' : 'failed');
+                }
             }
         }
     };
@@ -131,22 +137,33 @@ function createOrUpdateMainChart(data) {
     }
 }
 
+function showInternetPenetration(data, ageGroupIndex) {
+    cleanupCharts();
+    const penetrationElement = document.getElementById('internet-penetration');
+    const titleElement = document.getElementById('internet-penetration-title');
 
-function createOrUpdatePieChart(data, ageGroupIndex) {
-    const ctx = document.getElementById('pie-chart').getContext('2d');
+    const ageGroup = ageGroupIndex === 0 ? '60-79' : '80+';
+    const penetration = ((data.DLC_potential[ageGroupIndex] / data.pensioner_count[ageGroupIndex]) * 100).toFixed(1);
+
+    titleElement.textContent = `Internet Penetration (${ageGroup} years): ${penetration}%`;
+    penetrationElement.style.display = 'block';
+}
+
+function createOrUpdateChannelChart(data, ageGroupIndex, type) {
+    cleanupCharts();
+    const ctx = document.getElementById('channel-chart').getContext('2d');
     
-    const dlcPotential = data.DLC_potential[ageGroupIndex];
-    const dlcSuccess = data.DLC_success[ageGroupIndex];
-    const dlcFailed = data.DLC_failed[ageGroupIndex];
+    const channels = type === 'success' ? data.DLC_success_channels[ageGroupIndex] : data.DLC_failed_channels[ageGroupIndex];
 
     const chartData = {
-        labels: ['Pending', 'Completed', 'Rejected'],
+        labels: ['LIC', 'EPFO', 'Banks', 'Others'],
         datasets: [{
-            data: [dlcPotential - dlcSuccess - dlcFailed, dlcSuccess, dlcFailed],
+            data: [channels.lic, channels.epfo, channels.banks, channels.others],
             backgroundColor: [
-                'rgba(75, 192, 192, 0.8)',
+                'rgba(255, 99, 132, 0.8)',
+                'rgba(54, 162, 235, 0.8)',
                 'rgba(255, 206, 86, 0.8)',
-                'rgba(255, 99, 132, 0.8)'
+                'rgba(75, 192, 192, 0.8)'
             ]
         }]
     };
@@ -155,105 +172,12 @@ function createOrUpdatePieChart(data, ageGroupIndex) {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-            tooltip: {
-                callbacks: {
-                    label: function(context) {
-                        const label = context.label || '';
-                        const value = context.parsed || 0;
-                        const percentage = ((value / dlcPotential) * 100).toFixed(1);
-                        return `${label}: ${value.toLocaleString()} (${percentage}% of DLC Potential)`;
-                    }
-                }
+            legend: {
+                position: 'top',
             },
             title: {
                 display: true,
-                text: `DLC Potential Breakdown - ${ageGroupIndex === 0 ? '60-79' : '80+'}`
-            }
-        },
-        onClick: (event, elements) => {
-            if (elements.length > 0) {
-                const index = elements[0].index;
-                if (index === 1 || index === 2) { // DLC Success or DLC Failed
-                    createOrUpdateChannelChart(data, ageGroupIndex);
-                } else {
-                    document.getElementById('channel-chart-container').style.display = 'none';
-                }
-            }
-        }
-    };
-
-    if (window.pieChart instanceof Chart) {
-        window.pieChart.destroy();
-    }
-
-    window.pieChart = new Chart(ctx, {
-        type: 'pie',
-        data: chartData,
-        options: chartOptions
-    });
-
-    // Show the pie chart container
-    document.getElementById('pie-chart-container').style.display = 'block';
-}
-
-function createOrUpdateChannelChart(data, ageGroupIndex) {
-    const ctx = document.getElementById('channel-chart').getContext('2d');
-    
-    const successChannels = data.DLC_success_channels[ageGroupIndex];
-    const failedChannels = data.DLC_failed_channels[ageGroupIndex];
-
-    const chartData = {
-        labels: ['LIC', 'EPFO', 'Banks', 'Others'],
-        datasets: [
-            {
-                label: 'Success',
-                data: [successChannels.lic, successChannels.epfo, successChannels.banks, successChannels.others],
-                backgroundColor: 'rgba(75, 192, 192, 0.8)'
-            },
-            {
-                label: 'Failed',
-                data: [failedChannels.lic, failedChannels.epfo, failedChannels.banks, failedChannels.others],
-                backgroundColor: 'rgba(255, 99, 132, 0.8)'
-            }
-        ]
-    };
-
-    const totalSuccess = Object.values(successChannels).reduce((a, b) => a + b, 0);
-    const totalFailed = Object.values(failedChannels).reduce((a, b) => a + b, 0);
-    const totalAttempts = totalSuccess + totalFailed;
-
-    const chartOptions = {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-            x: {
-                stacked: true,
-            },
-            y: {
-                stacked: true,
-                beginAtZero: true
-            }
-        },
-        plugins: {
-            title: {
-                display: true,
-                text: `DLC Channels - ${ageGroupIndex === 0 ? '60-79' : '80+'}`
-            },
-            tooltip: {
-                callbacks: {
-                    label: function(context) {
-                        const label = context.dataset.label || '';
-                        const value = context.parsed.y || 0;
-                        const total = context.dataset.label === 'Success' ? totalSuccess : totalFailed;
-                        const percentage = ((value / total) * 100).toFixed(1);
-                        return `${label}: ${value.toLocaleString()} (${percentage}% of ${label})`;
-                    },
-                    footer: function(tooltipItems) {
-                        const sum = tooltipItems.reduce((a, b) => a + b.parsed.y, 0);
-                        const percentage = ((sum / totalAttempts) * 100).toFixed(1);
-                        return `Total: ${sum.toLocaleString()} (${percentage}% of all attempts)`;
-                    }
-                }
+                text: `DLC ${type === 'success' ? 'Complete' : 'Rejected'} Channels - ${ageGroupIndex === 0 ? '60-79' : '80+'}`
             }
         }
     };
@@ -263,13 +187,21 @@ function createOrUpdateChannelChart(data, ageGroupIndex) {
     }
 
     window.channelChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'pie',
         data: chartData,
         options: chartOptions
     });
 
-    // Show the channel chart container
     document.getElementById('channel-chart-container').style.display = 'block';
+}
+
+function cleanupCharts() {
+    if (window.channelChart instanceof Chart) {
+        window.channelChart.destroy();
+        window.channelChart = null;
+    }
+    document.getElementById('internet-penetration').style.display = 'none';
+    document.getElementById('channel-chart-container').style.display = 'none';
 }
 
 let agenciesData; // New variable to store agencies data
@@ -342,7 +274,6 @@ Promise.all([
 })
 .catch(error => console.error('Error loading data:', error));
 
-
 const icons = {
     EPF: L.icon({
         iconUrl: '/images/epf.png',
@@ -395,20 +326,4 @@ function hideAgencies() {
             map.removeLayer(layer);
         }
     });
-}
-
-function cleanupCharts() {
-    // Hide pie chart and channel chart containers
-    document.getElementById('pie-chart-container').style.display = 'none';
-    document.getElementById('channel-chart-container').style.display = 'none';
-    
-    // Destroy existing pie and channel charts if they exist
-    if (window.pieChart instanceof Chart) {
-        window.pieChart.destroy();
-        window.pieChart = null;
-    }
-    if (window.channelChart instanceof Chart) {
-        window.channelChart.destroy();
-        window.channelChart = null;
-    }
 }
