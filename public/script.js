@@ -2,6 +2,7 @@
 let stateLayer, districtLayer, stateLabelLayer, districtLabelLayer;
 const zoomThreshold = 8;
 let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
+let selectedState = null;
 
 var map = L.map('map').setView([26.4499, 80.3319], 10); // Coordinates for Kanpur, zoom level 10
 
@@ -84,7 +85,7 @@ function updateInfoPaneWithAgency(agency) {
 
 function styleState(feature) {
     return {
-        fillColor: '#cccccc',
+        fillColor: feature.properties.ST_NM === selectedState ? '#4bc0c0' : '#cccccc',
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -309,22 +310,17 @@ Promise.all([
                 direction: 'center',
                 className: 'state-label'
             });
-        }
-    });
-
-    stateLabelLayer = L.geoJSON(statesData, {
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {
-                icon: L.divIcon({
-                    className: 'state-label',
-                    html: feature.properties.ST_NM,
-                    iconSize: [100, 40],
-                    iconAnchor: [50, 20]
-                })
+            layer.on('click', function(e) {
+                if (map.getZoom() < zoomThreshold) {
+                    selectedState = feature.properties.ST_NM;
+                    stateLayer.resetStyle();
+                    stateLayer.eachLayer(function(layer) {
+                        layer.setStyle(styleState(layer.feature));
+                    });
+                }
             });
         }
     });
-
 
     districtLayer = L.geoJSON(districtsData, {
         style: styleDistrict,
@@ -354,19 +350,6 @@ Promise.all([
                         hideAgencies();
                     }
                 }
-            });
-        }
-    });
-
-    districtLabelLayer = L.geoJSON(districtsData, {
-        pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {
-                icon: L.divIcon({
-                    className: 'district-label',
-                    html: feature.properties.dtname,
-                    iconSize: [100, 40],
-                    iconAnchor: [50, 20]
-                })
             });
         }
     });
