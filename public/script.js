@@ -44,28 +44,35 @@ function createOrUpdateMainChart(data) {
     cleanupCharts();
     const ctx = document.getElementById('main-chart').getContext('2d');
     
+    const colors = {
+        'Manual LC': 'rgba(30, 136, 229, 0.8)',
+        'DLC Complete': 'rgba(0, 77, 64, 0.8)',
+        'DLC Rejected': 'rgba(255, 193, 7, 0.8)',
+        'DLC Pending': 'rgba(216, 27, 96, 0.8)'
+    };
+
     const chartData = {
         labels: ['60-79', '80+'],
         datasets: [
             {
                 label: 'Manual LC',
                 data: data.pensioner_count.map((total, i) => total - data.DLC_potential[i]),
-                backgroundColor: 'rgba(200, 200, 200, 0.8)',
+                backgroundColor: colors['Manual LC'],
             },
             {
                 label: 'DLC Complete',
                 data: data.DLC_success,
-                backgroundColor: 'rgba(75, 192, 192, 0.8)',
+                backgroundColor: colors['DLC Complete'],
             },
             {
                 label: 'DLC Rejected',
                 data: data.DLC_failed,
-                backgroundColor: 'rgba(255, 206, 86, 0.8)',
+                backgroundColor: colors['DLC Rejected'],
             },
             {
                 label: 'DLC Pending',
                 data: data.DLC_potential.map((potential, i) => potential - data.DLC_success[i] - data.DLC_failed[i]),
-                backgroundColor: 'rgba(255, 99, 132, 0.8)',
+                backgroundColor: colors['DLC Pending'],
             }
         ]
     };
@@ -115,8 +122,8 @@ function createOrUpdateMainChart(data) {
                 const datasetIndex = element.datasetIndex;
                 const ageGroupIndex = element.index;
                 
-                if (datasetIndex === 0) { // Manual LC
-                    showInternetPenetration(data, ageGroupIndex);
+                if (datasetIndex === 0 || datasetIndex === 3) { // Manual LC or DLC Pending
+                    showInternetPenetration(data, ageGroupIndex, datasetIndex===0?false: true);
                 } else if (datasetIndex === 1 || datasetIndex === 2) { // DLC Complete or DLC Rejected
                     createOrUpdateChannelChart(data, ageGroupIndex, datasetIndex === 1 ? 'success' : 'failed');
                 }
@@ -137,7 +144,8 @@ function createOrUpdateMainChart(data) {
     }
 }
 
-function showInternetPenetration(data, ageGroupIndex) {
+
+function showInternetPenetration(data, ageGroupIndex, isPending) {
     cleanupCharts();
     const penetrationElement = document.getElementById('internet-penetration');
     const titleElement = document.getElementById('internet-penetration-title');
@@ -145,7 +153,13 @@ function showInternetPenetration(data, ageGroupIndex) {
     const ageGroup = ageGroupIndex === 0 ? '60-79' : '80+';
     const penetration = ((data.DLC_potential[ageGroupIndex] / data.pensioner_count[ageGroupIndex]) * 100).toFixed(1);
 
-    titleElement.textContent = `Internet Penetration (${ageGroup} years): ${penetration}%`;
+    if(isPending){
+        titleElement.textContent = `Internet Penetration (${ageGroup} years): ${penetration}%`;
+    }
+    else{
+        var unpenetration = 100-penetration;
+        titleElement.textContent = `Internet Unavailable (${ageGroup} years): ${unpenetration}%`;
+    }
     penetrationElement.style.display = 'block';
 }
 
@@ -155,16 +169,18 @@ function createOrUpdateChannelChart(data, ageGroupIndex, type) {
     
     const channels = type === 'success' ? data.DLC_success_channels[ageGroupIndex] : data.DLC_failed_channels[ageGroupIndex];
 
+    const colors = {
+        'Manual LC': 'rgba(30, 136, 229, 0.8)',
+        'DLC Complete': 'rgba(0, 77, 64, 0.8)',
+        'DLC Rejected': 'rgba(255, 193, 7, 0.8)',
+        'DLC Pending': 'rgba(216, 27, 96, 0.8)'
+    };
+
     const chartData = {
-        labels: ['LIC', 'EPFO', 'Banks', 'Others'],
+        labels: ['LIC', 'EPFO', 'Banks', 'Post Office'],
         datasets: [{
             data: [channels.lic, channels.epfo, channels.banks, channels.others],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.8)',
-                'rgba(54, 162, 235, 0.8)',
-                'rgba(255, 206, 86, 0.8)',
-                'rgba(75, 192, 192, 0.8)'
-            ]
+            backgroundColor: Object.values(colors)
         }]
     };
 
@@ -194,6 +210,7 @@ function createOrUpdateChannelChart(data, ageGroupIndex, type) {
 
     document.getElementById('channel-chart-container').style.display = 'block';
 }
+
 
 function cleanupCharts() {
     if (window.channelChart instanceof Chart) {
@@ -281,6 +298,12 @@ const icons = {
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
+    LIC: L.icon({
+        iconUrl: '/images/lic.png',
+        iconSize: [20, 20],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+    }),
     Bank: L.icon({
         iconUrl: '/images/bank.png',
         iconSize: [20, 20],
@@ -309,7 +332,7 @@ function displayAgencies(dtname) {
         const icon = icons[agency.type] || L.Icon.Default(); // Use default icon if type not found
         const marker = L.marker([agency.lat, agency.lng], { icon: icon })
             .addTo(map)
-            .bindPopup(`<b>${agency.name}</b><br>Type: ${agency.type}`);
+            .bindPopup(`<b>${agency.type}: </b><br> ${agency.name}`);
     });
 
     // Find the bounds of the filtered agencies

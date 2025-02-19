@@ -27,8 +27,39 @@ body, html {
     margin-bottom: 20px;
 }
 
-#main-chart-container, #channel-chart-container {
+#main-chart-container {
     margin-bottom: 20px;
+}
+
+#chart-separator {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+#internet-penetration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust this value as needed */
+    text-align: center;
+    margin-top: 20px;
+}
+
+#internet-penetration-title {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#internet-penetration-value {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#channel-chart-container {
+    margin-top: 20px;
 }
 
 #channel-chart-title {

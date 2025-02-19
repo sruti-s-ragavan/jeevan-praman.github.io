@@ -1,6 +1,48 @@
 {
     "PDA": [
         {
+            "type": "LIC",
+            "lat": 26.474008,  
+            "lng": 80.360388, 
+            "dtname": "Kanpur Nagar",
+            "name": "Mall Road"
+        },
+        {
+            "type": "LIC",
+            "lat": 26.487657,  
+            "lng": 80.326262, 
+            "dtname": "Kanpur Nagar",
+            "name": "Swaroop Nagar"
+        },
+        {
+            "type": "LIC",
+            "lat": 26.480617,
+            "lng": 80.253473,
+            "dtname": "Kanpur Nagar",
+            "name": "Armapur"
+        },
+        {
+            "type": "LIC",
+            "lat": 26.429939,
+            "lng": 80.415616,
+            "dtname": "Kanpur Nagar",
+            "name": "Ramadevi"
+        },
+        {
+            "type": "LIC",
+            "lat": 26.151888,
+            "lng": 80.158091,
+            "dtname": "Kanpur Nagar",
+            "name": "Ghatampur"
+        },
+        {
+            "type": "LIC",
+            "lat": 25.960011,
+            "lng": 80.160618,
+            "dtname": "Kanpur Nagar",
+            "name": "Hamirpur"
+        },
+        {
             "type": "EPF",
             "lat": 26.514389, 
             "lng": 80.257935, 
