@@ -116,7 +116,7 @@ function createOrUpdateMainChart(data) {
         'Manual LC': 'rgba(30, 136, 229, 0.8)',
         'DLC Complete': 'rgba(0, 77, 64, 0.8)',
         'DLC Rejected': 'rgba(255, 193, 7, 0.8)',
-        'DLC Pending': 'rgba(216, 27, 96, 0.8)'
+        'LC Pending': 'rgba(216, 27, 96, 0.8)'
     };
 
     const chartData = {
@@ -138,9 +138,9 @@ function createOrUpdateMainChart(data) {
                 backgroundColor: colors['DLC Rejected'],
             },
             {
-                label: 'DLC Pending',
+                label: 'LC Pending',
                 data: data.DLC_potential.map((potential, i) => potential - data.DLC_success[i] - data.DLC_failed[i]),
-                backgroundColor: colors['DLC Pending'],
+                backgroundColor: colors['LC Pending'],
             }
         ]
     };
