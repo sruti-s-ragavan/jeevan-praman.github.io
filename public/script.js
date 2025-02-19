@@ -67,11 +67,24 @@ function updateInfoPaneWithAgency(agency) {
                     title: {
                         display: true,
                         text: 'Number of Cases'
+                    },
+                    grid: {
+                        display: false // Remove gridlines
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            if (value % 1 === 0) {
+                                return value;
+                            }
+                        }
                     }
                 },
                 y: {
                     title: {
                         display: false
+                    },
+                    grid: {
+                        display: false // Remove gridlines
                     }
                 }
             }
@@ -145,6 +158,9 @@ function createOrUpdateMainChart(data) {
         ]
     };
 
+    const maxValue = Math.max(...chartData.datasets.flatMap(dataset => dataset.data));
+    const yMax = Math.max(100, maxValue);
+
     const chartOptions = {
         indexAxis: 'y',
         responsive: true,
@@ -152,10 +168,17 @@ function createOrUpdateMainChart(data) {
         scales: {
             x: {
                 stacked: true,
-                beginAtZero: true
+                beginAtZero: true,
+                max: yMax,
+                grid: {
+                    display: false
+                }
             },
             y: {
-                stacked: true
+                stacked: true,
+                grid: {
+                    display: false
+                }
             }
         },
         plugins: {
@@ -247,7 +270,7 @@ function createOrUpdateChannelChart(data, ageGroupIndex, type) {
     const chartData = {
         labels: ['LIC', 'EPFO', 'Banks', 'Post Office'],
         datasets: [{
-            data: [channels.lic, channels.epfo, channels.banks, channels.others],
+            data: [channels.lic, channels.epfo, channels.banks, channels.post],
             backgroundColor: Object.values(colors)
         }]
     };
