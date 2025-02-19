@@ -1,4 +1,54 @@
-{
+["Kanpur Nagar": {
+      "pensioner_count": [
+        17975,
+        31065
+      ],
+      "internet_penetration": [
+        0.67,
+        0.67
+      ],
+      "DLC_potential": [
+        12043,
+        20813
+      ],
+      "DLC_success": [
+        1153,
+        2574
+      ],
+      "DLC_failed": [
+        715,
+        468
+      ],
+      "DLC_success_channels": [
+        {
+          "lic": 4118,
+          "epfo": 3798,
+          "banks": 1809,
+          "post": 772
+        },
+        {
+          "lic": 1532,
+          "epfo": 2284,
+          "banks": 2380,
+          "post": 332
+        }
+      ],
+      "DLC_failed_channels": [
+        {
+          "lic": 284,
+          "epfo": 202,
+          "banks": 184,
+          "post": 25
+        },
+        {
+          "lic": 81,
+          "epfo": 139,
+          "banks": 158,
+          "post": 44
+        }
+      ]
+    },
+    {
     "PDA": [
         {
             "type": "Bank",
@@ -227,3 +277,5 @@
         }
     ]
 }
+
+
