@@ -78,3 +78,20 @@ body, html {
     margin-bottom: 20px;
     display:none;
 }
+
+.state-label, .district-label {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+}
+
+.state-label {
+    font-size: 12px;
+}
+
+.district-label {
+    font-size: 12px;
+}

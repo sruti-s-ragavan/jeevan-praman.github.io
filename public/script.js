@@ -1,5 +1,5 @@
 // Initialize the map
-let stateLayer, districtLayer;
+let stateLayer, districtLayer, stateLabelLayer, districtLabelLayer;
 const zoomThreshold = 8;
 let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
 
@@ -82,11 +82,19 @@ function updateInfoPaneWithAgency(agency) {
     document.getElementById('channel-chart-container').style.display = 'none';
 }
 
-
+function styleState(feature) {
+    return {
+        fillColor: '#cccccc',
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
 
 function styleDistrict(feature) {
     const isSelected = feature.properties.dtname === selectedDistrict;
-    console.log(`Styling district: ${feature.properties.dtname}, Selected: ${isSelected}`);
     return {
         fillColor: feature.properties.dtname === selectedDistrict ? '#4bc0c0' : '#cccccc',
         weight: 2,
@@ -294,19 +302,38 @@ Promise.all([
     agenciesData = agenciesDataJson.PDA;
 
     stateLayer = L.geoJSON(statesData, {
-        style: {
-            fillColor: '#cccccc',
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7
+        style: styleState, 
+        onEachFeature: function(feature, layer) {
+            layer.bindTooltip(feature.properties.ST_NM, {
+                permanent: true,
+                direction: 'center',
+                className: 'state-label'
+            });
         }
     });
+
+    stateLabelLayer = L.geoJSON(statesData, {
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {
+                icon: L.divIcon({
+                    className: 'state-label',
+                    html: feature.properties.ST_NM,
+                    iconSize: [100, 40],
+                    iconAnchor: [50, 20]
+                })
+            });
+        }
+    });
+
 
     districtLayer = L.geoJSON(districtsData, {
         style: styleDistrict,
         onEachFeature: function (feature, layer) {
+            layer.bindTooltip(feature.properties.dtname, {
+                permanent: true,
+                direction: 'center',
+                className: 'district-label'
+            });
             layer.on('click', function (e) {
                 const districtName = feature.properties.dtname;
                 const district = districtData[districtName];
@@ -331,6 +358,19 @@ Promise.all([
         }
     });
 
+    districtLabelLayer = L.geoJSON(districtsData, {
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {
+                icon: L.divIcon({
+                    className: 'district-label',
+                    html: feature.properties.dtname,
+                    iconSize: [100, 40],
+                    iconAnchor: [50, 20]
+                })
+            });
+        }
+    });
+
     updateLayerDisplay();
     map.on('zoomend', updateLayerDisplay);
 
@@ -348,21 +388,23 @@ Promise.all([
         if (map.getZoom() >= 10) {
             displayAgencies(selectedDistrict);
         }
-        map.addLayer(districtLayer)
+        map.addLayer(districtLayer);
     }
 }).catch(error => console.error('Error loading data:', error));
 
 function updateLayerDisplay() {
     const currentZoom = map.getZoom();
     if (currentZoom < zoomThreshold) {
-        map.addLayer(stateLayer);
         map.removeLayer(districtLayer);
+        map.addLayer(stateLayer);
     } else {
         map.removeLayer(stateLayer);
         map.addLayer(districtLayer);
     }
 }
-    // Add zoom event listener
+
+
+// Add zoom event listener
 map.on('zoomend', function() {
     updateLayerDisplay();
     if (map.getZoom() >= 10) {
