@@ -25,6 +25,64 @@ function updateInfoPane(districtName, districtData) {
     // Add any other info pane updates here
 }
 
+function updateInfoPaneWithAgency(agency) {
+    document.getElementById('district-name').textContent = `${selectedDistrict}`
+    document.getElementById('agency-name').textContent = `${agency.type}: ${agency.name}`;
+    document.getElementById('agency-name').style.display = "block";
+
+    // Clear existing charts
+    if (mainChart) {
+        mainChart.destroy();
+    }
+    
+    // Create agency performance chart
+    const ctx = document.getElementById('main-chart').getContext('2d');
+    mainChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Success', 'Failure'],
+            datasets: [{
+                label: 'DLC Performance',
+                data: [agency.DLC_success, agency.DLC_failure],
+                backgroundColor: ['#59a14f', '#e15759']
+            }]
+        },
+        options: {
+            indexAxis: 'y', // This makes the bars horizontal
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: false // Hide legend as it's not needed for two bars
+                },
+                title: {
+                    display: true,
+                    text: 'DLC Performance'
+                }
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Cases'
+                    }
+                },
+                y: {
+                    title: {
+                        display: false
+                    }
+                }
+            }
+        }
+    });
+
+    // Hide other elements in the info pane that are not relevant to agency view
+    document.getElementById('internet-penetration').style.display = 'none';
+    document.getElementById('channel-chart-container').style.display = 'none';
+}
+
+
+
 function styleDistrict(feature) {
     const isSelected = feature.properties.dtname === selectedDistrict;
     console.log(`Styling district: ${feature.properties.dtname}, Selected: ${isSelected}`);
@@ -219,6 +277,7 @@ function cleanupCharts() {
     }
     document.getElementById('internet-penetration').style.display = 'none';
     document.getElementById('channel-chart-container').style.display = 'none';
+    document.getElementById('agency-name').style.display = 'none';
 }
 
 let agenciesData; // New variable to store agencies data
@@ -332,13 +391,15 @@ function displayAgencies(dtname) {
         const icon = icons[agency.type] || L.Icon.Default(); // Use default icon if type not found
         const marker = L.marker([agency.lat, agency.lng], { icon: icon })
             .addTo(map)
-            .bindPopup(`<b>${agency.type}: </b><br> ${agency.name}`);
+            .bindPopup(`<b>${agency.type}: </b><br> ${agency.name}`)
+            .on('click', function() {
+                updateInfoPaneWithAgency(agency);
+            });
     });
 
     // Find the bounds of the filtered agencies
     if (districtAgencies.length > 0) {
         const bounds = L.latLngBounds(districtAgencies.map(agency => [agency.lat, agency.lng]));
-        // Zoom the map to fit these bounds
         map.fitBounds(bounds);
     }
 }
