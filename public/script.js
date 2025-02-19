@@ -151,7 +151,7 @@ function showInternetPenetration(data, ageGroupIndex, isPending) {
     const titleElement = document.getElementById('internet-penetration-title');
 
     const ageGroup = ageGroupIndex === 0 ? '60-79' : '80+';
-    const penetration = ((data.DLC_potential[ageGroupIndex] / data.pensioner_count[ageGroupIndex]) * 100).toFixed(1);
+    const penetration = (data.internet_penetration[ageGroupIndex] * 100).toFixed(1);
 
     if(isPending){
         titleElement.textContent = `Internet Penetration (${ageGroup} years): ${penetration}%`;

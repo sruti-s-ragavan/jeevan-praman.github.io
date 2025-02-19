@@ -11,36 +11,43 @@ function getRandomInt(min, max) {
 }
 
 // Generate data for a district
+// Generate data for a district
 function generateDistrictData() {
     const pensioner_count_60_79 = getRandomInt(10000, 100000);
     const pensioner_count_80_plus = getRandomInt(5000, 50000);
     
+    // Generate random internet penetration percentages for each age group
+    const internet_penetration = getRandomInt(10, 99) / 100; // 10% to 99%
+    const internet_penetration_60_79 = internet_penetration;
+    const internet_penetration_80_plus = internet_penetration;
+
     return {
         pensioner_count: [pensioner_count_60_79, pensioner_count_80_plus],
+        internet_penetration: [internet_penetration_60_79, internet_penetration_80_plus],
         DLC_potential: [
-            Math.floor(pensioner_count_60_79 * 0.7),
-            Math.floor(pensioner_count_80_plus * 0.8)
+            Math.floor(pensioner_count_60_79 * internet_penetration_60_79),
+            Math.floor(pensioner_count_80_plus * internet_penetration_80_plus)
         ],
         DLC_success: [
-            getRandomInt(0, Math.floor(pensioner_count_60_79 * 0.7)),
-            getRandomInt(0, Math.floor(pensioner_count_80_plus * 0.8))
+            getRandomInt(0, Math.floor(pensioner_count_60_79 * internet_penetration_60_79)),
+            getRandomInt(0, Math.floor(pensioner_count_80_plus * internet_penetration_80_plus))
         ],
         DLC_failed: [
-            getRandomInt(0, Math.floor(pensioner_count_60_79 * 0.1)),
-            getRandomInt(0, Math.floor(pensioner_count_80_plus * 0.1))
+            getRandomInt(0, Math.floor(pensioner_count_60_79 * internet_penetration_60_79 * 0.1)),
+            getRandomInt(0, Math.floor(pensioner_count_80_plus * internet_penetration_80_plus * 0.1))
         ],
         DLC_success_channels: [
             {
                 lic: getRandomInt(1000, 5000),
                 epfo: getRandomInt(1000, 5000),
                 banks: getRandomInt(1000, 5000),
-                others: getRandomInt(100, 1000)
+                post: getRandomInt(100, 1000)
             },
             {
                 lic: getRandomInt(500, 2500),
                 epfo: getRandomInt(500, 2500),
                 banks: getRandomInt(500, 2500),
-                others: getRandomInt(50, 500)
+                post: getRandomInt(50, 500)
             }
         ],
         DLC_failed_channels: [
@@ -48,13 +55,13 @@ function generateDistrictData() {
                 lic: getRandomInt(100, 500),
                 epfo: getRandomInt(100, 500),
                 banks: getRandomInt(100, 500),
-                others: getRandomInt(10, 100)
+                post: getRandomInt(10, 100)
             },
             {
                 lic: getRandomInt(50, 250),
                 epfo: getRandomInt(50, 250),
                 banks: getRandomInt(50, 250),
-                others: getRandomInt(5, 50)
+                post: getRandomInt(5, 50)
             }
         ]
     };
@@ -67,8 +74,8 @@ function aggregateStateData(districts) {
         DLC_potential: [0, 0],
         DLC_success: [0, 0],
         DLC_failed: [0, 0],
-        DLC_success_channels: [{lic: 0, epfo: 0, banks: 0, others: 0}, {lic: 0, epfo: 0, banks: 0, others: 0}],
-        DLC_failed_channels: [{lic: 0, epfo: 0, banks: 0, others: 0}, {lic: 0, epfo: 0, banks: 0, others: 0}]
+        DLC_success_channels: [{lic: 0, epfo: 0, banks: 0, post: 0}, {lic: 0, epfo: 0, banks: 0, post: 0}],
+        DLC_failed_channels: [{lic: 0, epfo: 0, banks: 0, post: 0}, {lic: 0, epfo: 0, banks: 0, post: 0}]
     };
 
     districts.forEach(district => {
@@ -78,7 +85,7 @@ function aggregateStateData(districts) {
             stateData.DLC_success[i] += district.DLC_success[i];
             stateData.DLC_failed[i] += district.DLC_failed[i];
 
-            ['lic', 'epfo', 'banks', 'others'].forEach(channel => {
+            ['lic', 'epfo', 'banks', 'post'].forEach(channel => {
                 stateData.DLC_success_channels[i][channel] += district.DLC_success_channels[i][channel];
                 stateData.DLC_failed_channels[i][channel] += district.DLC_failed_channels[i][channel];
             });
