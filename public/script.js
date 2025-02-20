@@ -375,7 +375,7 @@ Promise.all([
     
     function aggregateStateData(stateName) {
         const stateDistricts = Object.keys(districtData).filter(district => 
-            districtData[district].stname.toLowerCase() === stateName.toLowerCase()
+            districtData[district].state.toLowerCase() === stateName.toLowerCase()
         );
     
         const aggregatedData = {
