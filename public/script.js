@@ -362,15 +362,61 @@ Promise.all([
         }
     });
 
-function updateInfoPaneWithState(stateName) {
-    document.getElementById('district-name').textContent = stateName;
-    document.getElementById('main-chart-container').style.display = 'none';
-    document.getElementById('internet-penetration').style.display = 'none';
-    document.getElementById('channel-chart-container').style.display = 'none';
+    function updateInfoPaneWithState(stateName) {
+        document.getElementById('district-name').textContent = stateName;
+        document.getElementById('agency-name').style.display = 'none';
+        document.getElementById('main-chart-container').style.display = 'block';
+        document.getElementById('internet-penetration').style.display = 'none';
+        document.getElementById('channel-chart-container').style.display = 'none';
+        
+        const stateData = aggregateStateData(stateName);
+        createOrUpdateMainChart(stateData);
+    }
     
-    document.getElementById('agency-name').style.display = 'block';
-    document.getElementById('agency-name').textContent = "Coming soon...";
-}
+    function aggregateStateData(stateName) {
+        const stateDistricts = Object.keys(districtData).filter(district => 
+            districtData[district].stname.toLowerCase() === stateName.toLowerCase()
+        );
+    
+        const aggregatedData = {
+            pensioner_count: [0, 0],
+            DLC_potential: [0, 0],
+            DLC_success: [0, 0],
+            DLC_failed: [0, 0],
+            internet_penetration: [0, 0],
+            DLC_success_channels: [
+                { lic: 0, epfo: 0, banks: 0, others: 0 },
+                { lic: 0, epfo: 0, banks: 0, others: 0 }
+            ],
+            DLC_failed_channels: [
+                { lic: 0, epfo: 0, banks: 0, others: 0 },
+                { lic: 0, epfo: 0, banks: 0, others: 0 }
+            ]
+        };
+    
+        stateDistricts.forEach(district => {
+            const data = districtData[district];
+            for (let i = 0; i < 2; i++) {
+                aggregatedData.pensioner_count[i] += data.pensioner_count[i];
+                aggregatedData.DLC_potential[i] += data.DLC_potential[i];
+                aggregatedData.DLC_success[i] += data.DLC_success[i];
+                aggregatedData.DLC_failed[i] += data.DLC_failed[i];
+                aggregatedData.internet_penetration[i] += data.internet_penetration[i];
+    
+                ['lic', 'epfo', 'banks', 'others'].forEach(channel => {
+                    aggregatedData.DLC_success_channels[i][channel] += data.DLC_success_channels[i][channel];
+                    aggregatedData.DLC_failed_channels[i][channel] += data.DLC_failed_channels[i][channel];
+                });
+            }
+        });
+    
+        // Calculate average internet penetration
+        aggregatedData.internet_penetration = aggregatedData.internet_penetration.map(
+            sum => sum / stateDistricts.length
+        );
+    
+        return aggregatedData;
+    }
 
 
     function zoomToState(layer) {
