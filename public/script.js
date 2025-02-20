@@ -320,11 +320,21 @@ function cleanupCharts() {
 
 let agenciesData; // New variable to store agencies data
 
+// const states_geo_json_path = '/india-states.geojson'
+// const districts_geo_json_path = '/india-districts-770.geojson'
+// const district_data_path = '/district-data.json'
+// const agencies_path = '/agencies-data.json'
+
+const states_geo_json_path = 'https://raw.githubusercontent.com/sruti-s-ragavan/pf-dlc/refs/heads/main/public/india-states.geojson'
+const districts_geo_json_path = 'https://raw.githubusercontent.com/sruti-s-ragavan/pf-dlc/refs/heads/main/public/india-districts-770.geojson'
+const district_data_path = 'https://raw.githubusercontent.com/sruti-s-ragavan/pf-dlc/refs/heads/main/public/district-data.json'
+const agencies_path = 'https://raw.githubusercontent.com/sruti-s-ragavan/pf-dlc/refs/heads/main/public/agencies-data.json'
+
 Promise.all([
-    fetch('/india-states.geojson').then(response => response.json()),
-    fetch('/india-districts-770.geojson').then(response => response.json()),
-    fetch('/district-data.json').then(response => response.json()),
-    fetch('/agencies-data.json').then(response => response.json())
+    fetch(states_geo_json_path).then(response => response.json()),
+    fetch(districts_geo_json_path).then(response => response.json()),
+    fetch(district_data_path).then(response => response.json()),
+    fetch(agencies_path).then(response => response.json())
 ])
 .then(([statesData, districtsData, districtDataJson, agenciesDataJson]) => {
     districtData = districtDataJson['district-data'];
