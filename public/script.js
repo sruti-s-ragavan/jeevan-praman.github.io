@@ -355,10 +355,31 @@ Promise.all([
                     stateLayer.eachLayer(function(layer) {
                         layer.setStyle(styleState(layer.feature));
                     });
+                    updateInfoPaneWithState(selectedState);
+                    zoomToState(layer);
                 }
             });
         }
     });
+
+function updateInfoPaneWithState(stateName) {
+    document.getElementById('district-name').textContent = stateName;
+    document.getElementById('main-chart-container').style.display = 'none';
+    document.getElementById('internet-penetration').style.display = 'none';
+    document.getElementById('channel-chart-container').style.display = 'none';
+    
+    document.getElementById('agency-name').style.display = 'block';
+    document.getElementById('agency-name').textContent = "Coming soon...";
+}
+
+
+    function zoomToState(layer) {
+        const bounds = layer.getBounds();
+        map.fitBounds(bounds, {
+            padding: [50, 50],
+            maxZoom: zoomThreshold - 1  // Ensure we don't zoom in too far
+        });
+    }
 
     districtLayer = L.geoJSON(districtsData, {
         style: styleDistrict,
