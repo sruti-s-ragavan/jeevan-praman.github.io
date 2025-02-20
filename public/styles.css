@@ -12,6 +12,7 @@ body, html {
 #map {
     width: 66.67%; /* 2/3 of the screen */
     height: 100%;
+    position: relative;
 }
 
 #info-panel {
@@ -94,4 +95,31 @@ body, html {
 
 .district-label {
     font-size: 12px;
+}
+
+.legend {
+    position: absolute;
+    bottom: 30px; /* Position from bottom instead of top */
+    left: 10px;
+    z-index: 1000;
+    line-height: 18px;
+    color: #555;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.legend h4 {
+    margin: 0 0 5px;
+    color: #777;
 }

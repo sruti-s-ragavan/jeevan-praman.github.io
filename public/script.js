@@ -1,8 +1,24 @@
 // Initialize the map
+const dlcSuccessColors = {
+    '0-25': '#a8b6cc',   // Very Light blue
+    '25-50': '#7ca1cc',  // Light blue
+    '50-75': '#3d65a5',  // Medium blue
+    '75-100': '#1f449c'  // Dark blue
+};
+const selectedPlaceColor = '#eebab4';
+
+function getColorForDLCSuccess(successRate) {
+    if (successRate < 25) return dlcSuccessColors['0-25'];
+    if (successRate < 50) return dlcSuccessColors['25-50'];
+    if (successRate < 75) return dlcSuccessColors['50-75'];
+    return dlcSuccessColors['75-100'];
+}
+
 let stateLayer, districtLayer, stateLabelLayer, districtLabelLayer;
 const zoomThreshold = 8;
 let selectedDistrict = 'Kanpur Nagar'; // Initially selected district
 let selectedState = null;
+
 
 var map = L.map('map').setView([26.4499, 80.3319], 10); // Coordinates for Kanpur, zoom level 10
 
@@ -112,8 +128,24 @@ function updateInfoPaneWithAgency(agency) {
 }
 
 function styleState(feature) {
+    const stateName = feature.properties.ST_NM;
+    const stateDistricts = Object.keys(districtData).filter(district => 
+        districtData[district].state.toLowerCase() === stateName.toLowerCase()
+    );
+
+    let totalPotential = 0;
+    let totalSuccess = 0;
+
+    stateDistricts.forEach(district => {
+        const data = districtData[district];
+        totalPotential += data.DLC_potential[0] + data.DLC_potential[1];
+        totalSuccess += data.DLC_success[0] + data.DLC_success[1];
+    });
+
+    const successRate = totalPotential > 0 ? (totalSuccess / totalPotential) * 100 : 0;
+
     return {
-        fillColor: feature.properties.ST_NM === selectedState ? '#4bc0c0' : '#cccccc',
+        fillColor: stateName === selectedState? selectedPlaceColor: getColorForDLCSuccess(successRate),
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -123,9 +155,25 @@ function styleState(feature) {
 }
 
 function styleDistrict(feature) {
-    const isSelected = feature.properties.dtname === selectedDistrict;
+    const districtName = feature.properties.dtname;
+    const district = districtData[districtName];
+    if (!district) {
+        return {
+            fillColor: '#CCCCCC',  // Light Grey for districts with no data
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.7
+        };
+    }
+
+    const totalPotential = district.DLC_potential[0] + district.DLC_potential[1];
+    const totalSuccess = district.DLC_success[0] + district.DLC_success[1];
+    const successRate = totalPotential > 0 ? (totalSuccess / totalPotential) * 100 : 0;
+
     return {
-        fillColor: feature.properties.dtname === selectedDistrict ? '#4bc0c0' : '#cccccc',
+        fillColor: selectedDistrict===districtName? selectedPlaceColor: getColorForDLCSuccess(successRate),
         weight: 2,
         opacity: 1,
         color: 'white',
@@ -518,7 +566,7 @@ const icons = {
         popupAnchor: [0, -32]
     }),
     Bank: L.icon({
-        iconUrl: 'images/bank.png',
+        iconUrl: 'images/black-bank.png',
         iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
@@ -540,7 +588,7 @@ function displayAgencies(dtname) {
     hideAgencies();
 
     // Filter and add new markers
-    const districtAgencies = agenciesData.filter(agency => agency.dtname === dtname);
+    const districtAgencies = agenciesData;
     districtAgencies.forEach(agency => {
         const icon = icons[agency.type] || L.Icon.Default(); // Use default icon if type not found
         const marker = L.marker([agency.lat, agency.lng], { icon: icon })
