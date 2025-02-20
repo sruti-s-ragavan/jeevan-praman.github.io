@@ -123,6 +123,7 @@ districtGeoJSON.features.forEach(feature => {
     const districtDataItem = generateDistrictData();
     
     districtData[districtName] = districtDataItem;
+    districtData[districtName].state = stateName;
     
     if (!districtsByState[stateName]) {
         districtsByState[stateName] = [];

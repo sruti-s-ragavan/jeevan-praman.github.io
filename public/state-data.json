@@ -1,1661 +1,1661 @@
 {
   "Arunachal Pradesh": {
     "pensioner_count": [
-      1376165,
-      685645
+      1327958,
+      731127
     ],
     "DLC_potential": [
-      625067,
-      304882
+      759196,
+      404377
     ],
     "DLC_success": [
-      333495,
-      150230
+      402460,
+      221366
     ],
     "DLC_failed": [
-      35676,
-      14506
+      27792,
+      17547
     ],
     "DLC_success_channels": [
       {
-        "lic": 68119,
-        "epfo": 84931,
-        "banks": 79224,
-        "post": 16055
+        "lic": 72656,
+        "epfo": 70845,
+        "banks": 72168,
+        "post": 13279
       },
       {
-        "lic": 34155,
-        "epfo": 37408,
-        "banks": 39899,
-        "post": 6562
+        "lic": 41914,
+        "epfo": 41383,
+        "banks": 36826,
+        "post": 6511
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 8328,
-        "epfo": 6913,
-        "banks": 6960,
-        "post": 1287
+        "lic": 7428,
+        "epfo": 8479,
+        "banks": 6860,
+        "post": 1420
       },
       {
-        "lic": 3635,
-        "epfo": 3821,
-        "banks": 3838,
-        "post": 677
+        "lic": 4048,
+        "epfo": 3936,
+        "banks": 3821,
+        "post": 586
       }
     ]
   },
   "Assam": {
     "pensioner_count": [
-      1970522,
-      953027
+      1918665,
+      1079364
     ],
     "DLC_potential": [
-      1095716,
-      476403
+      1027596,
+      601090
     ],
     "DLC_success": [
-      514907,
-      231286
+      713350,
+      298567
     ],
     "DLC_failed": [
-      59573,
-      22423
+      58074,
+      27255
     ],
     "DLC_success_channels": [
       {
-        "lic": 104210,
-        "epfo": 125183,
-        "banks": 94716,
-        "post": 19397
+        "lic": 104715,
+        "epfo": 107725,
+        "banks": 102276,
+        "post": 19073
       },
       {
-        "lic": 55787,
-        "epfo": 55527,
-        "banks": 55248,
-        "post": 11200
+        "lic": 56263,
+        "epfo": 54852,
+        "banks": 52894,
+        "post": 10306
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 9720,
-        "epfo": 10876,
-        "banks": 11706,
-        "post": 2004
+        "lic": 11472,
+        "epfo": 10205,
+        "banks": 10713,
+        "post": 2065
       },
       {
-        "lic": 5440,
-        "epfo": 5800,
-        "banks": 5586,
-        "post": 972
+        "lic": 5186,
+        "epfo": 5263,
+        "banks": 6284,
+        "post": 945
       }
     ]
   },
   "Chandigarh": {
     "pensioner_count": [
-      71708,
-      35985
+      90904,
+      16280
     ],
     "DLC_potential": [
-      50195,
-      25189
+      38179,
+      6837
     ],
     "DLC_success": [
-      5006,
-      8855
+      3232,
+      6084
     ],
     "DLC_failed": [
-      3839,
-      435
+      2068,
+      631
     ],
     "DLC_success_channels": [
       {
-        "lic": 4489,
-        "epfo": 4146,
-        "banks": 2397,
-        "post": 335
+        "lic": 2682,
+        "epfo": 3789,
+        "banks": 2590,
+        "post": 142
       },
       {
-        "lic": 1768,
-        "epfo": 1498,
-        "banks": 1319,
-        "post": 378
+        "lic": 1898,
+        "epfo": 2308,
+        "banks": 1260,
+        "post": 287
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 244,
-        "epfo": 463,
-        "banks": 107,
-        "post": 100
+        "lic": 103,
+        "epfo": 241,
+        "banks": 409,
+        "post": 71
       },
       {
-        "lic": 240,
-        "epfo": 135,
-        "banks": 250,
-        "post": 42
+        "lic": 109,
+        "epfo": 185,
+        "banks": 246,
+        "post": 6
       }
     ]
   },
   "Karnataka": {
     "pensioner_count": [
-      1692803,
-      761493
+      1635286,
+      876735
     ],
     "DLC_potential": [
-      829315,
-      327510
+      899702,
+      466844
     ],
     "DLC_success": [
-      421700,
-      149227
+      409005,
+      237824
     ],
     "DLC_failed": [
-      48353,
-      12654
+      49510,
+      18570
     ],
     "DLC_success_channels": [
       {
-        "lic": 85169,
-        "epfo": 97717,
-        "banks": 98116,
-        "post": 17635
+        "lic": 93019,
+        "epfo": 94315,
+        "banks": 88977,
+        "post": 17559
       },
       {
-        "lic": 45586,
-        "epfo": 48885,
-        "banks": 44899,
-        "post": 6651
+        "lic": 46866,
+        "epfo": 48076,
+        "banks": 43497,
+        "post": 7535
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 9926,
-        "epfo": 8829,
-        "banks": 8986,
-        "post": 1553
+        "lic": 10057,
+        "epfo": 10260,
+        "banks": 9171,
+        "post": 1358
       },
       {
-        "lic": 4270,
-        "epfo": 4842,
-        "banks": 4200,
-        "post": 841
+        "lic": 4292,
+        "epfo": 4296,
+        "banks": 4724,
+        "post": 795
       }
     ]
   },
   "Manipur": {
     "pensioner_count": [
-      650925,
-      455515
+      959695,
+      389059
     ],
     "DLC_potential": [
-      390464,
-      254229
+      497515,
+      201841
     ],
     "DLC_success": [
-      169060,
-      107327
+      276359,
+      99029
     ],
     "DLC_failed": [
-      19824,
-      9184
+      25633,
+      9825
     ],
     "DLC_success_channels": [
       {
-        "lic": 51631,
-        "epfo": 49775,
-        "banks": 57347,
-        "post": 7068
+        "lic": 49847,
+        "epfo": 42170,
+        "banks": 45318,
+        "post": 9105
       },
       {
-        "lic": 25354,
-        "epfo": 25795,
-        "banks": 21718,
-        "post": 4693
+        "lic": 29447,
+        "epfo": 24106,
+        "banks": 26514,
+        "post": 3738
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 4886,
-        "epfo": 5282,
-        "banks": 4166,
-        "post": 829
+        "lic": 4508,
+        "epfo": 4497,
+        "banks": 3929,
+        "post": 677
       },
       {
-        "lic": 2344,
-        "epfo": 2416,
-        "banks": 1997,
-        "post": 515
+        "lic": 2251,
+        "epfo": 2466,
+        "banks": 2201,
+        "post": 485
       }
     ]
   },
   "Meghalaya": {
     "pensioner_count": [
-      871255,
-      310582
+      700590,
+      318936
     ],
     "DLC_potential": [
-      470271,
-      180482
+      514469,
+      195899
     ],
     "DLC_success": [
-      158769,
-      87161
+      219014,
+      40091
     ],
     "DLC_failed": [
-      31161,
-      6411
+      29055,
+      9818
     ],
     "DLC_success_channels": [
       {
-        "lic": 41325,
-        "epfo": 42218,
-        "banks": 41980,
-        "post": 6837
+        "lic": 34843,
+        "epfo": 36704,
+        "banks": 34577,
+        "post": 8169
       },
       {
-        "lic": 18134,
-        "epfo": 22172,
-        "banks": 20002,
-        "post": 3683
+        "lic": 20671,
+        "epfo": 17058,
+        "banks": 19950,
+        "post": 2916
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 3672,
-        "epfo": 3954,
-        "banks": 3296,
-        "post": 753
+        "lic": 4223,
+        "epfo": 3948,
+        "banks": 3869,
+        "post": 694
       },
       {
-        "lic": 2066,
-        "epfo": 1658,
-        "banks": 1988,
-        "post": 366
+        "lic": 1616,
+        "epfo": 2105,
+        "banks": 2035,
+        "post": 376
       }
     ]
   },
   "Mizoram": {
     "pensioner_count": [
-      614982,
-      278208
+      482457,
+      242347
     ],
     "DLC_potential": [
-      277024,
-      100880
+      210773,
+      99992
     ],
     "DLC_success": [
-      127275,
-      55188
+      89333,
+      69575
     ],
     "DLC_failed": [
-      11742,
-      4269
+      5324,
+      3837
     ],
     "DLC_success_channels": [
       {
-        "lic": 25471,
-        "epfo": 22968,
-        "banks": 23953,
-        "post": 5816
+        "lic": 25491,
+        "epfo": 27090,
+        "banks": 20424,
+        "post": 4379
       },
       {
-        "lic": 12559,
-        "epfo": 13119,
-        "banks": 11418,
-        "post": 3112
+        "lic": 16765,
+        "epfo": 14070,
+        "banks": 10499,
+        "post": 2662
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 2605,
-        "epfo": 2004,
-        "banks": 2453,
-        "post": 616
+        "lic": 2747,
+        "epfo": 3152,
+        "banks": 3005,
+        "post": 557
       },
       {
-        "lic": 1355,
-        "epfo": 1630,
-        "banks": 1299,
-        "post": 278
+        "lic": 1146,
+        "epfo": 1260,
+        "banks": 1294,
+        "post": 158
       }
     ]
   },
   "Nagaland": {
     "pensioner_count": [
-      496955,
-      283015
+      595095,
+      210038
     ],
     "DLC_potential": [
-      270873,
-      145258
+      360897,
+      129415
     ],
     "DLC_success": [
-      157595,
-      64812
+      109102,
+      84029
     ],
     "DLC_failed": [
-      14002,
-      7176
+      21095,
+      7789
     ],
     "DLC_success_channels": [
       {
-        "lic": 32728,
-        "epfo": 31636,
-        "banks": 30892,
-        "post": 6071
+        "lic": 41478,
+        "epfo": 36157,
+        "banks": 34246,
+        "post": 6630
       },
       {
-        "lic": 14930,
-        "epfo": 17944,
-        "banks": 14648,
-        "post": 3074
+        "lic": 17488,
+        "epfo": 15588,
+        "banks": 15910,
+        "post": 2096
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 3553,
-        "epfo": 3519,
-        "banks": 3572,
-        "post": 608
+        "lic": 3504,
+        "epfo": 3427,
+        "banks": 4018,
+        "post": 546
       },
       {
-        "lic": 1790,
-        "epfo": 1781,
-        "banks": 1764,
-        "post": 329
+        "lic": 1945,
+        "epfo": 1629,
+        "banks": 1501,
+        "post": 270
       }
     ]
   },
   "Punjab": {
     "pensioner_count": [
-      1425455,
-      526017
+      1211644,
+      573378
     ],
     "DLC_potential": [
-      765897,
-      303318
+      667947,
+      310500
     ],
     "DLC_success": [
-      390967,
-      157118
+      367804,
+      145267
     ],
     "DLC_failed": [
-      40091,
-      14842
+      35718,
+      17867
     ],
     "DLC_success_channels": [
       {
-        "lic": 63618,
-        "epfo": 75094,
-        "banks": 72962,
-        "post": 12399
+        "lic": 55659,
+        "epfo": 62308,
+        "banks": 60409,
+        "post": 12762
       },
       {
-        "lic": 32424,
-        "epfo": 33224,
-        "banks": 38123,
-        "post": 5366
+        "lic": 34584,
+        "epfo": 32993,
+        "banks": 31941,
+        "post": 6571
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 6112,
-        "epfo": 7509,
-        "banks": 6483,
-        "post": 1266
+        "lic": 6964,
+        "epfo": 6405,
+        "banks": 5189,
+        "post": 1351
       },
       {
-        "lic": 3576,
-        "epfo": 2856,
-        "banks": 3734,
-        "post": 647
+        "lic": 3503,
+        "epfo": 2843,
+        "banks": 3337,
+        "post": 609
       }
     ]
   },
   "Rajasthan": {
     "pensioner_count": [
-      1583533,
-      835038
+      1654615,
+      975554
     ],
     "DLC_potential": [
-      1004201,
-      530608
+      958157,
+      576512
     ],
     "DLC_success": [
-      493566,
-      311355
+      431300,
+      292928
     ],
     "DLC_failed": [
-      54936,
-      23485
+      54487,
+      29154
     ],
     "DLC_success_channels": [
       {
-        "lic": 104038,
-        "epfo": 102319,
-        "banks": 83968,
-        "post": 17175
+        "lic": 90806,
+        "epfo": 97422,
+        "banks": 105081,
+        "post": 17346
       },
       {
-        "lic": 47273,
-        "epfo": 46892,
-        "banks": 49644,
-        "post": 9161
+        "lic": 49544,
+        "epfo": 44304,
+        "banks": 50206,
+        "post": 7992
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 10938,
-        "epfo": 9715,
-        "banks": 8658,
-        "post": 1736
+        "lic": 9780,
+        "epfo": 10779,
+        "banks": 10821,
+        "post": 1833
       },
       {
-        "lic": 5686,
-        "epfo": 5157,
-        "banks": 5268,
-        "post": 908
+        "lic": 4765,
+        "epfo": 4737,
+        "banks": 5077,
+        "post": 757
       }
     ]
   },
   "Sikkim": {
     "pensioner_count": [
-      191789,
-      136405
+      144252,
+      100258
     ],
     "DLC_potential": [
-      118971,
-      91911
+      64274,
+      30349
     ],
     "DLC_success": [
-      8728,
-      35595
+      30547,
+      14008
     ],
     "DLC_failed": [
-      6023,
-      3913
+      2910,
+      1287
     ],
     "DLC_success_channels": [
       {
-        "lic": 11080,
-        "epfo": 13866,
-        "banks": 9256,
-        "post": 2613
+        "lic": 16315,
+        "epfo": 9078,
+        "banks": 14929,
+        "post": 2635
       },
       {
-        "lic": 3946,
-        "epfo": 5503,
-        "banks": 4643,
-        "post": 806
+        "lic": 4056,
+        "epfo": 3475,
+        "banks": 6428,
+        "post": 972
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 1051,
-        "epfo": 1102,
-        "banks": 1162,
-        "post": 286
+        "lic": 998,
+        "epfo": 1169,
+        "banks": 1071,
+        "post": 171
       },
       {
-        "lic": 653,
-        "epfo": 651,
-        "banks": 637,
-        "post": 78
+        "lic": 661,
+        "epfo": 572,
+        "banks": 437,
+        "post": 154
       }
     ]
   },
   "Tripura": {
     "pensioner_count": [
-      493701,
-      323064
+      499057,
+      208454
     ],
     "DLC_potential": [
-      239122,
-      157812
+      275861,
+      116053
     ],
     "DLC_success": [
-      179203,
-      68676
+      196950,
+      33164
     ],
     "DLC_failed": [
-      8527,
-      5819
+      16535,
+      3765
     ],
     "DLC_success_channels": [
       {
-        "lic": 19549,
-        "epfo": 28672,
-        "banks": 14807,
-        "post": 5218
+        "lic": 23427,
+        "epfo": 28726,
+        "banks": 25895,
+        "post": 5804
       },
       {
-        "lic": 12043,
-        "epfo": 12718,
-        "banks": 12629,
-        "post": 2015
+        "lic": 9235,
+        "epfo": 9354,
+        "banks": 10074,
+        "post": 1877
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 2828,
-        "epfo": 2267,
-        "banks": 2955,
-        "post": 322
+        "lic": 2768,
+        "epfo": 2910,
+        "banks": 2412,
+        "post": 407
       },
       {
-        "lic": 1374,
-        "epfo": 1073,
-        "banks": 1379,
-        "post": 179
+        "lic": 1228,
+        "epfo": 1085,
+        "banks": 1170,
+        "post": 286
       }
     ]
   },
   "Uttarakhand": {
     "pensioner_count": [
-      566329,
-      400579
+      790569,
+      295927
     ],
     "DLC_potential": [
-      316627,
-      248384
+      433987,
+      141626
     ],
     "DLC_success": [
-      187998,
-      113684
+      227431,
+      86228
     ],
     "DLC_failed": [
-      20643,
-      10843
+      22980,
+      7379
     ],
     "DLC_success_channels": [
       {
-        "lic": 44758,
-        "epfo": 46031,
-        "banks": 43145,
-        "post": 8499
+        "lic": 48907,
+        "epfo": 38120,
+        "banks": 39403,
+        "post": 6250
       },
       {
-        "lic": 20118,
-        "epfo": 21173,
-        "banks": 14840,
-        "post": 3395
+        "lic": 16617,
+        "epfo": 22254,
+        "banks": 20816,
+        "post": 2712
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 4938,
-        "epfo": 3885,
-        "banks": 3820,
-        "post": 895
+        "lic": 3427,
+        "epfo": 4047,
+        "banks": 3725,
+        "post": 658
       },
       {
-        "lic": 1848,
-        "epfo": 2068,
-        "banks": 1814,
-        "post": 321
+        "lic": 2000,
+        "epfo": 2149,
+        "banks": 1928,
+        "post": 378
       }
     ]
   },
   "Telangana": {
     "pensioner_count": [
-      1914514,
-      922138
+      2031297,
+      992923
     ],
     "DLC_potential": [
-      1124420,
-      560038
+      907663,
+      454861
     ],
     "DLC_success": [
-      563738,
-      263688
+      348836,
+      223714
     ],
     "DLC_failed": [
-      65461,
-      23965
+      40617,
+      22274
     ],
     "DLC_success_channels": [
       {
-        "lic": 102438,
-        "epfo": 109354,
-        "banks": 106136,
-        "post": 15335
+        "lic": 102173,
+        "epfo": 115335,
+        "banks": 96756,
+        "post": 16703
       },
       {
-        "lic": 55991,
-        "epfo": 52743,
-        "banks": 52416,
-        "post": 8859
+        "lic": 49765,
+        "epfo": 52007,
+        "banks": 47530,
+        "post": 8687
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 9222,
-        "epfo": 9103,
-        "banks": 10652,
-        "post": 1997
+        "lic": 9999,
+        "epfo": 11185,
+        "banks": 9954,
+        "post": 1776
       },
       {
-        "lic": 4815,
-        "epfo": 4743,
-        "banks": 5196,
-        "post": 873
+        "lic": 5200,
+        "epfo": 5226,
+        "banks": 4605,
+        "post": 908
       }
     ]
   },
   "Bihar": {
     "pensioner_count": [
-      2078292,
-      994820
+      1967776,
+      1094558
     ],
     "DLC_potential": [
-      1181273,
-      550029
+      925244,
+      492961
     ],
     "DLC_success": [
-      455186,
-      305227
+      459551,
+      208422
     ],
     "DLC_failed": [
-      69634,
-      25071
+      40365,
+      25401
     ],
     "DLC_success_channels": [
       {
-        "lic": 113982,
-        "epfo": 116679,
-        "banks": 127250,
-        "post": 19583
+        "lic": 125471,
+        "epfo": 96066,
+        "banks": 119853,
+        "post": 19241
       },
       {
-        "lic": 50765,
-        "epfo": 58895,
-        "banks": 57141,
-        "post": 10665
+        "lic": 56675,
+        "epfo": 60156,
+        "banks": 57721,
+        "post": 11110
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 12460,
-        "epfo": 11952,
-        "banks": 11240,
-        "post": 2052
+        "lic": 11126,
+        "epfo": 11813,
+        "banks": 10489,
+        "post": 1855
       },
       {
-        "lic": 5615,
-        "epfo": 5513,
-        "banks": 5911,
-        "post": 1032
+        "lic": 5424,
+        "epfo": 5399,
+        "banks": 6092,
+        "post": 996
       }
     ]
   },
   "Kerala": {
     "pensioner_count": [
-      813359,
-      453623
+      812320,
+      363739
     ],
     "DLC_potential": [
-      539923,
-      298202
+      320105,
+      164279
     ],
     "DLC_success": [
-      210151,
-      166338
+      201456,
+      47568
     ],
     "DLC_failed": [
-      24298,
-      12596
+      13757,
+      8032
     ],
     "DLC_success_channels": [
       {
-        "lic": 41941,
-        "epfo": 42359,
-        "banks": 34714,
-        "post": 8160
+        "lic": 41203,
+        "epfo": 46525,
+        "banks": 30285,
+        "post": 9335
       },
       {
-        "lic": 26793,
-        "epfo": 21128,
-        "banks": 23488,
-        "post": 3794
+        "lic": 22018,
+        "epfo": 18572,
+        "banks": 18740,
+        "post": 3771
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 3617,
-        "epfo": 4624,
-        "banks": 4213,
-        "post": 819
+        "lic": 4260,
+        "epfo": 4219,
+        "banks": 3999,
+        "post": 654
       },
       {
-        "lic": 2091,
-        "epfo": 2086,
-        "banks": 2506,
-        "post": 364
+        "lic": 2214,
+        "epfo": 2304,
+        "banks": 2314,
+        "post": 456
       }
     ]
   },
   "Madhya Pradesh": {
     "pensioner_count": [
-      3620883,
-      1834349
+      3329609,
+      1640132
     ],
     "DLC_potential": [
-      2104192,
-      969560
+      2038871,
+      991345
     ],
     "DLC_success": [
-      1071105,
-      526608
+      950044,
+      554871
     ],
     "DLC_failed": [
-      106278,
-      52139
+      95811,
+      44878
     ],
     "DLC_success_channels": [
       {
-        "lic": 197046,
-        "epfo": 180828,
-        "banks": 196151,
-        "post": 33248
+        "lic": 191505,
+        "epfo": 179833,
+        "banks": 188207,
+        "post": 33591
       },
       {
-        "lic": 91695,
-        "epfo": 96662,
-        "banks": 97123,
-        "post": 16759
+        "lic": 98262,
+        "epfo": 97618,
+        "banks": 88428,
+        "post": 16717
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 17051,
-        "epfo": 18503,
-        "banks": 18600,
-        "post": 3207
+        "lic": 18449,
+        "epfo": 18199,
+        "banks": 19132,
+        "post": 3323
       },
       {
-        "lic": 8680,
-        "epfo": 8914,
-        "banks": 9095,
-        "post": 1511
+        "lic": 9701,
+        "epfo": 9029,
+        "banks": 9217,
+        "post": 1615
       }
     ]
   },
   "Andaman & Nicobar": {
     "pensioner_count": [
-      158907,
-      105618
+      162270,
+      74708
     ],
     "DLC_potential": [
-      80792,
-      49340
+      99039,
+      47163
     ],
     "DLC_success": [
-      47716,
-      23213
+      29963,
+      25073
     ],
     "DLC_failed": [
-      6267,
-      1175
+      1884,
+      2855
     ],
     "DLC_success_channels": [
       {
-        "lic": 7212,
-        "epfo": 10137,
-        "banks": 10430,
-        "post": 2378
+        "lic": 7059,
+        "epfo": 11416,
+        "banks": 11909,
+        "post": 1334
       },
       {
-        "lic": 4361,
-        "epfo": 5554,
-        "banks": 4856,
-        "post": 630
+        "lic": 3709,
+        "epfo": 5341,
+        "banks": 5610,
+        "post": 397
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 1143,
-        "epfo": 952,
-        "banks": 1119,
-        "post": 201
+        "lic": 1128,
+        "epfo": 644,
+        "banks": 993,
+        "post": 156
       },
       {
-        "lic": 488,
-        "epfo": 523,
-        "banks": 584,
-        "post": 88
+        "lic": 328,
+        "epfo": 443,
+        "banks": 514,
+        "post": 111
       }
     ]
   },
   "Gujarat": {
     "pensioner_count": [
-      2374960,
-      1137300
+      2524220,
+      1162368
     ],
     "DLC_potential": [
-      1235122,
-      629862
+      1537447,
+      694313
     ],
     "DLC_success": [
-      621421,
-      276408
+      846223,
+      368930
     ],
     "DLC_failed": [
-      65809,
-      22842
+      77787,
+      33807
     ],
     "DLC_success_channels": [
       {
-        "lic": 137846,
-        "epfo": 127057,
-        "banks": 124018,
-        "post": 25112
+        "lic": 137337,
+        "epfo": 134757,
+        "banks": 126957,
+        "post": 25488
       },
       {
-        "lic": 64417,
-        "epfo": 73748,
-        "banks": 60788,
-        "post": 12635
+        "lic": 70075,
+        "epfo": 74258,
+        "banks": 78089,
+        "post": 12411
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 13641,
-        "epfo": 13350,
-        "banks": 13041,
-        "post": 2459
+        "lic": 13963,
+        "epfo": 13864,
+        "banks": 13645,
+        "post": 2567
       },
       {
-        "lic": 7099,
-        "epfo": 6502,
-        "banks": 6953,
-        "post": 1166
+        "lic": 5608,
+        "epfo": 6663,
+        "banks": 6833,
+        "post": 1284
       }
     ]
   },
   "Lakshadweep": {
     "pensioner_count": [
-      88762,
-      35899
+      73845,
+      41636
     ],
     "DLC_potential": [
-      10651,
-      4307
+      63506,
+      35806
     ],
     "DLC_success": [
-      8663,
-      1989
+      54011,
+      91
     ],
     "DLC_failed": [
-      813,
-      332
+      413,
+      1794
     ],
     "DLC_success_channels": [
       {
-        "lic": 1483,
-        "epfo": 4669,
-        "banks": 3844,
-        "post": 333
+        "lic": 2013,
+        "epfo": 3956,
+        "banks": 3869,
+        "post": 748
       },
       {
-        "lic": 2459,
-        "epfo": 1440,
-        "banks": 1581,
-        "post": 343
+        "lic": 1089,
+        "epfo": 2299,
+        "banks": 686,
+        "post": 53
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 130,
-        "epfo": 292,
-        "banks": 325,
-        "post": 80
+        "lic": 323,
+        "epfo": 240,
+        "banks": 213,
+        "post": 86
       },
       {
-        "lic": 106,
-        "epfo": 198,
-        "banks": 84,
-        "post": 47
+        "lic": 154,
+        "epfo": 194,
+        "banks": 200,
+        "post": 22
       }
     ]
   },
   "Odisha": {
     "pensioner_count": [
-      1899054,
-      1034721
+      1941785,
+      1042970
     ],
     "DLC_potential": [
-      1056133,
-      578973
+      1267602,
+      677999
     ],
     "DLC_success": [
-      537403,
-      300449
+      691655,
+      394089
     ],
     "DLC_failed": [
-      38091,
-      24655
+      48999,
+      31698
     ],
     "DLC_success_channels": [
       {
-        "lic": 101605,
-        "epfo": 104957,
-        "banks": 111773,
-        "post": 21134
+        "lic": 113127,
+        "epfo": 117822,
+        "banks": 117279,
+        "post": 17928
       },
       {
-        "lic": 55754,
-        "epfo": 55424,
-        "banks": 52773,
-        "post": 10581
+        "lic": 60392,
+        "epfo": 49103,
+        "banks": 58125,
+        "post": 9779
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 10759,
-        "epfo": 10348,
-        "banks": 10645,
-        "post": 1847
+        "lic": 11213,
+        "epfo": 10301,
+        "banks": 11192,
+        "post": 1954
       },
       {
-        "lic": 5728,
-        "epfo": 5484,
-        "banks": 5247,
-        "post": 1003
+        "lic": 5513,
+        "epfo": 5481,
+        "banks": 5131,
+        "post": 959
       }
     ]
   },
   "Dadra and Nagar Haveli and Daman and Diu": {
     "pensioner_count": [
-      47541,
-      23596
+      72244,
+      46584
     ],
     "internet_penetration": [
-      0.26,
-      0.26
+      0.81,
+      0.81
     ],
     "DLC_potential": [
-      12360,
-      6134
+      58517,
+      37733
     ],
     "DLC_success": [
-      6157,
-      915
+      50021,
+      26276
     ],
     "DLC_failed": [
-      2,
-      226
+      2635,
+      3348
     ],
     "DLC_success_channels": [
       {
-        "lic": 1872,
-        "epfo": 4891,
-        "banks": 2569,
-        "post": 724
+        "lic": 2861,
+        "epfo": 4491,
+        "banks": 1197,
+        "post": 920
       },
       {
-        "lic": 768,
-        "epfo": 724,
-        "banks": 939,
-        "post": 223
+        "lic": 1371,
+        "epfo": 2306,
+        "banks": 1010,
+        "post": 210
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 213,
-        "epfo": 162,
-        "banks": 439,
-        "post": 85
+        "lic": 347,
+        "epfo": 433,
+        "banks": 349,
+        "post": 63
       },
       {
-        "lic": 149,
-        "epfo": 164,
-        "banks": 209,
-        "post": 11
+        "lic": 135,
+        "epfo": 208,
+        "banks": 139,
+        "post": 33
       }
     ]
   },
   "Jammu & Kashmir": {
     "pensioner_count": [
-      1058885,
-      446468
+      1191449,
+      576388
     ],
     "DLC_potential": [
-      471206,
-      211079
+      795271,
+      413938
     ],
     "DLC_success": [
-      263226,
-      84836
+      402917,
+      228458
     ],
     "DLC_failed": [
-      21248,
-      12707
+      39893,
+      17335
     ],
     "DLC_success_channels": [
       {
-        "lic": 60067,
-        "epfo": 64498,
-        "banks": 64872,
-        "post": 11434
+        "lic": 65808,
+        "epfo": 61784,
+        "banks": 70051,
+        "post": 12326
       },
       {
-        "lic": 31776,
-        "epfo": 31818,
-        "banks": 34559,
-        "post": 6517
+        "lic": 32208,
+        "epfo": 34911,
+        "banks": 33029,
+        "post": 6885
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 7141,
-        "epfo": 5796,
-        "banks": 6950,
-        "post": 1286
+        "lic": 5993,
+        "epfo": 5835,
+        "banks": 6728,
+        "post": 1192
       },
       {
-        "lic": 3304,
-        "epfo": 3582,
-        "banks": 3077,
-        "post": 644
+        "lic": 3300,
+        "epfo": 3638,
+        "banks": 3319,
+        "post": 569
       }
     ]
   },
   "Chhattisgarh": {
     "pensioner_count": [
-      1874964,
-      992059
+      1780512,
+      854960
     ],
     "DLC_potential": [
-      987174,
-      506777
+      1039423,
+      466351
     ],
     "DLC_success": [
-      552181,
-      196665
+      554367,
+      257661
     ],
     "DLC_failed": [
-      56181,
-      23789
+      44595,
+      22760
     ],
     "DLC_success_channels": [
       {
-        "lic": 86424,
-        "epfo": 97113,
-        "banks": 83385,
-        "post": 15166
+        "lic": 102679,
+        "epfo": 88949,
+        "banks": 98060,
+        "post": 17800
       },
       {
-        "lic": 50961,
-        "epfo": 50572,
-        "banks": 50951,
-        "post": 9565
+        "lic": 44817,
+        "epfo": 50809,
+        "banks": 52392,
+        "post": 8087
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 9932,
-        "epfo": 9728,
-        "banks": 8918,
-        "post": 1635
+        "lic": 9131,
+        "epfo": 10799,
+        "banks": 9768,
+        "post": 1913
       },
       {
-        "lic": 4671,
-        "epfo": 4718,
-        "banks": 4388,
-        "post": 959
+        "lic": 4725,
+        "epfo": 5230,
+        "banks": 5763,
+        "post": 830
       }
     ]
   },
   "Delhi": {
     "pensioner_count": [
-      644212,
-      341977
+      638861,
+      329348
     ],
     "DLC_potential": [
-      358082,
-      188843
+      292152,
+      133171
     ],
     "DLC_success": [
-      153244,
-      124083
+      160970,
+      62488
     ],
     "DLC_failed": [
-      21017,
-      4890
+      18454,
+      7794
     ],
     "DLC_success_channels": [
       {
-        "lic": 34026,
-        "epfo": 29353,
-        "banks": 36373,
-        "post": 6428
+        "lic": 33590,
+        "epfo": 29294,
+        "banks": 30281,
+        "post": 6778
       },
       {
-        "lic": 17158,
-        "epfo": 20569,
-        "banks": 16596,
-        "post": 2638
+        "lic": 14878,
+        "epfo": 14301,
+        "banks": 17653,
+        "post": 2831
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 3517,
-        "epfo": 2997,
-        "banks": 2755,
-        "post": 670
+        "lic": 2861,
+        "epfo": 3007,
+        "banks": 2754,
+        "post": 641
       },
       {
-        "lic": 1736,
-        "epfo": 1998,
-        "banks": 1633,
-        "post": 318
+        "lic": 1450,
+        "epfo": 1451,
+        "banks": 1582,
+        "post": 308
       }
     ]
   },
   "Goa": {
     "pensioner_count": [
-      54658,
-      78139
+      129550,
+      81492
     ],
     "DLC_potential": [
-      19095,
-      33050
+      108042,
+      68965
     ],
     "DLC_success": [
-      10344,
-      10700
+      26445,
+      32512
     ],
     "DLC_failed": [
-      1217,
-      989
+      4330,
+      2462
     ],
     "DLC_success_channels": [
       {
-        "lic": 3925,
-        "epfo": 7389,
-        "banks": 7504,
-        "post": 1191
+        "lic": 6972,
+        "epfo": 6780,
+        "banks": 4281,
+        "post": 1796
       },
       {
-        "lic": 2727,
-        "epfo": 3966,
-        "banks": 2556,
-        "post": 642
+        "lic": 1883,
+        "epfo": 2154,
+        "banks": 3842,
+        "post": 292
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 834,
-        "epfo": 719,
-        "banks": 625,
-        "post": 57
+        "lic": 787,
+        "epfo": 659,
+        "banks": 836,
+        "post": 91
       },
       {
-        "lic": 427,
-        "epfo": 261,
-        "banks": 176,
-        "post": 54
+        "lic": 294,
+        "epfo": 390,
+        "banks": 198,
+        "post": 52
       }
     ]
   },
   "Haryana": {
     "pensioner_count": [
-      1193932,
-      507772
+      1206953,
+      621401
     ],
     "DLC_potential": [
-      692708,
-      294505
+      602721,
+      299352
     ],
     "DLC_success": [
-      303569,
-      115201
+      279085,
+      173686
     ],
     "DLC_failed": [
-      40453,
-      12735
+      38344,
+      10562
     ],
     "DLC_success_channels": [
       {
-        "lic": 61013,
-        "epfo": 69899,
-        "banks": 69671,
-        "post": 12608
+        "lic": 53132,
+        "epfo": 72021,
+        "banks": 73778,
+        "post": 11310
       },
       {
-        "lic": 34658,
-        "epfo": 32945,
-        "banks": 28834,
-        "post": 5447
+        "lic": 34714,
+        "epfo": 31105,
+        "banks": 30522,
+        "post": 4957
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 6140,
-        "epfo": 6896,
-        "banks": 6445,
-        "post": 1484
+        "lic": 6028,
+        "epfo": 6624,
+        "banks": 6955,
+        "post": 1292
       },
       {
-        "lic": 3150,
-        "epfo": 2912,
-        "banks": 3161,
-        "post": 594
+        "lic": 2778,
+        "epfo": 3248,
+        "banks": 3559,
+        "post": 623
       }
     ]
   },
   "Himachal Pradesh": {
     "pensioner_count": [
-      798624,
-      317656
+      804963,
+      305333
     ],
     "DLC_potential": [
-      381141,
-      138566
+      460752,
+      177828
     ],
     "DLC_success": [
-      233334,
-      65276
+      280985,
+      71052
     ],
     "DLC_failed": [
-      19427,
-      8012
+      30303,
+      10812
     ],
     "DLC_success_channels": [
       {
-        "lic": 42869,
-        "epfo": 30550,
-        "banks": 25121,
-        "post": 7349
+        "lic": 40105,
+        "epfo": 33306,
+        "banks": 42130,
+        "post": 6813
       },
       {
-        "lic": 17039,
-        "epfo": 18502,
-        "banks": 18725,
-        "post": 2961
+        "lic": 17455,
+        "epfo": 21754,
+        "banks": 18181,
+        "post": 3229
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 3006,
-        "epfo": 4224,
-        "banks": 3484,
-        "post": 722
+        "lic": 4149,
+        "epfo": 3790,
+        "banks": 3629,
+        "post": 646
       },
       {
-        "lic": 1839,
-        "epfo": 1573,
-        "banks": 2101,
-        "post": 245
+        "lic": 1635,
+        "epfo": 1837,
+        "banks": 1685,
+        "post": 339
       }
     ]
   },
   "Jharkhand": {
     "pensioner_count": [
-      1259332,
-      693253
+      1225997,
+      559950
     ],
     "DLC_potential": [
-      550367,
-      368906
+      605259,
+      259958
     ],
     "DLC_success": [
-      281189,
-      170118
+      271707,
+      117291
     ],
     "DLC_failed": [
-      29445,
-      19437
+      30615,
+      13574
     ],
     "DLC_success_channels": [
       {
-        "lic": 73155,
-        "epfo": 75118,
-        "banks": 56324,
-        "post": 11618
+        "lic": 71805,
+        "epfo": 71652,
+        "banks": 71040,
+        "post": 12282
       },
       {
-        "lic": 35977,
-        "epfo": 38019,
-        "banks": 37615,
-        "post": 7092
+        "lic": 33011,
+        "epfo": 41101,
+        "banks": 35395,
+        "post": 5851
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 6948,
-        "epfo": 7383,
-        "banks": 7304,
-        "post": 1348
+        "lic": 6406,
+        "epfo": 7027,
+        "banks": 7122,
+        "post": 1274
       },
       {
-        "lic": 2866,
-        "epfo": 3649,
-        "banks": 3362,
-        "post": 509
+        "lic": 3685,
+        "epfo": 3556,
+        "banks": 3289,
+        "post": 628
       }
     ]
   },
   "Tamil Nadu": {
     "pensioner_count": [
-      1905536,
-      822750
+      1755291,
+      848546
     ],
     "DLC_potential": [
-      1097637,
-      444311
+      879875,
+      406111
     ],
     "DLC_success": [
-      562728,
-      245238
+      441765,
+      195867
     ],
     "DLC_failed": [
-      52975,
-      22865
+      48217,
+      22168
     ],
     "DLC_success_channels": [
       {
-        "lic": 93185,
-        "epfo": 95003,
-        "banks": 94827,
-        "post": 15453
+        "lic": 94049,
+        "epfo": 95920,
+        "banks": 110893,
+        "post": 16462
       },
       {
-        "lic": 44084,
-        "epfo": 50719,
-        "banks": 48814,
-        "post": 9480
+        "lic": 46565,
+        "epfo": 50974,
+        "banks": 53940,
+        "post": 8299
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 8691,
-        "epfo": 9160,
-        "banks": 10697,
-        "post": 1763
+        "lic": 9554,
+        "epfo": 8660,
+        "banks": 10716,
+        "post": 1647
       },
       {
-        "lic": 4691,
-        "epfo": 4466,
-        "banks": 4800,
-        "post": 877
+        "lic": 4877,
+        "epfo": 4717,
+        "banks": 4514,
+        "post": 892
       }
     ]
   },
   "Uttar Pradesh": {
     "pensioner_count": [
-      3688983,
-      2129171
+      4229370,
+      1969824
     ],
     "DLC_potential": [
-      1922837,
-      1112922
+      2189533,
+      968440
     ],
     "DLC_success": [
-      1056833,
-      586948
+      1159157,
+      438546
     ],
     "DLC_failed": [
-      99972,
-      59386
+      94651,
+      39145
     ],
     "DLC_success_channels": [
       {
-        "lic": 243251,
-        "epfo": 217166,
-        "banks": 230121,
-        "post": 45105
+        "lic": 214333,
+        "epfo": 240448,
+        "banks": 220864,
+        "post": 41310
       },
       {
-        "lic": 111546,
-        "epfo": 109951,
-        "banks": 113918,
-        "post": 20425
+        "lic": 115131,
+        "epfo": 106224,
+        "banks": 117391,
+        "post": 20321
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 21855,
-        "epfo": 22171,
-        "banks": 21734,
-        "post": 3926
+        "lic": 23745,
+        "epfo": 21718,
+        "banks": 23940,
+        "post": 4429
       },
       {
-        "lic": 11304,
-        "epfo": 12339,
-        "banks": 10609,
-        "post": 2083
+        "lic": 11158,
+        "epfo": 10644,
+        "banks": 11560,
+        "post": 2152
       }
     ]
   },
   "West Bengal": {
     "pensioner_count": [
-      1618455,
-      806106
+      1497154,
+      738066
     ],
     "DLC_potential": [
-      778262,
-      388651
+      795113,
+      370175
     ],
     "DLC_success": [
-      417612,
-      194369
+      370517,
+      190228
     ],
     "DLC_failed": [
-      42320,
-      18502
+      35066,
+      15893
     ],
     "DLC_success_channels": [
       {
-        "lic": 77686,
-        "epfo": 76150,
-        "banks": 78435,
-        "post": 15626
+        "lic": 79592,
+        "epfo": 86373,
+        "banks": 87558,
+        "post": 14344
       },
       {
-        "lic": 39482,
-        "epfo": 42904,
-        "banks": 39843,
-        "post": 6100
+        "lic": 41467,
+        "epfo": 41018,
+        "banks": 39350,
+        "post": 8591
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 7222,
-        "epfo": 8684,
-        "banks": 7593,
-        "post": 1528
+        "lic": 8929,
+        "epfo": 8384,
+        "banks": 8275,
+        "post": 1572
       },
       {
-        "lic": 4284,
-        "epfo": 4420,
-        "banks": 3838,
-        "post": 701
+        "lic": 4216,
+        "epfo": 3978,
+        "banks": 4594,
+        "post": 740
       }
     ]
   },
   "Andhra Pradesh": {
     "pensioner_count": [
-      796953,
-      299306
+      651482,
+      317906
     ],
     "DLC_potential": [
-      377935,
-      136732
+      250715,
+      133161
     ],
     "DLC_success": [
-      178732,
-      65557
+      139976,
+      53198
     ],
     "DLC_failed": [
-      19060,
-      7776
+      13864,
+      6753
     ],
     "DLC_success_channels": [
       {
-        "lic": 40110,
-        "epfo": 40887,
-        "banks": 41628,
-        "post": 8060
+        "lic": 41705,
+        "epfo": 34929,
+        "banks": 46734,
+        "post": 7252
       },
       {
-        "lic": 20166,
-        "epfo": 19166,
-        "banks": 23121,
-        "post": 3215
+        "lic": 21349,
+        "epfo": 19232,
+        "banks": 20947,
+        "post": 2755
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 4113,
-        "epfo": 3998,
-        "banks": 4275,
-        "post": 569
+        "lic": 4018,
+        "epfo": 3570,
+        "banks": 4156,
+        "post": 722
       },
       {
-        "lic": 2189,
-        "epfo": 1743,
-        "banks": 2096,
-        "post": 441
+        "lic": 2187,
+        "epfo": 2312,
+        "banks": 1613,
+        "post": 317
       }
     ]
   },
   "Puducherry": {
     "pensioner_count": [
-      163852,
-      108563
+      260888,
+      136934
     ],
     "DLC_potential": [
-      115296,
-      68917
+      156004,
+      59516
     ],
     "DLC_success": [
-      37911,
-      37555
+      64245,
+      27388
     ],
     "DLC_failed": [
-      8339,
-      1282
+      6876,
+      1562
     ],
     "DLC_success_channels": [
       {
-        "lic": 15299,
-        "epfo": 11155,
-        "banks": 12070,
-        "post": 3405
+        "lic": 11932,
+        "epfo": 11944,
+        "banks": 9171,
+        "post": 2700
       },
       {
-        "lic": 5788,
-        "epfo": 6043,
-        "banks": 6041,
-        "post": 1397
+        "lic": 7129,
+        "epfo": 7029,
+        "banks": 7377,
+        "post": 1169
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 1245,
-        "epfo": 1386,
-        "banks": 1261,
-        "post": 198
+        "lic": 878,
+        "epfo": 982,
+        "banks": 1156,
+        "post": 202
       },
       {
-        "lic": 537,
-        "epfo": 556,
-        "banks": 670,
-        "post": 113
+        "lic": 532,
+        "epfo": 567,
+        "banks": 507,
+        "post": 83
       }
     ]
   },
   "Maharashtra": {
     "pensioner_count": [
-      2079517,
-      1104447
+      1742548,
+      1043699
     ],
     "DLC_potential": [
-      1292741,
-      706297
+      875654,
+      502220
     ],
     "DLC_success": [
-      484443,
-      261095
+      509819,
+      229472
     ],
     "DLC_failed": [
-      61891,
-      37373
+      43991,
+      32973
     ],
     "DLC_success_channels": [
       {
-        "lic": 108494,
-        "epfo": 111914,
-        "banks": 111025,
-        "post": 23232
+        "lic": 116180,
+        "epfo": 112975,
+        "banks": 96938,
+        "post": 16076
       },
       {
-        "lic": 63953,
-        "epfo": 56269,
-        "banks": 54781,
-        "post": 9453
+        "lic": 58320,
+        "epfo": 54999,
+        "banks": 51048,
+        "post": 10152
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 10645,
-        "epfo": 10361,
-        "banks": 11347,
-        "post": 2312
+        "lic": 10227,
+        "epfo": 12104,
+        "banks": 10437,
+        "post": 2085
       },
       {
-        "lic": 5362,
-        "epfo": 5544,
-        "banks": 5063,
-        "post": 1023
+        "lic": 5468,
+        "epfo": 5187,
+        "banks": 5260,
+        "post": 1094
       }
     ]
   },
   "Ladakh": {
     "pensioner_count": [
-      163402,
-      56058
+      71393,
+      45076
     ],
     "DLC_potential": [
-      122897,
-      40623
+      33298,
+      25804
     ],
     "DLC_success": [
-      37188,
-      22916
+      13593,
+      1973
     ],
     "DLC_failed": [
-      5801,
-      2492
+      1031,
+      1964
     ],
     "DLC_success_channels": [
       {
-        "lic": 4054,
-        "epfo": 6010,
-        "banks": 5476,
-        "post": 1170
+        "lic": 7639,
+        "epfo": 4977,
+        "banks": 4845,
+        "post": 1115
       },
       {
-        "lic": 3322,
-        "epfo": 3901,
-        "banks": 3563,
-        "post": 638
+        "lic": 4269,
+        "epfo": 3651,
+        "banks": 2532,
+        "post": 314
       }
     ],
     "DLC_failed_channels": [
       {
-        "lic": 574,
-        "epfo": 870,
-        "banks": 219,
-        "post": 132
+        "lic": 712,
+        "epfo": 272,
+        "banks": 650,
+        "post": 79
       },
       {
-        "lic": 355,
-        "epfo": 212,
-        "banks": 415,
-        "post": 63
+        "lic": 282,
+        "epfo": 391,
+        "banks": 280,
+        "post": 66
       }
     ]
   }
