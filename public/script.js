@@ -439,25 +439,25 @@ map.on('zoomend', function() {
 
 const icons = {
     EPF: L.icon({
-        iconUrl: '/images/epf.png',
+        iconUrl: 'images/epf.png',
         iconSize: [10, 10],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     LIC: L.icon({
-        iconUrl: '/images/lic.png',
+        iconUrl: 'images/lic.png',
         iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     Bank: L.icon({
-        iconUrl: '/images/bank.png',
+        iconUrl: 'images/bank.png',
         iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
     }),
     "Post Office": L.icon({
-        iconUrl: '/images/post.png',
+        iconUrl: 'images/post.png',
         iconSize: [20, 20],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
